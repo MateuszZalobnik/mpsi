@@ -1,142 +1,6 @@
 <?xml version="1.0" encoding="windows-1252" standalone="no" ?>
-<Package name="Etap A" guid="{1B8A6C19-57DA-46b7-B4B8-2B0CA2F68F79}">
+<Package name="Wizja projektu systemu restauracja" guid="{BEF68004-ADD8-419c-91A3-EBF463758B40}">
 	<Table name="t_package">
-		<Row>
-			<Column name="Package_ID" value="7"/>
-			<Column name="Name" value="Etap A"/>
-			<Column name="Parent_ID" value="0"/>
-			<Column name="CreatedDate" value="2019-02-10 00:00:00"/>
-			<Column name="ModifiedDate" value="2019-02-10 00:00:00"/>
-			<Column name="ea_guid" value="{1B8A6C19-57DA-46b7-B4B8-2B0CA2F68F79}"/>
-			<Column name="IsControlled" value="0"/>
-			<Column name="LastLoadDate" value="2019-02-10 19:17:16"/>
-			<Column name="Version" value="1.0"/>
-			<Column name="Protected" value="0"/>
-			<Column name="UseDTD" value="0"/>
-			<Column name="LogXML" value="0"/>
-			<Column name="TPos" value="2"/>
-			<Column name="PackageFlags" value="isModel=1;"/>
-			<Column name="BatchSave" value="0"/>
-			<Column name="BatchLoad" value="0"/>
-			<Extension/>
-		</Row>
-		<Row>
-			<Column name="Package_ID" value="12"/>
-			<Column name="Name" value="Procesy biznesowe systemu dyplom"/>
-			<Column name="Parent_ID" value="7"/>
-			<Column name="CreatedDate" value="2019-02-10 19:13:34"/>
-			<Column name="ModifiedDate" value="2019-02-10 19:15:06"/>
-			<Column name="ea_guid" value="{22E0540D-434D-4118-B226-BE78B08533D8}"/>
-			<Column name="IsControlled" value="0"/>
-			<Column name="LastLoadDate" value="2011-05-12 13:30:18"/>
-			<Column name="LastSaveDate" value="2011-05-12 13:30:18"/>
-			<Column name="Version" value="1.0"/>
-			<Column name="Protected" value="0"/>
-			<Column name="UseDTD" value="0"/>
-			<Column name="LogXML" value="0"/>
-			<Column name="TPos" value="3"/>
-			<Column name="PackageFlags" value="isModel=1;CRC=0;"/>
-			<Column name="BatchSave" value="0"/>
-			<Column name="BatchLoad" value="0"/>
-			<Extension Parent_ID="{1B8A6C19-57DA-46b7-B4B8-2B0CA2F68F79}"/>
-		</Row>
-		<Row>
-			<Column name="Package_ID" value="3"/>
-			<Column name="Name" value="S³ownik systemu"/>
-			<Column name="Parent_ID" value="7"/>
-			<Column name="CreatedDate" value="2019-02-10 19:17:15"/>
-			<Column name="ModifiedDate" value="2019-02-10 19:18:16"/>
-			<Column name="ea_guid" value="{474503E7-9A18-4e61-B296-DC9905FB184C}"/>
-			<Column name="IsControlled" value="0"/>
-			<Column name="LastLoadDate" value="2019-02-10 19:17:15"/>
-			<Column name="LastSaveDate" value="2019-02-10 19:17:15"/>
-			<Column name="Protected" value="0"/>
-			<Column name="UseDTD" value="0"/>
-			<Column name="LogXML" value="0"/>
-			<Column name="Namespace" value="1"/>
-			<Column name="TPos" value="2"/>
-			<Column name="PackageFlags" value="isModel=1;VICON=3;CRC=0;"/>
-			<Column name="BatchSave" value="0"/>
-			<Column name="BatchLoad" value="0"/>
-			<Extension Parent_ID="{1B8A6C19-57DA-46b7-B4B8-2B0CA2F68F79}"/>
-		</Row>
-		<Row>
-			<Column name="Package_ID" value="5"/>
-			<Column name="Name" value="Raport konfiguracji oprogramowania"/>
-			<Column name="Parent_ID" value="36"/>
-			<Column name="CreatedDate" value="2019-02-10 19:24:19"/>
-			<Column name="ModifiedDate" value="2019-02-10 20:10:20"/>
-			<Column name="ea_guid" value="{5E19DD25-E5BA-4e86-A12D-A50210128D17}"/>
-			<Column name="IsControlled" value="0"/>
-			<Column name="LastLoadDate" value="2019-02-10 19:21:44"/>
-			<Column name="LastSaveDate" value="2019-02-10 19:21:44"/>
-			<Column name="Version" value="1.0"/>
-			<Column name="Protected" value="0"/>
-			<Column name="UseDTD" value="0"/>
-			<Column name="LogXML" value="0"/>
-			<Column name="TPos" value="4"/>
-			<Column name="PackageFlags" value="CRC=0;"/>
-			<Column name="BatchSave" value="0"/>
-			<Column name="BatchLoad" value="0"/>
-			<Extension Parent_ID="{E599F748-68C4-4a24-81F4-E7ADA7997682}"/>
-		</Row>
-		<Row>
-			<Column name="Package_ID" value="4"/>
-			<Column name="Name" value="Analiza lingwistyczna"/>
-			<Column name="Parent_ID" value="36"/>
-			<Column name="CreatedDate" value="2019-02-10 19:21:44"/>
-			<Column name="ModifiedDate" value="2019-02-10 19:22:01"/>
-			<Column name="ea_guid" value="{97B78148-AB87-46d1-9E78-2F431F9802FB}"/>
-			<Column name="IsControlled" value="0"/>
-			<Column name="LastLoadDate" value="2019-02-10 19:21:44"/>
-			<Column name="LastSaveDate" value="2019-02-10 19:21:44"/>
-			<Column name="Version" value="1.0"/>
-			<Column name="Protected" value="0"/>
-			<Column name="UseDTD" value="0"/>
-			<Column name="LogXML" value="0"/>
-			<Column name="TPos" value="4"/>
-			<Column name="PackageFlags" value="CRC=0;"/>
-			<Column name="BatchSave" value="0"/>
-			<Column name="BatchLoad" value="0"/>
-			<Extension Parent_ID="{E599F748-68C4-4a24-81F4-E7ADA7997682}"/>
-		</Row>
-		<Row>
-			<Column name="Package_ID" value="8"/>
-			<Column name="Name" value="Dokumentacja"/>
-			<Column name="Parent_ID" value="7"/>
-			<Column name="CreatedDate" value="2019-01-08 08:50:44"/>
-			<Column name="ModifiedDate" value="2019-02-10 16:15:45"/>
-			<Column name="ea_guid" value="{9CB6C0A9-5BCE-41e3-B448-B94650BB5054}"/>
-			<Column name="IsControlled" value="0"/>
-			<Column name="LastLoadDate" value="2018-10-01 10:10:44"/>
-			<Column name="LastSaveDate" value="2018-10-01 10:10:44"/>
-			<Column name="Version" value="1.0"/>
-			<Column name="Protected" value="0"/>
-			<Column name="UseDTD" value="0"/>
-			<Column name="LogXML" value="0"/>
-			<Column name="TPos" value="1"/>
-			<Column name="PackageFlags" value="isModel=1;VICON=3;CRC=4a4db4eb;"/>
-			<Column name="BatchSave" value="0"/>
-			<Column name="BatchLoad" value="0"/>
-			<Extension Parent_ID="{1B8A6C19-57DA-46b7-B4B8-2B0CA2F68F79}"/>
-		</Row>
-		<Row>
-			<Column name="Package_ID" value="9"/>
-			<Column name="Name" value="Przedstawienie problemu - dokument Zamawiaj¹cego"/>
-			<Column name="Parent_ID" value="36"/>
-			<Column name="CreatedDate" value="2019-02-10 17:34:29"/>
-			<Column name="ModifiedDate" value="2019-02-10 17:36:05"/>
-			<Column name="ea_guid" value="{AF01E91E-698F-44a0-B495-ECCD89A3CED4}"/>
-			<Column name="IsControlled" value="0"/>
-			<Column name="Version" value="1.0"/>
-			<Column name="Protected" value="0"/>
-			<Column name="UseDTD" value="0"/>
-			<Column name="LogXML" value="0"/>
-			<Column name="TPos" value="1"/>
-			<Column name="BatchSave" value="0"/>
-			<Column name="BatchLoad" value="0"/>
-			<Extension Parent_ID="{E599F748-68C4-4a24-81F4-E7ADA7997682}"/>
-		</Row>
 		<Row>
 			<Column name="Package_ID" value="11"/>
 			<Column name="Name" value="Wizja projektu systemu restauracja"/>
@@ -152,460 +16,10 @@
 			<Column name="TPos" value="3"/>
 			<Column name="BatchSave" value="0"/>
 			<Column name="BatchLoad" value="0"/>
-			<Extension Parent_ID="{E599F748-68C4-4a24-81F4-E7ADA7997682}"/>
-		</Row>
-		<Row>
-			<Column name="Package_ID" value="10"/>
-			<Column name="Name" value="Przedstawienie problemu dla systemu dyplom"/>
-			<Column name="Parent_ID" value="36"/>
-			<Column name="CreatedDate" value="2019-02-10 17:35:01"/>
-			<Column name="ModifiedDate" value="2019-02-10 18:06:46"/>
-			<Column name="ea_guid" value="{DA8654FB-2FC6-4d36-852F-DACB3203171B}"/>
-			<Column name="IsControlled" value="0"/>
-			<Column name="Version" value="1.0"/>
-			<Column name="Protected" value="0"/>
-			<Column name="UseDTD" value="0"/>
-			<Column name="LogXML" value="0"/>
-			<Column name="TPos" value="2"/>
-			<Column name="BatchSave" value="0"/>
-			<Column name="BatchLoad" value="0"/>
-			<Extension Parent_ID="{E599F748-68C4-4a24-81F4-E7ADA7997682}"/>
-		</Row>
-		<Row>
-			<Column name="Package_ID" value="36"/>
-			<Column name="Name" value="Dokumenty etapu definicji"/>
-			<Column name="Parent_ID" value="8"/>
-			<Column name="CreatedDate" value="2019-02-10 16:58:37"/>
-			<Column name="ModifiedDate" value="2019-02-10 16:58:37"/>
-			<Column name="ea_guid" value="{E599F748-68C4-4a24-81F4-E7ADA7997682}"/>
-			<Column name="IsControlled" value="0"/>
-			<Column name="Version" value="1.0"/>
-			<Column name="Protected" value="0"/>
-			<Column name="UseDTD" value="0"/>
-			<Column name="LogXML" value="0"/>
-			<Column name="TPos" value="0"/>
-			<Column name="BatchSave" value="0"/>
-			<Column name="BatchLoad" value="0"/>
-			<Extension Parent_ID="{9CB6C0A9-5BCE-41e3-B448-B94650BB5054}"/>
+			<Extension/>
 		</Row>
 	</Table>
 	<Table name="t_object">
-		<Row>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Object_Type" value="Activity"/>
-			<Column name="Diagram_ID" value="0"/>
-			<Column name="Name" value="Process order"/>
-			<Column name="Author" value="andrzej.stasiak"/>
-			<Column name="Version" value="1.0"/>
-			<Column name="Package_ID" value="12"/>
-			<Column name="Stereotype" value="Activity"/>
-			<Column name="NType" value="0"/>
-			<Column name="Complexity" value="1"/>
-			<Column name="Effort" value="0"/>
-			<Column name="Backcolor" value="-1"/>
-			<Column name="BorderStyle" value="0"/>
-			<Column name="BorderWidth" value="-1"/>
-			<Column name="Fontcolor" value="-1"/>
-			<Column name="Bordercolor" value="-1"/>
-			<Column name="CreatedDate" value="2019-02-10 19:13:34"/>
-			<Column name="ModifiedDate" value="2019-02-10 19:13:34"/>
-			<Column name="Status" value="Proposed"/>
-			<Column name="Abstract" value="0"/>
-			<Column name="Tagged" value="0"/>
-			<Column name="GenType" value="C#"/>
-			<Column name="Phase" value="1.0"/>
-			<Column name="Scope" value="Public"/>
-			<Column name="Classifier" value="0"/>
-			<Column name="ea_guid" value="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-			<Column name="ParentID" value="51"/>
-			<Column name="TPos" value="0"/>
-			<Column name="IsRoot" value="0"/>
-			<Column name="IsLeaf" value="0"/>
-			<Column name="IsSpec" value="0"/>
-			<Column name="IsActive" value="0"/>
-			<Extension Package_ID="{22E0540D-434D-4118-B226-BE78B08533D8}" ParentID="{C9FE2888-9C57-432b-BB5E-5A57F35CE62F}"/>
-		</Row>
-		<Row>
-			<Column name="Object_ID" value="30"/>
-			<Column name="Object_Type" value="Package"/>
-			<Column name="Diagram_ID" value="0"/>
-			<Column name="Name" value="Procesy biznesowe systemu dyplom"/>
-			<Column name="Author" value="andrzej.stasiak"/>
-			<Column name="Version" value="1.0"/>
-			<Column name="Package_ID" value="7"/>
-			<Column name="NType" value="0"/>
-			<Column name="Complexity" value="1"/>
-			<Column name="Effort" value="0"/>
-			<Column name="Backcolor" value="-1"/>
-			<Column name="BorderStyle" value="0"/>
-			<Column name="BorderWidth" value="-1"/>
-			<Column name="Fontcolor" value="-1"/>
-			<Column name="Bordercolor" value="-1"/>
-			<Column name="CreatedDate" value="2019-02-10 19:13:34"/>
-			<Column name="ModifiedDate" value="2019-02-10 19:15:06"/>
-			<Column name="Status" value="Proposed"/>
-			<Column name="Abstract" value="0"/>
-			<Column name="Tagged" value="0"/>
-			<Column name="PDATA1" value="12"/>
-			<Column name="GenType" value="C#"/>
-			<Column name="Phase" value="1.0"/>
-			<Column name="Scope" value="Public"/>
-			<Column name="Classifier" value="0"/>
-			<Column name="ea_guid" value="{22E0540D-434D-4118-B226-BE78B08533D8}"/>
-			<Column name="ParentID" value="0"/>
-			<Column name="TPos" value="3"/>
-			<Column name="IsRoot" value="0"/>
-			<Column name="IsLeaf" value="0"/>
-			<Column name="IsSpec" value="0"/>
-			<Column name="IsActive" value="0"/>
-			<Extension Package_ID="{1B8A6C19-57DA-46b7-B4B8-2B0CA2F68F79}" PDATA1="{22E0540D-434D-4118-B226-BE78B08533D8}"/>
-		</Row>
-		<Row>
-			<Column name="Object_ID" value="83"/>
-			<Column name="Object_Type" value="Artifact"/>
-			<Column name="Diagram_ID" value="0"/>
-			<Column name="Name" value="Przedstawienie problemu dla systemu dyplom"/>
-			<Column name="Author" value="andrzej.stasiak"/>
-			<Column name="Version" value="1.0"/>
-			<Column name="Package_ID" value="10"/>
-			<Column name="NType" value="0"/>
-			<Column name="Complexity" value="1"/>
-			<Column name="Effort" value="0"/>
-			<Column name="Style" value="MDoc=1;"/>
-			<Column name="Backcolor" value="-1"/>
-			<Column name="BorderStyle" value="0"/>
-			<Column name="BorderWidth" value="-1"/>
-			<Column name="Fontcolor" value="-1"/>
-			<Column name="Bordercolor" value="-1"/>
-			<Column name="CreatedDate" value="2019-02-10 16:57:16"/>
-			<Column name="ModifiedDate" value="2019-02-10 18:19:32"/>
-			<Column name="Status" value="Proposed"/>
-			<Column name="Abstract" value="0"/>
-			<Column name="Tagged" value="0"/>
-			<Column name="GenType" value="Java"/>
-			<Column name="Phase" value="1.0"/>
-			<Column name="Scope" value="Public"/>
-			<Column name="Classifier" value="0"/>
-			<Column name="ea_guid" value="{2A6B3D71-AD47-46e6-A7EC-1A7D9FAEC935}"/>
-			<Column name="ParentID" value="0"/>
-			<Column name="TPos" value="0"/>
-			<Column name="IsRoot" value="0"/>
-			<Column name="IsLeaf" value="0"/>
-			<Column name="IsSpec" value="0"/>
-			<Column name="IsActive" value="0"/>
-			<Extension Package_ID="{DA8654FB-2FC6-4d36-852F-DACB3203171B}"/>
-		</Row>
-		<Row>
-			<Column name="Object_ID" value="43"/>
-			<Column name="Object_Type" value="Event"/>
-			<Column name="Diagram_ID" value="0"/>
-			<Column name="Name" value="Send confirmation"/>
-			<Column name="Author" value="andrzej.stasiak"/>
-			<Column name="Version" value="1.0"/>
-			<Column name="Package_ID" value="12"/>
-			<Column name="Stereotype" value="EndEvent"/>
-			<Column name="NType" value="0"/>
-			<Column name="Complexity" value="1"/>
-			<Column name="Effort" value="0"/>
-			<Column name="Backcolor" value="-1"/>
-			<Column name="BorderStyle" value="0"/>
-			<Column name="BorderWidth" value="-1"/>
-			<Column name="Fontcolor" value="-1"/>
-			<Column name="Bordercolor" value="-1"/>
-			<Column name="CreatedDate" value="2019-02-10 19:13:34"/>
-			<Column name="ModifiedDate" value="2019-02-10 19:13:34"/>
-			<Column name="Status" value="Proposed"/>
-			<Column name="Abstract" value="0"/>
-			<Column name="Tagged" value="0"/>
-			<Column name="GenType" value="C#"/>
-			<Column name="Phase" value="1.0"/>
-			<Column name="Scope" value="Public"/>
-			<Column name="Classifier" value="0"/>
-			<Column name="ea_guid" value="{30585480-2805-4933-8F36-EF65A9D7D44F}"/>
-			<Column name="ParentID" value="51"/>
-			<Column name="TPos" value="0"/>
-			<Column name="IsRoot" value="0"/>
-			<Column name="IsLeaf" value="0"/>
-			<Column name="IsSpec" value="0"/>
-			<Column name="IsActive" value="0"/>
-			<Extension Package_ID="{22E0540D-434D-4118-B226-BE78B08533D8}" ParentID="{C9FE2888-9C57-432b-BB5E-5A57F35CE62F}"/>
-		</Row>
-		<Row>
-			<Column name="Object_ID" value="1"/>
-			<Column name="Object_Type" value="Package"/>
-			<Column name="Diagram_ID" value="0"/>
-			<Column name="Name" value="S³ownik systemu"/>
-			<Column name="Author" value="andrzej.stasiak"/>
-			<Column name="Package_ID" value="7"/>
-			<Column name="NType" value="0"/>
-			<Column name="Complexity" value="1"/>
-			<Column name="Effort" value="0"/>
-			<Column name="Backcolor" value="-1"/>
-			<Column name="BorderStyle" value="0"/>
-			<Column name="BorderWidth" value="-1"/>
-			<Column name="Fontcolor" value="-1"/>
-			<Column name="Bordercolor" value="-1"/>
-			<Column name="CreatedDate" value="2019-02-10 19:17:15"/>
-			<Column name="ModifiedDate" value="2019-02-10 19:18:16"/>
-			<Column name="Status" value="Proposed"/>
-			<Column name="Abstract" value="0"/>
-			<Column name="Tagged" value="0"/>
-			<Column name="PDATA1" value="3"/>
-			<Column name="Phase" value="1.0"/>
-			<Column name="Scope" value="Public"/>
-			<Column name="Classifier" value="0"/>
-			<Column name="ea_guid" value="{474503E7-9A18-4e61-B296-DC9905FB184C}"/>
-			<Column name="ParentID" value="0"/>
-			<Column name="TPos" value="2"/>
-			<Column name="IsRoot" value="0"/>
-			<Column name="IsLeaf" value="0"/>
-			<Column name="IsSpec" value="0"/>
-			<Column name="IsActive" value="0"/>
-			<Extension Package_ID="{1B8A6C19-57DA-46b7-B4B8-2B0CA2F68F79}" PDATA1="{474503E7-9A18-4e61-B296-DC9905FB184C}"/>
-		</Row>
-		<Row>
-			<Column name="Object_ID" value="13"/>
-			<Column name="Object_Type" value="Package"/>
-			<Column name="Diagram_ID" value="0"/>
-			<Column name="Name" value="Raport konfiguracji oprogramowania"/>
-			<Column name="Author" value="andrzej.stasiak"/>
-			<Column name="Version" value="1.0"/>
-			<Column name="Package_ID" value="36"/>
-			<Column name="NType" value="0"/>
-			<Column name="Complexity" value="1"/>
-			<Column name="Effort" value="0"/>
-			<Column name="Backcolor" value="-1"/>
-			<Column name="BorderStyle" value="0"/>
-			<Column name="BorderWidth" value="-1"/>
-			<Column name="Fontcolor" value="-1"/>
-			<Column name="Bordercolor" value="-1"/>
-			<Column name="CreatedDate" value="2019-02-10 19:24:19"/>
-			<Column name="ModifiedDate" value="2019-02-10 20:10:20"/>
-			<Column name="Status" value="Proposed"/>
-			<Column name="Abstract" value="0"/>
-			<Column name="Tagged" value="0"/>
-			<Column name="PDATA1" value="5"/>
-			<Column name="GenType" value="Java"/>
-			<Column name="Phase" value="1.0"/>
-			<Column name="Scope" value="Public"/>
-			<Column name="Classifier" value="0"/>
-			<Column name="ea_guid" value="{5E19DD25-E5BA-4e86-A12D-A50210128D17}"/>
-			<Column name="ParentID" value="0"/>
-			<Column name="TPos" value="4"/>
-			<Column name="IsRoot" value="0"/>
-			<Column name="IsLeaf" value="0"/>
-			<Column name="IsSpec" value="0"/>
-			<Column name="IsActive" value="0"/>
-			<Extension Package_ID="{E599F748-68C4-4a24-81F4-E7ADA7997682}" PDATA1="{5E19DD25-E5BA-4e86-A12D-A50210128D17}"/>
-		</Row>
-		<Row>
-			<Column name="Object_ID" value="45"/>
-			<Column name="Object_Type" value="Note"/>
-			<Column name="Diagram_ID" value="0"/>
-			<Column name="Author" value="andrzej.stasiak"/>
-			<Column name="Version" value="1.0"/>
-			<Column name="Note" value="Start your BPMN modeling by dragging elements from the Toolbox onto this diagram."/>
-			<Column name="Package_ID" value="12"/>
-			<Column name="NType" value="0"/>
-			<Column name="Complexity" value="1"/>
-			<Column name="Effort" value="0"/>
-			<Column name="Backcolor" value="-1"/>
-			<Column name="BorderStyle" value="0"/>
-			<Column name="BorderWidth" value="-1"/>
-			<Column name="Fontcolor" value="-1"/>
-			<Column name="Bordercolor" value="-1"/>
-			<Column name="CreatedDate" value="2019-02-10 19:13:34"/>
-			<Column name="ModifiedDate" value="2019-02-10 19:13:34"/>
-			<Column name="Status" value="Proposed"/>
-			<Column name="Abstract" value="0"/>
-			<Column name="Tagged" value="0"/>
-			<Column name="GenType" value="C#"/>
-			<Column name="Phase" value="1.0"/>
-			<Column name="Scope" value="Public"/>
-			<Column name="Classifier" value="0"/>
-			<Column name="ea_guid" value="{783B1CD9-3096-441d-AC24-051B4E77EFB7}"/>
-			<Column name="ParentID" value="51"/>
-			<Column name="TPos" value="0"/>
-			<Column name="IsRoot" value="0"/>
-			<Column name="IsLeaf" value="0"/>
-			<Column name="IsSpec" value="0"/>
-			<Column name="IsActive" value="0"/>
-			<Extension Package_ID="{22E0540D-434D-4118-B226-BE78B08533D8}" ParentID="{C9FE2888-9C57-432b-BB5E-5A57F35CE62F}"/>
-		</Row>
-		<Row>
-			<Column name="Object_ID" value="9"/>
-			<Column name="Object_Type" value="Artifact"/>
-			<Column name="Diagram_ID" value="0"/>
-			<Column name="Name" value="Analiza lingwistyczna"/>
-			<Column name="Author" value="andrzej.stasiak"/>
-			<Column name="Version" value="1.0"/>
-			<Column name="Package_ID" value="4"/>
-			<Column name="NType" value="0"/>
-			<Column name="Complexity" value="1"/>
-			<Column name="Effort" value="0"/>
-			<Column name="Style" value="MDoc=1;"/>
-			<Column name="Backcolor" value="-1"/>
-			<Column name="BorderStyle" value="0"/>
-			<Column name="BorderWidth" value="-1"/>
-			<Column name="Fontcolor" value="-1"/>
-			<Column name="Bordercolor" value="-1"/>
-			<Column name="CreatedDate" value="2019-02-10 19:21:44"/>
-			<Column name="ModifiedDate" value="2019-02-10 19:23:23"/>
-			<Column name="Status" value="Proposed"/>
-			<Column name="Abstract" value="0"/>
-			<Column name="Tagged" value="0"/>
-			<Column name="GenType" value="Java"/>
-			<Column name="Phase" value="1.0"/>
-			<Column name="Scope" value="Public"/>
-			<Column name="Classifier" value="0"/>
-			<Column name="ea_guid" value="{87659778-CED7-4351-8AFB-5F6BDC097159}"/>
-			<Column name="ParentID" value="0"/>
-			<Column name="TPos" value="0"/>
-			<Column name="IsRoot" value="0"/>
-			<Column name="IsLeaf" value="0"/>
-			<Column name="IsSpec" value="0"/>
-			<Column name="IsActive" value="0"/>
-			<Extension Package_ID="{97B78148-AB87-46d1-9E78-2F431F9802FB}"/>
-		</Row>
-		<Row>
-			<Column name="Object_ID" value="14"/>
-			<Column name="Object_Type" value="Artifact"/>
-			<Column name="Diagram_ID" value="0"/>
-			<Column name="Name" value="Raport konfiguracji oprogramowania"/>
-			<Column name="Author" value="andrzej.stasiak"/>
-			<Column name="Version" value="1.0"/>
-			<Column name="Package_ID" value="5"/>
-			<Column name="NType" value="0"/>
-			<Column name="Complexity" value="1"/>
-			<Column name="Effort" value="0"/>
-			<Column name="Style" value="MDoc=1;"/>
-			<Column name="Backcolor" value="-1"/>
-			<Column name="BorderStyle" value="0"/>
-			<Column name="BorderWidth" value="-1"/>
-			<Column name="Fontcolor" value="-1"/>
-			<Column name="Bordercolor" value="-1"/>
-			<Column name="CreatedDate" value="2019-02-10 19:24:19"/>
-			<Column name="ModifiedDate" value="2019-02-10 19:27:16"/>
-			<Column name="Status" value="Proposed"/>
-			<Column name="Abstract" value="0"/>
-			<Column name="Tagged" value="0"/>
-			<Column name="GenType" value="Java"/>
-			<Column name="Phase" value="1.0"/>
-			<Column name="Scope" value="Public"/>
-			<Column name="Classifier" value="0"/>
-			<Column name="ea_guid" value="{87DE594D-DF48-42da-8A53-6126F4BED890}"/>
-			<Column name="ParentID" value="0"/>
-			<Column name="TPos" value="0"/>
-			<Column name="IsRoot" value="0"/>
-			<Column name="IsLeaf" value="0"/>
-			<Column name="IsSpec" value="0"/>
-			<Column name="IsActive" value="0"/>
-			<Extension Package_ID="{5E19DD25-E5BA-4e86-A12D-A50210128D17}"/>
-		</Row>
-		<Row>
-			<Column name="Object_ID" value="6"/>
-			<Column name="Object_Type" value="Package"/>
-			<Column name="Diagram_ID" value="0"/>
-			<Column name="Name" value="Analiza lingwistyczna"/>
-			<Column name="Author" value="andrzej.stasiak"/>
-			<Column name="Version" value="1.0"/>
-			<Column name="Package_ID" value="36"/>
-			<Column name="NType" value="0"/>
-			<Column name="Complexity" value="1"/>
-			<Column name="Effort" value="0"/>
-			<Column name="Backcolor" value="-1"/>
-			<Column name="BorderStyle" value="0"/>
-			<Column name="BorderWidth" value="-1"/>
-			<Column name="Fontcolor" value="-1"/>
-			<Column name="Bordercolor" value="-1"/>
-			<Column name="CreatedDate" value="2019-02-10 19:21:44"/>
-			<Column name="ModifiedDate" value="2019-02-10 19:22:01"/>
-			<Column name="Status" value="Proposed"/>
-			<Column name="Abstract" value="0"/>
-			<Column name="Tagged" value="0"/>
-			<Column name="PDATA1" value="4"/>
-			<Column name="GenType" value="Java"/>
-			<Column name="Phase" value="1.0"/>
-			<Column name="Scope" value="Public"/>
-			<Column name="Classifier" value="0"/>
-			<Column name="ea_guid" value="{97B78148-AB87-46d1-9E78-2F431F9802FB}"/>
-			<Column name="ParentID" value="0"/>
-			<Column name="TPos" value="4"/>
-			<Column name="IsRoot" value="0"/>
-			<Column name="IsLeaf" value="0"/>
-			<Column name="IsSpec" value="0"/>
-			<Column name="IsActive" value="0"/>
-			<Extension Package_ID="{E599F748-68C4-4a24-81F4-E7ADA7997682}" PDATA1="{97B78148-AB87-46d1-9E78-2F431F9802FB}"/>
-		</Row>
-		<Row>
-			<Column name="Object_ID" value="10"/>
-			<Column name="Object_Type" value="Package"/>
-			<Column name="Diagram_ID" value="0"/>
-			<Column name="Name" value="Dokumentacja"/>
-			<Column name="Author" value="andrzej.stasiak"/>
-			<Column name="Version" value="1.0"/>
-			<Column name="Package_ID" value="7"/>
-			<Column name="NType" value="0"/>
-			<Column name="Complexity" value="1"/>
-			<Column name="Effort" value="0"/>
-			<Column name="Backcolor" value="-1"/>
-			<Column name="BorderStyle" value="0"/>
-			<Column name="BorderWidth" value="-1"/>
-			<Column name="Fontcolor" value="-1"/>
-			<Column name="Bordercolor" value="-1"/>
-			<Column name="CreatedDate" value="2019-01-08 08:50:44"/>
-			<Column name="ModifiedDate" value="2019-01-08 08:50:48"/>
-			<Column name="Abstract" value="0"/>
-			<Column name="Tagged" value="0"/>
-			<Column name="PDATA1" value="8"/>
-			<Column name="GenType" value="Java"/>
-			<Column name="Phase" value="1.0"/>
-			<Column name="Scope" value="Public"/>
-			<Column name="Classifier" value="0"/>
-			<Column name="ea_guid" value="{9CB6C0A9-5BCE-41e3-B448-B94650BB5054}"/>
-			<Column name="ParentID" value="0"/>
-			<Column name="TPos" value="1"/>
-			<Column name="IsRoot" value="0"/>
-			<Column name="IsLeaf" value="0"/>
-			<Column name="IsSpec" value="0"/>
-			<Column name="IsActive" value="0"/>
-			<Extension Package_ID="{1B8A6C19-57DA-46b7-B4B8-2B0CA2F68F79}" PDATA1="{9CB6C0A9-5BCE-41e3-B448-B94650BB5054}"/>
-		</Row>
-		<Row>
-			<Column name="Object_ID" value="12"/>
-			<Column name="Object_Type" value="Package"/>
-			<Column name="Diagram_ID" value="0"/>
-			<Column name="Name" value="Przedstawienie problemu - dokument Zamawiaj¹cego"/>
-			<Column name="Author" value="andrzej.stasiak"/>
-			<Column name="Version" value="1.0"/>
-			<Column name="Package_ID" value="36"/>
-			<Column name="NType" value="0"/>
-			<Column name="Complexity" value="1"/>
-			<Column name="Effort" value="0"/>
-			<Column name="Backcolor" value="-1"/>
-			<Column name="BorderStyle" value="0"/>
-			<Column name="BorderWidth" value="-1"/>
-			<Column name="Fontcolor" value="-1"/>
-			<Column name="Bordercolor" value="-1"/>
-			<Column name="CreatedDate" value="2019-02-10 17:34:29"/>
-			<Column name="ModifiedDate" value="2019-02-10 17:36:05"/>
-			<Column name="Status" value="Proposed"/>
-			<Column name="Abstract" value="0"/>
-			<Column name="Tagged" value="0"/>
-			<Column name="PDATA1" value="9"/>
-			<Column name="GenType" value="Java"/>
-			<Column name="Phase" value="1.0"/>
-			<Column name="Scope" value="Public"/>
-			<Column name="Classifier" value="0"/>
-			<Column name="ea_guid" value="{AF01E91E-698F-44a0-B495-ECCD89A3CED4}"/>
-			<Column name="ParentID" value="0"/>
-			<Column name="TPos" value="1"/>
-			<Column name="IsRoot" value="0"/>
-			<Column name="IsLeaf" value="0"/>
-			<Column name="IsSpec" value="0"/>
-			<Column name="IsActive" value="0"/>
-			<Extension Package_ID="{E599F748-68C4-4a24-81F4-E7ADA7997682}" PDATA1="{AF01E91E-698F-44a0-B495-ECCD89A3CED4}"/>
-		</Row>
 		<Row>
 			<Column name="Object_ID" value="84"/>
 			<Column name="Object_Type" value="Artifact"/>
@@ -624,7 +38,7 @@
 			<Column name="Fontcolor" value="-1"/>
 			<Column name="Bordercolor" value="-1"/>
 			<Column name="CreatedDate" value="2019-02-10 16:57:55"/>
-			<Column name="ModifiedDate" value="2026-03-05 00:55:13"/>
+			<Column name="ModifiedDate" value="2026-03-05 23:09:36"/>
 			<Column name="Status" value="Proposed"/>
 			<Column name="Abstract" value="0"/>
 			<Column name="Tagged" value="0"/>
@@ -674,2518 +88,461 @@
 			<Column name="IsLeaf" value="0"/>
 			<Column name="IsSpec" value="0"/>
 			<Column name="IsActive" value="0"/>
-			<Extension Package_ID="{E599F748-68C4-4a24-81F4-E7ADA7997682}" PDATA1="{BEF68004-ADD8-419c-91A3-EBF463758B40}"/>
-		</Row>
-		<Row>
-			<Column name="Object_ID" value="44"/>
-			<Column name="Object_Type" value="Text"/>
-			<Column name="Diagram_ID" value="0"/>
-			<Column name="Name" value="$help://bpmn_1_4.htm"/>
-			<Column name="Alias" value="Learn about BPMN in the EA User Guide"/>
-			<Column name="Author" value="andrzej.stasiak"/>
-			<Column name="Version" value="1.0"/>
-			<Column name="Package_ID" value="12"/>
-			<Column name="NType" value="19"/>
-			<Column name="Complexity" value="1"/>
-			<Column name="Effort" value="0"/>
-			<Column name="Backcolor" value="-1"/>
-			<Column name="BorderStyle" value="0"/>
-			<Column name="BorderWidth" value="-1"/>
-			<Column name="Fontcolor" value="-1"/>
-			<Column name="Bordercolor" value="-1"/>
-			<Column name="CreatedDate" value="2019-02-10 19:13:34"/>
-			<Column name="ModifiedDate" value="2019-02-10 19:13:34"/>
-			<Column name="Status" value="Proposed"/>
-			<Column name="Abstract" value="0"/>
-			<Column name="Tagged" value="0"/>
-			<Column name="PDATA1" value="0"/>
-			<Column name="PDATA3" value="0"/>
-			<Column name="GenType" value="C#"/>
-			<Column name="Phase" value="1.0"/>
-			<Column name="Scope" value="Public"/>
-			<Column name="Classifier" value="0"/>
-			<Column name="ea_guid" value="{C2D6178D-2086-4383-BA15-5C50A0DEA771}"/>
-			<Column name="ParentID" value="51"/>
-			<Column name="TPos" value="0"/>
-			<Column name="IsRoot" value="0"/>
-			<Column name="IsLeaf" value="0"/>
-			<Column name="IsSpec" value="0"/>
-			<Column name="IsActive" value="0"/>
-			<Extension Package_ID="{22E0540D-434D-4118-B226-BE78B08533D8}" ParentID="{C9FE2888-9C57-432b-BB5E-5A57F35CE62F}"/>
-		</Row>
-		<Row>
-			<Column name="Object_ID" value="51"/>
-			<Column name="Object_Type" value="Activity"/>
-			<Column name="Diagram_ID" value="0"/>
-			<Column name="Name" value="BPMN 2.0 Business Process View"/>
-			<Column name="Author" value="andrzej.stasiak"/>
-			<Column name="Version" value="1.0"/>
-			<Column name="Package_ID" value="12"/>
-			<Column name="Stereotype" value="BusinessProcess"/>
-			<Column name="NType" value="8"/>
-			<Column name="Complexity" value="1"/>
-			<Column name="Effort" value="0"/>
-			<Column name="Backcolor" value="-1"/>
-			<Column name="BorderStyle" value="0"/>
-			<Column name="BorderWidth" value="-1"/>
-			<Column name="Fontcolor" value="-1"/>
-			<Column name="Bordercolor" value="-1"/>
-			<Column name="CreatedDate" value="2019-02-10 19:13:34"/>
-			<Column name="ModifiedDate" value="2019-02-10 19:13:34"/>
-			<Column name="Status" value="Proposed"/>
-			<Column name="Abstract" value="0"/>
-			<Column name="Tagged" value="0"/>
-			<Column name="PDATA1" value="0"/>
-			<Column name="GenType" value="C#"/>
-			<Column name="Phase" value="1.0"/>
-			<Column name="Scope" value="Public"/>
-			<Column name="Classifier" value="0"/>
-			<Column name="ea_guid" value="{C9FE2888-9C57-432b-BB5E-5A57F35CE62F}"/>
-			<Column name="ParentID" value="0"/>
-			<Column name="TPos" value="0"/>
-			<Column name="IsRoot" value="0"/>
-			<Column name="IsLeaf" value="0"/>
-			<Column name="IsSpec" value="0"/>
-			<Column name="IsActive" value="0"/>
-			<Extension Package_ID="{22E0540D-434D-4118-B226-BE78B08533D8}"/>
-		</Row>
-		<Row>
-			<Column name="Object_ID" value="8"/>
-			<Column name="Object_Type" value="Class"/>
-			<Column name="Diagram_ID" value="0"/>
-			<Column name="Name" value="Dyplomant"/>
-			<Column name="Author" value="andrzej.stasiak"/>
-			<Column name="Version" value="1.0"/>
-			<Column name="Note" value="Dyplomant to student który uzyska³ absolutorium."/>
-			<Column name="Package_ID" value="3"/>
-			<Column name="NType" value="0"/>
-			<Column name="Complexity" value="1"/>
-			<Column name="Effort" value="0"/>
-			<Column name="Backcolor" value="-1"/>
-			<Column name="BorderStyle" value="0"/>
-			<Column name="BorderWidth" value="-1"/>
-			<Column name="Fontcolor" value="-1"/>
-			<Column name="Bordercolor" value="-1"/>
-			<Column name="CreatedDate" value="2019-02-10 19:17:15"/>
-			<Column name="ModifiedDate" value="2019-02-10 19:20:05"/>
-			<Column name="Status" value="Proposed"/>
-			<Column name="Abstract" value="0"/>
-			<Column name="Tagged" value="0"/>
-			<Column name="PDATA2" value="Java"/>
-			<Column name="PDATA4" value="0"/>
-			<Column name="GenType" value="Java"/>
-			<Column name="Phase" value="1.0"/>
-			<Column name="Scope" value="Public"/>
-			<Column name="Classifier" value="0"/>
-			<Column name="ea_guid" value="{D73E3341-C6E5-445c-B05A-ABB4672C24E5}"/>
-			<Column name="ParentID" value="0"/>
-			<Column name="TPos" value="0"/>
-			<Column name="IsRoot" value="0"/>
-			<Column name="IsLeaf" value="0"/>
-			<Column name="IsSpec" value="0"/>
-			<Column name="IsActive" value="0"/>
-			<Column name="EventFlags" value="LNK=dd51;"/>
-			<Extension Package_ID="{474503E7-9A18-4e61-B296-DC9905FB184C}"/>
-		</Row>
-		<Row>
-			<Column name="Object_ID" value="28"/>
-			<Column name="Object_Type" value="Package"/>
-			<Column name="Diagram_ID" value="0"/>
-			<Column name="Name" value="Przedstawienie problemu dla systemu dyplom"/>
-			<Column name="Author" value="andrzej.stasiak"/>
-			<Column name="Version" value="1.0"/>
-			<Column name="Package_ID" value="36"/>
-			<Column name="NType" value="0"/>
-			<Column name="Complexity" value="1"/>
-			<Column name="Effort" value="0"/>
-			<Column name="Backcolor" value="-1"/>
-			<Column name="BorderStyle" value="0"/>
-			<Column name="BorderWidth" value="-1"/>
-			<Column name="Fontcolor" value="-1"/>
-			<Column name="Bordercolor" value="-1"/>
-			<Column name="CreatedDate" value="2019-02-10 17:35:01"/>
-			<Column name="ModifiedDate" value="2019-02-10 18:06:46"/>
-			<Column name="Status" value="Proposed"/>
-			<Column name="Abstract" value="0"/>
-			<Column name="Tagged" value="0"/>
-			<Column name="PDATA1" value="10"/>
-			<Column name="GenType" value="Java"/>
-			<Column name="Phase" value="1.0"/>
-			<Column name="Scope" value="Public"/>
-			<Column name="Classifier" value="0"/>
-			<Column name="ea_guid" value="{DA8654FB-2FC6-4d36-852F-DACB3203171B}"/>
-			<Column name="ParentID" value="0"/>
-			<Column name="TPos" value="2"/>
-			<Column name="IsRoot" value="0"/>
-			<Column name="IsLeaf" value="0"/>
-			<Column name="IsSpec" value="0"/>
-			<Column name="IsActive" value="0"/>
-			<Extension Package_ID="{E599F748-68C4-4a24-81F4-E7ADA7997682}" PDATA1="{DA8654FB-2FC6-4d36-852F-DACB3203171B}"/>
-		</Row>
-		<Row>
-			<Column name="Object_ID" value="35"/>
-			<Column name="Object_Type" value="Event"/>
-			<Column name="Diagram_ID" value="0"/>
-			<Column name="Name" value="Receive order"/>
-			<Column name="Author" value="andrzej.stasiak"/>
-			<Column name="Version" value="1.0"/>
-			<Column name="Package_ID" value="12"/>
-			<Column name="Stereotype" value="StartEvent"/>
-			<Column name="NType" value="0"/>
-			<Column name="Complexity" value="1"/>
-			<Column name="Effort" value="0"/>
-			<Column name="Backcolor" value="-1"/>
-			<Column name="BorderStyle" value="0"/>
-			<Column name="BorderWidth" value="-1"/>
-			<Column name="Fontcolor" value="-1"/>
-			<Column name="Bordercolor" value="-1"/>
-			<Column name="CreatedDate" value="2019-02-10 19:13:34"/>
-			<Column name="ModifiedDate" value="2019-02-10 19:13:34"/>
-			<Column name="Status" value="Proposed"/>
-			<Column name="Abstract" value="0"/>
-			<Column name="Tagged" value="0"/>
-			<Column name="GenType" value="C#"/>
-			<Column name="Phase" value="1.0"/>
-			<Column name="Scope" value="Public"/>
-			<Column name="Classifier" value="0"/>
-			<Column name="ea_guid" value="{E415C75F-7D18-405d-8AE5-6377A76F8E52}"/>
-			<Column name="ParentID" value="51"/>
-			<Column name="TPos" value="0"/>
-			<Column name="IsRoot" value="0"/>
-			<Column name="IsLeaf" value="0"/>
-			<Column name="IsSpec" value="0"/>
-			<Column name="IsActive" value="0"/>
-			<Extension Package_ID="{22E0540D-434D-4118-B226-BE78B08533D8}" ParentID="{C9FE2888-9C57-432b-BB5E-5A57F35CE62F}"/>
-		</Row>
-		<Row>
-			<Column name="Object_ID" value="85"/>
-			<Column name="Object_Type" value="Package"/>
-			<Column name="Diagram_ID" value="0"/>
-			<Column name="Name" value="Dokumenty etapu definicji"/>
-			<Column name="Author" value="andrzej.stasiak"/>
-			<Column name="Version" value="1.0"/>
-			<Column name="Package_ID" value="8"/>
-			<Column name="NType" value="0"/>
-			<Column name="Complexity" value="1"/>
-			<Column name="Effort" value="0"/>
-			<Column name="Backcolor" value="-1"/>
-			<Column name="BorderStyle" value="0"/>
-			<Column name="BorderWidth" value="-1"/>
-			<Column name="Fontcolor" value="-1"/>
-			<Column name="Bordercolor" value="-1"/>
-			<Column name="CreatedDate" value="2019-02-10 16:58:37"/>
-			<Column name="ModifiedDate" value="2019-02-10 16:58:37"/>
-			<Column name="Status" value="Proposed"/>
-			<Column name="Abstract" value="0"/>
-			<Column name="Tagged" value="0"/>
-			<Column name="PDATA1" value="36"/>
-			<Column name="GenType" value="Java"/>
-			<Column name="Phase" value="1.0"/>
-			<Column name="Scope" value="Public"/>
-			<Column name="Classifier" value="0"/>
-			<Column name="ea_guid" value="{E599F748-68C4-4a24-81F4-E7ADA7997682}"/>
-			<Column name="ParentID" value="0"/>
-			<Column name="TPos" value="0"/>
-			<Column name="IsRoot" value="0"/>
-			<Column name="IsLeaf" value="0"/>
-			<Column name="IsSpec" value="0"/>
-			<Column name="IsActive" value="0"/>
-			<Extension Package_ID="{9CB6C0A9-5BCE-41e3-B448-B94650BB5054}" PDATA1="{E599F748-68C4-4a24-81F4-E7ADA7997682}"/>
-		</Row>
-		<Row>
-			<Column name="Object_ID" value="75"/>
-			<Column name="Object_Type" value="Artifact"/>
-			<Column name="Diagram_ID" value="0"/>
-			<Column name="Name" value="Przedstawienie problemu - dokument Zamawiaj¹cego"/>
-			<Column name="Author" value="andrzej.stasiak"/>
-			<Column name="Version" value="1.0"/>
-			<Column name="Package_ID" value="9"/>
-			<Column name="NType" value="0"/>
-			<Column name="Complexity" value="1"/>
-			<Column name="Effort" value="0"/>
-			<Column name="Style" value="MDoc=1;"/>
-			<Column name="Backcolor" value="-1"/>
-			<Column name="BorderStyle" value="0"/>
-			<Column name="BorderWidth" value="-1"/>
-			<Column name="Fontcolor" value="-1"/>
-			<Column name="Bordercolor" value="-1"/>
-			<Column name="CreatedDate" value="2019-02-10 16:29:49"/>
-			<Column name="ModifiedDate" value="2019-02-10 17:59:56"/>
-			<Column name="Status" value="Proposed"/>
-			<Column name="Abstract" value="0"/>
-			<Column name="Tagged" value="0"/>
-			<Column name="GenType" value="Java"/>
-			<Column name="Phase" value="1.0"/>
-			<Column name="Scope" value="Public"/>
-			<Column name="Classifier" value="0"/>
-			<Column name="ea_guid" value="{ECA652D9-AC1B-44c9-AF3D-A055644A08FC}"/>
-			<Column name="ParentID" value="0"/>
-			<Column name="TPos" value="0"/>
-			<Column name="IsRoot" value="0"/>
-			<Column name="IsLeaf" value="0"/>
-			<Column name="IsSpec" value="0"/>
-			<Column name="IsActive" value="0"/>
-			<Extension Package_ID="{AF01E91E-698F-44a0-B495-ECCD89A3CED4}"/>
-		</Row>
-	</Table>
-	<Table name="t_objectproblems">
-		<Row>
-			<Column name="Object_ID" value="1"/>
-			<Column name="Problem" value="Opracowanie dokumentu: S³ownik systemu. Koniecznie nale¿y zdefiniowaæ wybrane pojêcia (min. 5) stosuj¹c notacjê BNF."/>
-			<Column name="ProblemType" value="ToDo"/>
-			<Column name="DateReported" value="2019-02-10 00:00:00"/>
-			<Column name="ProblemNotes" value="S³ownik systemu - raport z klas s³ownikowych wygenerowany z repozytorium EA"/>
-			<Extension Object_ID="{474503E7-9A18-4e61-B296-DC9905FB184C}"/>
-		</Row>
-		<Row>
-			<Column name="Object_ID" value="30"/>
-			<Column name="Problem" value="Opracowanie modeli biznesowych w jêzyku BPMN"/>
-			<Column name="ProblemType" value="ToDo"/>
-			<Column name="DateReported" value="2019-02-10 00:00:00"/>
-			<Column name="Status" value="New"/>
-			<Column name="ProblemNotes" value="Utworzenie wymaganych: torów, œcie¿ek, czynnoœci, obiektów i zasobów biznesowych "/>
-			<Column name="ReportedBy" value="andrzej.stasiak"/>
-			<Column name="Version" value="19028AC388TSK"/>
-			<Column name="Priority" value="High"/>
-			<Extension Object_ID="{22E0540D-434D-4118-B226-BE78B08533D8}"/>
-		</Row>
-		<Row>
-			<Column name="Object_ID" value="30"/>
-			<Column name="Problem" value="Opracowanie repozytorium modeli biznesowych"/>
-			<Column name="ProblemType" value="ToDo"/>
-			<Column name="DateReported" value="2019-02-10 00:00:00"/>
-			<Column name="ProblemNotes" value="Utworzone widoki i modele procesów biznesowych i zasobów informacyjnych systemu (na podstawie wzorca)"/>
-			<Extension Object_ID="{22E0540D-434D-4118-B226-BE78B08533D8}"/>
-		</Row>
-	</Table>
-	<Table name="t_objectproperties">
-		<Row>
-			<Column name="PropertyID" value="610"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="loopDataInputRef"/>
-			<Column name="ea_guid" value="{044265A1-AC13-16ac-A163-35DAF7CC9C94}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="609"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="instantiate"/>
-			<Column name="Value" value="false"/>
-			<Column name="Notes" value="Values: true,false&#xA;Default: false&#xA;"/>
-			<Column name="ea_guid" value="{0522C1C4-CD56-6dcd-990D-05A74B23E7EF}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="608"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="adHoc"/>
-			<Column name="Value" value="false"/>
-			<Column name="Notes" value="Values: true,false&#xA;Default: false&#xA;"/>
-			<Column name="ea_guid" value="{0713E7DF-A5D1-a9a5-97C7-0E96594D3423}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="607"/>
-			<Column name="Object_ID" value="43"/>
-			<Column name="Property" value="inputSet"/>
-			<Column name="ea_guid" value="{084EF73C-64BA-e864-AD19-DFEA1AB957B1}"/>
-			<Extension Object_ID="{30585480-2805-4933-8F36-EF65A9D7D44F}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="606"/>
-			<Column name="Object_ID" value="51"/>
-			<Column name="Property" value="state"/>
-			<Column name="Value" value="None"/>
-			<Column name="Notes" value="Values: None,Ready,Active,Withdrawn,Completing,Completed,Terminated,Terminating,Compensating,Compensated,Failing,Failed&#xA;Default: None&#xA;"/>
-			<Column name="ea_guid" value="{086249E1-6B91-d36b-837B-322C4AB7B9D6}"/>
-			<Extension Object_ID="{C9FE2888-9C57-432b-BB5E-5A57F35CE62F}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="605"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="state"/>
-			<Column name="Value" value="None"/>
-			<Column name="Notes" value="Values: None,Ready,Active,Cancelled,Aborting,Aborted,Completing,Completed&#xA;Default: None&#xA;"/>
-			<Column name="ea_guid" value="{086249E1-8FF3-f88f-A0E9-ABE6986F38DE}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="604"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="actualOwner"/>
-			<Column name="ea_guid" value="{098A3825-3397-9233-811C-24F1C3729898}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="603"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="cancelRemainingInstances"/>
-			<Column name="Value" value="true"/>
-			<Column name="Notes" value="Values: true,false&#xA;Default: true&#xA;"/>
-			<Column name="ea_guid" value="{0C44B348-17DA-3817-8D1F-A520D1BABD08}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="602"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="script"/>
-			<Column name="ea_guid" value="{13810AF5-1347-e013-888E-0922902617A6}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="601"/>
-			<Column name="Object_ID" value="35"/>
-			<Column name="Property" value="timeDuration"/>
-			<Column name="ea_guid" value="{1802BE15-2AEA-622a-920C-13B23969036D}"/>
-			<Extension Object_ID="{E415C75F-7D18-405d-8AE5-6377A76F8E52}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="600"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="rendering"/>
-			<Column name="ea_guid" value="{1991445E-4370-2043-B151-91F6361394E9}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="599"/>
-			<Column name="Object_ID" value="35"/>
-			<Column name="Property" value="parallelMultiple"/>
-			<Column name="Value" value="false"/>
-			<Column name="Notes" value="Values: true,false&#xA;Default: false&#xA;"/>
-			<Column name="ea_guid" value="{1C215BD9-3B2E-963b-95B4-2D6953858348}"/>
-			<Extension Object_ID="{E415C75F-7D18-405d-8AE5-6377A76F8E52}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="598"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="isSequential"/>
-			<Column name="Value" value="false"/>
-			<Column name="Notes" value="Values: true,false&#xA;Default: false&#xA;"/>
-			<Column name="ea_guid" value="{2D5C3237-8BE9-b68b-A8CC-EFB87FD07E1A}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="597"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="transactionMethod"/>
-			<Column name="ea_guid" value="{3A5D4027-1D19-961d-B1A7-5AAF59BCEA82}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="596"/>
-			<Column name="Object_ID" value="35"/>
-			<Column name="Property" value="signalRef"/>
-			<Column name="ea_guid" value="{3B456EBB-8BB0-d98b-AF81-9C9EB166F7B9}"/>
-			<Extension Object_ID="{E415C75F-7D18-405d-8AE5-6377A76F8E52}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="595"/>
-			<Column name="Object_ID" value="43"/>
-			<Column name="Property" value="signalRef"/>
-			<Column name="ea_guid" value="{3B456EBB-8FF9-1d8f-81DD-981504CE1C68}"/>
-			<Extension Object_ID="{30585480-2805-4933-8F36-EF65A9D7D44F}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="594"/>
-			<Column name="Object_ID" value="35"/>
-			<Column name="Property" value="activityRef"/>
-			<Column name="ea_guid" value="{405763CA-19FF-a919-9F5B-E66DFC4DB965}"/>
-			<Extension Object_ID="{E415C75F-7D18-405d-8AE5-6377A76F8E52}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="593"/>
-			<Column name="Object_ID" value="43"/>
-			<Column name="Property" value="activityRef"/>
-			<Column name="ea_guid" value="{405763CA-5488-ff54-A041-71C2A23312CA}"/>
-			<Extension Object_ID="{30585480-2805-4933-8F36-EF65A9D7D44F}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="592"/>
-			<Column name="Object_ID" value="51"/>
-			<Column name="Property" value="isExecutable"/>
-			<Column name="Notes" value="Values: true,false&#xA;"/>
-			<Column name="ea_guid" value="{430AFADE-326E-bd32-AABF-B9BB99ED929B}"/>
-			<Extension Object_ID="{C9FE2888-9C57-432b-BB5E-5A57F35CE62F}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="591"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="loopCardinality"/>
-			<Column name="ea_guid" value="{45F883CE-6040-8c60-AAE3-7ABC6BC8445D}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="590"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="numberOfActiveInstances"/>
-			<Column name="ea_guid" value="{48167882-56B4-c556-A21A-048043804FFC}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="589"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="activityType"/>
-			<Column name="Value" value="Sub-Process"/>
-			<Column name="Notes" value="Values: Task,Sub-Process&#xA;Default: Task&#xA;"/>
-			<Column name="ea_guid" value="{4B454C8F-3E41-e03e-97A7-FFF7F2B1319E}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="588"/>
-			<Column name="Object_ID" value="43"/>
-			<Column name="Property" value="waitForCompletion"/>
-			<Column name="Value" value="true"/>
-			<Column name="Notes" value="Values: true,false&#xA;Default: true&#xA;"/>
-			<Column name="ea_guid" value="{4C5D16D6-E9F4-4ce9-99AA-2B00541546DB}"/>
-			<Extension Object_ID="{30585480-2805-4933-8F36-EF65A9D7D44F}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="587"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="taskType"/>
-			<Column name="Value" value="BusinessRule"/>
-			<Column name="Notes" value="Values: BusinessRule,Manual,Receive,Service,Send,Script,User,Abstract&#xA;Default: Abstract&#xA;"/>
-			<Column name="ea_guid" value="{4CB8A6D5-7F87-e97f-848C-83373E0E5BAD}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="586"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="loopCharacteristics"/>
-			<Column name="Value" value="None"/>
-			<Column name="Notes" value="Values: None,Standard,MultiInstance&#xA;Default: None&#xA;"/>
-			<Column name="ea_guid" value="{4CE0AB16-7088-1170-842A-74912D449B66}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="585"/>
-			<Column name="Object_ID" value="43"/>
-			<Column name="Property" value="messageRef"/>
-			<Column name="ea_guid" value="{4D59E1C2-2EC0-472e-BFEF-7E92AF82DE55}"/>
-			<Extension Object_ID="{30585480-2805-4933-8F36-EF65A9D7D44F}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="584"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="messageRef"/>
-			<Column name="ea_guid" value="{4D59E1C2-3AF4-c83a-ABBD-BBBCA9B30246}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="583"/>
-			<Column name="Object_ID" value="35"/>
-			<Column name="Property" value="messageRef"/>
-			<Column name="ea_guid" value="{4D59E1C2-A157-82a1-9887-9251AE9972B9}"/>
-			<Extension Object_ID="{E415C75F-7D18-405d-8AE5-6377A76F8E52}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="582"/>
-			<Column name="Object_ID" value="51"/>
-			<Column name="Property" value="ioSpecification"/>
-			<Column name="ea_guid" value="{52EC4179-0F09-d60f-A998-53C9A360D44C}"/>
-			<Extension Object_ID="{C9FE2888-9C57-432b-BB5E-5A57F35CE62F}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="581"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="ioSpecification"/>
-			<Column name="ea_guid" value="{52EC4179-95EB-3595-9B23-3F6C83E4FBC2}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="580"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="startQuantity"/>
-			<Column name="Value" value="1"/>
-			<Column name="Notes" value="Default: 1&#xA;"/>
-			<Column name="ea_guid" value="{54E929AD-C59F-eac5-AD46-6903040B1A54}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="579"/>
-			<Column name="Object_ID" value="35"/>
-			<Column name="Property" value="implementation"/>
-			<Column name="Value" value="##unspecified"/>
-			<Column name="Notes" value="Values: ##webService,##unspecified&#xA;Default: ##unspecified&#xA;"/>
-			<Column name="ea_guid" value="{56BD9326-AD5B-fdad-9EDF-3FE725DB4BCA}"/>
-			<Extension Object_ID="{E415C75F-7D18-405d-8AE5-6377A76F8E52}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="578"/>
-			<Column name="Object_ID" value="43"/>
-			<Column name="Property" value="implementation"/>
-			<Column name="Value" value="##unspecified"/>
-			<Column name="Notes" value="Values: ##webService,##unspecified&#xA;Default: ##unspecified&#xA;"/>
-			<Column name="ea_guid" value="{56BD9326-C744-acc7-AB61-0403F8648227}"/>
-			<Extension Object_ID="{30585480-2805-4933-8F36-EF65A9D7D44F}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="577"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="implementation"/>
-			<Column name="Value" value="##unspecified"/>
-			<Column name="Notes" value="Values: ##webService,##unspecified&#xA;Default: ##unspecified&#xA;"/>
-			<Column name="ea_guid" value="{56BD9326-CD78-80cd-9A49-ABAF4DE88816}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="576"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="scriptFormat"/>
-			<Column name="ea_guid" value="{5823DE9E-4850-2b48-9AC9-8D33DC89552B}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="575"/>
-			<Column name="Object_ID" value="51"/>
-			<Column name="Property" value="supports"/>
-			<Column name="ea_guid" value="{5D5BB690-BA40-a5ba-9A7D-BDF6F7D4E5BC}"/>
-			<Extension Object_ID="{C9FE2888-9C57-432b-BB5E-5A57F35CE62F}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="574"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="numberOfInstances"/>
-			<Column name="ea_guid" value="{639CC966-F238-55f2-89EC-44680A64A2F2}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="573"/>
-			<Column name="Object_ID" value="51"/>
-			<Column name="Property" value="monitoring"/>
-			<Column name="ea_guid" value="{681087A6-3756-ea37-B388-E8A16A4EDF78}"/>
-			<Extension Object_ID="{C9FE2888-9C57-432b-BB5E-5A57F35CE62F}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="572"/>
-			<Column name="Object_ID" value="43"/>
-			<Column name="Property" value="monitoring"/>
-			<Column name="ea_guid" value="{681087A6-5CC4-fe5c-8154-49F4266AC9B2}"/>
-			<Extension Object_ID="{30585480-2805-4933-8F36-EF65A9D7D44F}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="571"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="monitoring"/>
-			<Column name="ea_guid" value="{681087A6-68F8-7f68-B961-FD0FA0650A76}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="570"/>
-			<Column name="Object_ID" value="35"/>
-			<Column name="Property" value="monitoring"/>
-			<Column name="ea_guid" value="{681087A6-CF5B-39cf-9D61-60DB015AD22D}"/>
-			<Extension Object_ID="{E415C75F-7D18-405d-8AE5-6377A76F8E52}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="569"/>
-			<Column name="Object_ID" value="35"/>
-			<Column name="Property" value="timeCycle"/>
-			<Column name="ea_guid" value="{68CBF19F-8694-1d86-B41B-2EE7A83087E7}"/>
-			<Extension Object_ID="{E415C75F-7D18-405d-8AE5-6377A76F8E52}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="568"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="noneBehaviorEventRef"/>
-			<Column name="ea_guid" value="{69C6A61F-F591-d4f5-B8C2-F106B14710AE}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="567"/>
-			<Column name="Object_ID" value="51"/>
-			<Column name="Property" value="isClosed"/>
-			<Column name="Value" value="false"/>
-			<Column name="Notes" value="Values: true,false&#xA;Default: false&#xA;"/>
-			<Column name="ea_guid" value="{6A397C56-6BE6-de6b-B614-BD736C4810CD}"/>
-			<Extension Object_ID="{C9FE2888-9C57-432b-BB5E-5A57F35CE62F}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="566"/>
-			<Column name="Object_ID" value="35"/>
-			<Column name="Property" value="outputSet"/>
-			<Column name="ea_guid" value="{6B375DBD-7AB2-cb7a-878C-081188C35204}"/>
-			<Extension Object_ID="{E415C75F-7D18-405d-8AE5-6377A76F8E52}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="565"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="operationRef"/>
-			<Column name="ea_guid" value="{6D041CAE-1260-b012-8671-BDAE0E4B26D6}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="564"/>
-			<Column name="Object_ID" value="43"/>
-			<Column name="Property" value="operationRef"/>
-			<Column name="ea_guid" value="{6D041CAE-292C-bb29-BE67-8BFA6CE062E8}"/>
-			<Extension Object_ID="{30585480-2805-4933-8F36-EF65A9D7D44F}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="563"/>
-			<Column name="Object_ID" value="35"/>
-			<Column name="Property" value="operationRef"/>
-			<Column name="ea_guid" value="{6D041CAE-9D83-9d9d-B390-0F819BA244FC}"/>
-			<Extension Object_ID="{E415C75F-7D18-405d-8AE5-6377A76F8E52}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="562"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="numberOfTerminatedInstances"/>
-			<Column name="ea_guid" value="{6E64F553-AC85-2eac-A9AF-B283AEB71298}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="561"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="triggeredByEvent"/>
-			<Column name="Value" value="false"/>
-			<Column name="Notes" value="Values: true,false&#xA;Default: false&#xA;"/>
-			<Column name="ea_guid" value="{6EEC845A-F2EC-dcf2-AB04-0C305CFC9A2F}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="560"/>
-			<Column name="Object_ID" value="51"/>
-			<Column name="Property" value="processType"/>
-			<Column name="Value" value="None"/>
-			<Column name="Notes" value="Values: None,Public,Private&#xA;Default: None&#xA;"/>
-			<Column name="ea_guid" value="{780C2781-4111-0a41-9A13-BBAB02A741D0}"/>
-			<Extension Object_ID="{C9FE2888-9C57-432b-BB5E-5A57F35CE62F}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="559"/>
-			<Column name="Object_ID" value="35"/>
-			<Column name="Property" value="condition"/>
-			<Column name="ea_guid" value="{81227107-161C-b716-8F0E-78F352D1AA9C}"/>
-			<Extension Object_ID="{E415C75F-7D18-405d-8AE5-6377A76F8E52}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="558"/>
-			<Column name="Object_ID" value="43"/>
-			<Column name="Property" value="eventDefinitionRefs"/>
-			<Column name="ea_guid" value="{881A88DB-3F79-8c3f-9BFD-50A048D9CF2E}"/>
-			<Extension Object_ID="{30585480-2805-4933-8F36-EF65A9D7D44F}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="557"/>
-			<Column name="Object_ID" value="35"/>
-			<Column name="Property" value="eventDefinitionRefs"/>
-			<Column name="ea_guid" value="{881A88DB-8BF0-038b-BEF7-B96822081D4E}"/>
-			<Extension Object_ID="{E415C75F-7D18-405d-8AE5-6377A76F8E52}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="556"/>
-			<Column name="Object_ID" value="35"/>
-			<Column name="Property" value="errorRef"/>
-			<Column name="ea_guid" value="{8F6D37E7-863C-c686-BAA1-58AA9AAD57D2}"/>
-			<Extension Object_ID="{E415C75F-7D18-405d-8AE5-6377A76F8E52}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="555"/>
-			<Column name="Object_ID" value="43"/>
-			<Column name="Property" value="errorRef"/>
-			<Column name="ea_guid" value="{8F6D37E7-A565-06a5-A791-339CF7D8D35F}"/>
-			<Extension Object_ID="{30585480-2805-4933-8F36-EF65A9D7D44F}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="554"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="loopMaximum"/>
-			<Column name="ea_guid" value="{93FAB938-2CAA-fe2c-A154-2CB8650D082E}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="553"/>
-			<Column name="Object_ID" value="43"/>
-			<Column name="Property" value="assignments"/>
-			<Column name="ea_guid" value="{94FA8E8C-076A-a307-B608-73E261719787}"/>
-			<Extension Object_ID="{30585480-2805-4933-8F36-EF65A9D7D44F}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="552"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="assignments"/>
-			<Column name="ea_guid" value="{94FA8E8C-9A1E-459a-9C79-863B5AD26A8F}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="551"/>
-			<Column name="Object_ID" value="35"/>
-			<Column name="Property" value="assignments"/>
-			<Column name="ea_guid" value="{94FA8E8C-CCE1-4ccc-8303-3C1668BB0E26}"/>
-			<Extension Object_ID="{E415C75F-7D18-405d-8AE5-6377A76F8E52}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="550"/>
-			<Column name="Object_ID" value="51"/>
-			<Column name="Property" value="definitionalCollaborationRef"/>
-			<Column name="ea_guid" value="{961DBFDC-374C-9e37-BCC9-C7F0936E3E27}"/>
-			<Extension Object_ID="{C9FE2888-9C57-432b-BB5E-5A57F35CE62F}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="549"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="definitionalCollaborationRef"/>
-			<Column name="ea_guid" value="{961DBFDC-5D6E-3a5d-89B0-F702C89CC625}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="548"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="isForCompensation"/>
-			<Column name="Value" value="false"/>
-			<Column name="Notes" value="Values: true,false&#xA;Default: false&#xA;"/>
-			<Column name="ea_guid" value="{9BFCA313-2FE5-812f-AF4A-BB0235875415}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="547"/>
-			<Column name="Object_ID" value="35"/>
-			<Column name="Property" value="documentation"/>
-			<Column name="ea_guid" value="{9E81EFFA-178F-5d17-93CF-F306DE45E8A9}"/>
-			<Extension Object_ID="{E415C75F-7D18-405d-8AE5-6377A76F8E52}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="546"/>
-			<Column name="Object_ID" value="43"/>
-			<Column name="Property" value="documentation"/>
-			<Column name="ea_guid" value="{9E81EFFA-1858-2c18-9EE3-B6B1C8F48692}"/>
-			<Extension Object_ID="{30585480-2805-4933-8F36-EF65A9D7D44F}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="545"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="documentation"/>
-			<Column name="ea_guid" value="{9E81EFFA-280C-be28-B701-43146C03860A}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="544"/>
-			<Column name="Object_ID" value="51"/>
-			<Column name="Property" value="documentation"/>
-			<Column name="ea_guid" value="{9E81EFFA-C1AA-11c1-BDAB-87FBB037D8B8}"/>
-			<Extension Object_ID="{C9FE2888-9C57-432b-BB5E-5A57F35CE62F}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="543"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="auditing"/>
-			<Column name="ea_guid" value="{A440C275-2747-8327-BD6F-D5D71217D0BD}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="542"/>
-			<Column name="Object_ID" value="35"/>
-			<Column name="Property" value="auditing"/>
-			<Column name="ea_guid" value="{A440C275-98EA-9a98-8497-80D1BFE478A8}"/>
-			<Extension Object_ID="{E415C75F-7D18-405d-8AE5-6377A76F8E52}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="541"/>
-			<Column name="Object_ID" value="43"/>
-			<Column name="Property" value="auditing"/>
-			<Column name="ea_guid" value="{A440C275-B813-dab8-B7ED-A9C76074E8CD}"/>
-			<Extension Object_ID="{30585480-2805-4933-8F36-EF65A9D7D44F}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="540"/>
-			<Column name="Object_ID" value="51"/>
-			<Column name="Property" value="auditing"/>
-			<Column name="ea_guid" value="{A440C275-C625-8ac6-A958-03E97D30AB54}"/>
-			<Extension Object_ID="{C9FE2888-9C57-432b-BB5E-5A57F35CE62F}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="539"/>
-			<Column name="Object_ID" value="35"/>
-			<Column name="Property" value="timeDate"/>
-			<Column name="ea_guid" value="{A615DA6D-24C2-5e24-8E9B-A05F90EA6BEB}"/>
-			<Extension Object_ID="{E415C75F-7D18-405d-8AE5-6377A76F8E52}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="538"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="ioBinding"/>
-			<Column name="ea_guid" value="{AC4DBD73-2465-9524-9850-846F67A39A22}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="537"/>
-			<Column name="Object_ID" value="51"/>
-			<Column name="Property" value="ioBinding"/>
-			<Column name="ea_guid" value="{AC4DBD73-9F03-909f-9DCA-5E6305C48792}"/>
-			<Extension Object_ID="{C9FE2888-9C57-432b-BB5E-5A57F35CE62F}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="536"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="supportedInterfaceRefs"/>
-			<Column name="ea_guid" value="{AF81A6C7-56D9-c856-B8B7-BED900CA7C6A}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="535"/>
-			<Column name="Object_ID" value="51"/>
-			<Column name="Property" value="supportedInterfaceRefs"/>
-			<Column name="ea_guid" value="{AF81A6C7-A237-bda2-A7AE-7CC59559F19A}"/>
-			<Extension Object_ID="{C9FE2888-9C57-432b-BB5E-5A57F35CE62F}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="534"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="oneBehaviorEventRef"/>
-			<Column name="ea_guid" value="{B0F0B871-55A3-2f55-B07B-5345F7CE38C2}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="533"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="loopCounter"/>
-			<Column name="ea_guid" value="{B2A9229A-960C-ac96-A8A3-746AAEAEE52E}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="532"/>
-			<Column name="Object_ID" value="51"/>
-			<Column name="Property" value="resources"/>
-			<Column name="ea_guid" value="{B53EA07B-1A2B-c91a-9D7D-48A61DA18836}"/>
-			<Extension Object_ID="{C9FE2888-9C57-432b-BB5E-5A57F35CE62F}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="531"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="resources"/>
-			<Column name="ea_guid" value="{B53EA07B-9F8D-cd9f-B101-89FBBBEE7232}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="530"/>
-			<Column name="Object_ID" value="35"/>
-			<Column name="Property" value="isInterrupting"/>
-			<Column name="Value" value="true"/>
-			<Column name="Notes" value="Values: true,false&#xA;Default: true&#xA;"/>
-			<Column name="ea_guid" value="{B669FC67-6A7C-3e6a-AB5B-4A61E0DF3A1F}"/>
-			<Extension Object_ID="{E415C75F-7D18-405d-8AE5-6377A76F8E52}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="529"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="testBefore"/>
-			<Column name="Value" value="false"/>
-			<Column name="Notes" value="Values: true,false&#xA;Default: false&#xA;"/>
-			<Column name="ea_guid" value="{B8CF8F53-5C85-995c-ABBA-9BE1A2E79C78}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="528"/>
-			<Column name="Object_ID" value="51"/>
-			<Column name="Property" value="correlationSubscription"/>
-			<Column name="ea_guid" value="{C16CDD87-DF17-06df-B3BC-334DE7688995}"/>
-			<Extension Object_ID="{C9FE2888-9C57-432b-BB5E-5A57F35CE62F}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="527"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="completionQuantity"/>
-			<Column name="Value" value="1"/>
-			<Column name="Notes" value="Default: 1&#xA;"/>
-			<Column name="ea_guid" value="{C1939B99-12CB-f512-BC9E-6CEB24924D2B}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="526"/>
-			<Column name="Object_ID" value="35"/>
-			<Column name="Property" value="eventDefinition"/>
-			<Column name="Value" value="Message"/>
-			<Column name="Notes" value="Values: None,Compensation,Conditional,Error,Escalation,Message,Multiple,Timer,Signal,ParallelMultiple&#xA;Default: None&#xA;"/>
-			<Column name="ea_guid" value="{C837CCEB-09A0-2909-A2FA-D18BF8511FD2}"/>
-			<Extension Object_ID="{E415C75F-7D18-405d-8AE5-6377A76F8E52}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="525"/>
-			<Column name="Object_ID" value="43"/>
-			<Column name="Property" value="eventDefinition"/>
-			<Column name="Value" value="Message"/>
-			<Column name="Notes" value="Values: None,Cancel,Compensation,Error,Escalation,Message,Multiple,Terminate,Signal&#xA;Default: None&#xA;"/>
-			<Column name="ea_guid" value="{C837CCEB-60A9-bb60-B4FE-C1BCBF0888A9}"/>
-			<Extension Object_ID="{30585480-2805-4933-8F36-EF65A9D7D44F}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="524"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="behavior"/>
-			<Column name="Value" value="All"/>
-			<Column name="Notes" value="Values: None,One,All,Complex&#xA;Default: All&#xA;"/>
-			<Column name="ea_guid" value="{C9A3C2B0-2782-e627-ACE2-2AAED72A145D}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="523"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="loopCondition"/>
-			<Column name="ea_guid" value="{CE920621-1E13-401e-95DF-956B2371A76E}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="522"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="adHocOrdering"/>
-			<Column name="Value" value="Unspecified"/>
-			<Column name="Notes" value="Values: Parallel,Sequential&#xA;Default: Parallel&#xA;"/>
-			<Column name="ea_guid" value="{D5138C99-806B-7e80-9D77-740392E5A6A5}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="521"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="taskPriority"/>
-			<Column name="ea_guid" value="{D86C3675-1827-de18-9D95-E415957CAEC0}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="520"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="completionCondition"/>
-			<Column name="ea_guid" value="{DC4E2DE1-8B53-de8b-99E1-032EE63F244D}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="519"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="sub-ProcessRef"/>
-			<Column name="ea_guid" value="{E0147F53-0D65-850d-9331-029E5A8445B8}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="518"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="isATransaction"/>
-			<Column name="Value" value="false"/>
-			<Column name="Notes" value="Values: true,false&#xA;Default: false&#xA;"/>
-			<Column name="ea_guid" value="{E154E8E3-CEF5-15ce-AC83-6D2A4688E5B6}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="517"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="loopDataOutputRef"/>
-			<Column name="ea_guid" value="{E59922A2-3B54-073b-A2F9-0B87FACCEB52}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="516"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="transactionProtocol"/>
-			<Column name="ea_guid" value="{E957DFB8-C12A-3bc1-902B-5BD1D74374AD}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="515"/>
-			<Column name="Object_ID" value="35"/>
-			<Column name="Property" value="escalationRef"/>
-			<Column name="ea_guid" value="{F0863340-D2B5-60d2-B2FC-94402A37F242}"/>
-			<Extension Object_ID="{E415C75F-7D18-405d-8AE5-6377A76F8E52}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="514"/>
-			<Column name="Object_ID" value="43"/>
-			<Column name="Property" value="escalationRef"/>
-			<Column name="ea_guid" value="{F0863340-D37E-2fd3-82CD-6CAB6042A97B}"/>
-			<Extension Object_ID="{30585480-2805-4933-8F36-EF65A9D7D44F}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="513"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="isACalledActivity"/>
-			<Column name="Value" value="false"/>
-			<Column name="Notes" value="Values: true,false&#xA;Default: false&#xA;"/>
-			<Column name="ea_guid" value="{F4B2930F-FBC1-60fb-B373-6B89DBA0784E}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="512"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="complexBehaviorDefinition"/>
-			<Column name="ea_guid" value="{FAFD99F1-14C3-e614-A819-B9D758632861}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="511"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="calledActivityRef"/>
-			<Column name="ea_guid" value="{FB86FB8F-BC61-cdbc-8172-F789B0179763}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="510"/>
-			<Column name="Object_ID" value="35"/>
-			<Column name="Property" value="categoryValue"/>
-			<Column name="ea_guid" value="{FCFED03B-E7B0-96e7-8A34-1BDFE543D127}"/>
-			<Extension Object_ID="{E415C75F-7D18-405d-8AE5-6377A76F8E52}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="509"/>
-			<Column name="Object_ID" value="43"/>
-			<Column name="Property" value="categoryValue"/>
-			<Column name="ea_guid" value="{FCFED03B-E879-65e8-842C-5C3B1CE3CF9C}"/>
-			<Extension Object_ID="{30585480-2805-4933-8F36-EF65A9D7D44F}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="508"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="categoryValue"/>
-			<Column name="ea_guid" value="{FCFED03B-F82D-f7f8-8E81-AF94D078685D}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="507"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="Property" value="numberOfCompletedInstances"/>
-			<Column name="ea_guid" value="{FD9FE0E3-F5D5-42f5-B38E-6FDF5CA79D6E}"/>
-			<Extension Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-	</Table>
-	<Table name="t_connector">
-		<Row>
-			<Column name="Connector_ID" value="4"/>
-			<Column name="Direction" value="Source -&gt; Destination"/>
-			<Column name="Connector_Type" value="ControlFlow"/>
-			<Column name="SourceAccess" value="Public"/>
-			<Column name="DestAccess" value="Public"/>
-			<Column name="SourceContainment" value="Unspecified"/>
-			<Column name="SourceIsAggregate" value="0"/>
-			<Column name="SourceIsOrdered" value="0"/>
-			<Column name="DestContainment" value="Unspecified"/>
-			<Column name="DestIsAggregate" value="0"/>
-			<Column name="DestIsOrdered" value="0"/>
-			<Column name="Start_Object_ID" value="35"/>
-			<Column name="End_Object_ID" value="52"/>
-			<Column name="Btm_Mid_Label" value="   «SequenceFlow»"/>
-			<Column name="Start_Edge" value="0"/>
-			<Column name="End_Edge" value="0"/>
-			<Column name="PtStartX" value="0"/>
-			<Column name="PtStartY" value="0"/>
-			<Column name="PtEndX" value="0"/>
-			<Column name="PtEndY" value="0"/>
-			<Column name="SeqNo" value="0"/>
-			<Column name="HeadStyle" value="0"/>
-			<Column name="LineStyle" value="0"/>
-			<Column name="RouteStyle" value="3"/>
-			<Column name="IsBold" value="0"/>
-			<Column name="LineColor" value="-1"/>
-			<Column name="Stereotype" value="SequenceFlow"/>
-			<Column name="VirtualInheritance" value="0"/>
-			<Column name="DiagramID" value="0"/>
-			<Column name="ea_guid" value="{C44F3BFA-EE72-47c4-B4AE-C5D354B0A806}"/>
-			<Column name="SourceIsNavigable" value="0"/>
-			<Column name="DestIsNavigable" value="1"/>
-			<Column name="IsRoot" value="0"/>
-			<Column name="IsLeaf" value="0"/>
-			<Column name="IsSpec" value="0"/>
-			<Column name="SourceChangeable" value="none"/>
-			<Column name="DestChangeable" value="none"/>
-			<Column name="SourceTS" value="instance"/>
-			<Column name="DestTS" value="instance"/>
-			<Column name="IsSignal" value="0"/>
-			<Column name="IsStimulus" value="0"/>
-			<Column name="Target2" value="0"/>
-			<Column name="SourceStyle" value="Union=0;Derived=0;AllowDuplicates=0;"/>
-			<Column name="DestStyle" value="Union=0;Derived=0;AllowDuplicates=0;"/>
-			<Extension Start_Object_ID="{E415C75F-7D18-405d-8AE5-6377A76F8E52}" End_Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="Connector_ID" value="3"/>
-			<Column name="Direction" value="Source -&gt; Destination"/>
-			<Column name="Connector_Type" value="ControlFlow"/>
-			<Column name="SourceAccess" value="Public"/>
-			<Column name="DestAccess" value="Public"/>
-			<Column name="SourceContainment" value="Unspecified"/>
-			<Column name="SourceIsAggregate" value="0"/>
-			<Column name="SourceIsOrdered" value="0"/>
-			<Column name="DestContainment" value="Unspecified"/>
-			<Column name="DestIsAggregate" value="0"/>
-			<Column name="DestIsOrdered" value="0"/>
-			<Column name="Start_Object_ID" value="52"/>
-			<Column name="End_Object_ID" value="43"/>
-			<Column name="Btm_Mid_Label" value="   «SequenceFlow»"/>
-			<Column name="Start_Edge" value="0"/>
-			<Column name="End_Edge" value="0"/>
-			<Column name="PtStartX" value="0"/>
-			<Column name="PtStartY" value="0"/>
-			<Column name="PtEndX" value="0"/>
-			<Column name="PtEndY" value="0"/>
-			<Column name="SeqNo" value="0"/>
-			<Column name="HeadStyle" value="0"/>
-			<Column name="LineStyle" value="0"/>
-			<Column name="RouteStyle" value="3"/>
-			<Column name="IsBold" value="0"/>
-			<Column name="LineColor" value="-1"/>
-			<Column name="Stereotype" value="SequenceFlow"/>
-			<Column name="VirtualInheritance" value="0"/>
-			<Column name="DiagramID" value="0"/>
-			<Column name="ea_guid" value="{E75B7FF2-6452-4daf-83E3-DEAC4CD9E77D}"/>
-			<Column name="SourceIsNavigable" value="0"/>
-			<Column name="DestIsNavigable" value="1"/>
-			<Column name="IsRoot" value="0"/>
-			<Column name="IsLeaf" value="0"/>
-			<Column name="IsSpec" value="0"/>
-			<Column name="SourceChangeable" value="none"/>
-			<Column name="DestChangeable" value="none"/>
-			<Column name="SourceTS" value="instance"/>
-			<Column name="DestTS" value="instance"/>
-			<Column name="IsSignal" value="0"/>
-			<Column name="IsStimulus" value="0"/>
-			<Column name="Target2" value="0"/>
-			<Column name="SourceStyle" value="Union=0;Derived=0;AllowDuplicates=0;"/>
-			<Column name="DestStyle" value="Union=0;Derived=0;AllowDuplicates=0;"/>
-			<Extension Start_Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}" End_Object_ID="{30585480-2805-4933-8F36-EF65A9D7D44F}"/>
-		</Row>
-	</Table>
-	<Table name="t_connectortag">
-		<Row>
-			<Column name="PropertyID" value="36"/>
-			<Column name="ElementID" value="3"/>
-			<Column name="Property" value="conditionExpression"/>
-			<Column name="ea_guid" value="{2FE3F717-B2CD-d9b2-A1F0-67A91A3EE405}"/>
-			<Extension ElementID="{E75B7FF2-6452-4daf-83E3-DEAC4CD9E77D}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="35"/>
-			<Column name="ElementID" value="4"/>
-			<Column name="Property" value="conditionExpression"/>
-			<Column name="ea_guid" value="{2FE3F717-B2CD-d9b2-B58B-51FA8727485A}"/>
-			<Extension ElementID="{C44F3BFA-EE72-47c4-B4AE-C5D354B0A806}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="34"/>
-			<Column name="ElementID" value="4"/>
-			<Column name="Property" value="conditionType"/>
-			<Column name="VALUE" value="None"/>
-			<Column name="NOTES" value="Values: None,Default,Expression&#xA;Default: None&#xA;"/>
-			<Column name="ea_guid" value="{3FB34A09-F53F-4bf5-84C7-DA062C5D18DA}"/>
-			<Extension ElementID="{C44F3BFA-EE72-47c4-B4AE-C5D354B0A806}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="33"/>
-			<Column name="ElementID" value="3"/>
-			<Column name="Property" value="conditionType"/>
-			<Column name="VALUE" value="None"/>
-			<Column name="NOTES" value="Values: None,Default,Expression&#xA;Default: None&#xA;"/>
-			<Column name="ea_guid" value="{3FB34A09-F53F-4bf5-BF33-4B550F7F7722}"/>
-			<Extension ElementID="{E75B7FF2-6452-4daf-83E3-DEAC4CD9E77D}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="32"/>
-			<Column name="ElementID" value="3"/>
-			<Column name="Property" value="dataObjectRef"/>
-			<Column name="ea_guid" value="{48F8EC4E-7B64-147b-89C6-30A7867CADF5}"/>
-			<Extension ElementID="{E75B7FF2-6452-4daf-83E3-DEAC4CD9E77D}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="31"/>
-			<Column name="ElementID" value="4"/>
-			<Column name="Property" value="dataObjectRef"/>
-			<Column name="ea_guid" value="{48F8EC4E-7B64-147b-B95A-E3B381AFCD3D}"/>
-			<Extension ElementID="{C44F3BFA-EE72-47c4-B4AE-C5D354B0A806}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="30"/>
-			<Column name="ElementID" value="3"/>
-			<Column name="Property" value="monitoring"/>
-			<Column name="ea_guid" value="{681087A6-0EBC-080e-85F7-7F18EC5D3DF1}"/>
-			<Extension ElementID="{E75B7FF2-6452-4daf-83E3-DEAC4CD9E77D}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="29"/>
-			<Column name="ElementID" value="4"/>
-			<Column name="Property" value="monitoring"/>
-			<Column name="ea_guid" value="{681087A6-0EBC-080e-BA5F-47C0CC5C6282}"/>
-			<Extension ElementID="{C44F3BFA-EE72-47c4-B4AE-C5D354B0A806}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="28"/>
-			<Column name="ElementID" value="3"/>
-			<Column name="Property" value="isImmediate"/>
-			<Column name="NOTES" value="Values: true,false&#xA;"/>
-			<Column name="ea_guid" value="{9C493E8B-8841-a388-B09D-1D5D511A1578}"/>
-			<Extension ElementID="{E75B7FF2-6452-4daf-83E3-DEAC4CD9E77D}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="27"/>
-			<Column name="ElementID" value="4"/>
-			<Column name="Property" value="isImmediate"/>
-			<Column name="NOTES" value="Values: true,false&#xA;"/>
-			<Column name="ea_guid" value="{9C493E8B-8841-a388-B8A7-E93423A5A51A}"/>
-			<Extension ElementID="{C44F3BFA-EE72-47c4-B4AE-C5D354B0A806}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="26"/>
-			<Column name="ElementID" value="3"/>
-			<Column name="Property" value="documentation"/>
-			<Column name="ea_guid" value="{9E81EFFA-2750-2c27-B612-1B9BCE6D7A43}"/>
-			<Extension ElementID="{E75B7FF2-6452-4daf-83E3-DEAC4CD9E77D}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="25"/>
-			<Column name="ElementID" value="4"/>
-			<Column name="Property" value="documentation"/>
-			<Column name="ea_guid" value="{9E81EFFA-2750-2c27-B851-0BDD7D6E484F}"/>
-			<Extension ElementID="{C44F3BFA-EE72-47c4-B4AE-C5D354B0A806}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="24"/>
-			<Column name="ElementID" value="4"/>
-			<Column name="Property" value="auditing"/>
-			<Column name="ea_guid" value="{A440C275-8C0B-5f8c-A10B-DCBC48C9BAFE}"/>
-			<Extension ElementID="{C44F3BFA-EE72-47c4-B4AE-C5D354B0A806}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="23"/>
-			<Column name="ElementID" value="3"/>
-			<Column name="Property" value="auditing"/>
-			<Column name="ea_guid" value="{A440C275-8C0B-5f8c-A7D1-DC6D13EE66BE}"/>
-			<Extension ElementID="{E75B7FF2-6452-4daf-83E3-DEAC4CD9E77D}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="22"/>
-			<Column name="ElementID" value="3"/>
-			<Column name="Property" value="gatewayOrdering"/>
-			<Column name="ea_guid" value="{A9B4024C-CB02-8ecb-8012-E7080C5A25AC}"/>
-			<Extension ElementID="{E75B7FF2-6452-4daf-83E3-DEAC4CD9E77D}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="21"/>
-			<Column name="ElementID" value="4"/>
-			<Column name="Property" value="gatewayOrdering"/>
-			<Column name="ea_guid" value="{A9B4024C-CB02-8ecb-8CBF-6E1D06BCFE5B}"/>
-			<Extension ElementID="{C44F3BFA-EE72-47c4-B4AE-C5D354B0A806}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="20"/>
-			<Column name="ElementID" value="4"/>
-			<Column name="Property" value="categoryValue"/>
-			<Column name="ea_guid" value="{FCFED03B-F771-65f7-BD09-DFA4523DD595}"/>
-			<Extension ElementID="{C44F3BFA-EE72-47c4-B4AE-C5D354B0A806}"/>
-		</Row>
-		<Row>
-			<Column name="PropertyID" value="19"/>
-			<Column name="ElementID" value="3"/>
-			<Column name="Property" value="categoryValue"/>
-			<Column name="ea_guid" value="{FCFED03B-F771-65f7-BD39-423910EC5A04}"/>
-			<Extension ElementID="{E75B7FF2-6452-4daf-83E3-DEAC4CD9E77D}"/>
-		</Row>
-	</Table>
-	<Table name="t_diagram">
-		<Row>
-			<Column name="Diagram_ID" value="4"/>
-			<Column name="Package_ID" value="12"/>
-			<Column name="ParentID" value="51"/>
-			<Column name="Diagram_Type" value="Analysis"/>
-			<Column name="Name" value="BPMN 2.0 Business Process View"/>
-			<Column name="Version" value="1.0"/>
-			<Column name="ShowDetails" value="0"/>
-			<Column name="AttPub" value="1"/>
-			<Column name="AttPri" value="1"/>
-			<Column name="AttPro" value="1"/>
-			<Column name="Orientation" value="P"/>
-			<Column name="cx" value="780"/>
-			<Column name="cy" value="1134"/>
-			<Column name="Scale" value="100"/>
-			<Column name="CreatedDate" value="2019-02-10 19:13:34"/>
-			<Column name="ModifiedDate" value="2019-02-10 19:13:34"/>
-			<Column name="ShowForeign" value="1"/>
-			<Column name="ShowBorder" value="1"/>
-			<Column name="ShowPackageContents" value="1"/>
-			<Column name="PDATA" value="HideRel=0;ShowTags=0;ShowReqs=0;ShowCons=0;OpParams=1;ShowSN=0;ScalePI=0;PPgs.cx=1;PPgs.cy=1;PSize=9;ShowIcons=1;SuppCN=0;HideProps=0;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideEStereo=0;ShowShape=1;FormName=;"/>
-			<Column name="Locked" value="0"/>
-			<Column name="ea_guid" value="{4A340205-DCD5-4a6c-94B3-5B1588B41110}"/>
-			<Column name="TPos" value="0"/>
-			<Column name="Swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;cls=0;"/>
-			<Column name="StyleEx" value="SaveTag=231CC480;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;ProfileData=;MDGDgm=BPMN2.0::Business Process;DefaultLang=C#;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
-			<Extension Package_ID="{22E0540D-434D-4118-B226-BE78B08533D8}" ParentID="{C9FE2888-9C57-432b-BB5E-5A57F35CE62F}"/>
-		</Row>
-		<Row>
-			<Column name="Diagram_ID" value="3"/>
-			<Column name="Package_ID" value="8"/>
-			<Column name="ParentID" value="0"/>
-			<Column name="Diagram_Type" value="Custom"/>
-			<Column name="Name" value="dokumentacja"/>
-			<Column name="Version" value="1.0"/>
-			<Column name="Author" value="Piotr Popardowski"/>
-			<Column name="ShowDetails" value="0"/>
-			<Column name="AttPub" value="1"/>
-			<Column name="AttPri" value="1"/>
-			<Column name="AttPro" value="1"/>
-			<Column name="Orientation" value="P"/>
-			<Column name="cx" value="795"/>
-			<Column name="cy" value="1138"/>
-			<Column name="Scale" value="100"/>
-			<Column name="CreatedDate" value="2019-01-08 08:50:48"/>
-			<Column name="ModifiedDate" value="2019-02-10 19:50:37"/>
-			<Column name="ShowForeign" value="1"/>
-			<Column name="ShowBorder" value="1"/>
-			<Column name="ShowPackageContents" value="1"/>
-			<Column name="PDATA" value="HideRel=0;ShowTags=0;ShowReqs=0;ShowCons=0;OpParams=1;ShowSN=0;ScalePI=0;PPgs.cx=1;PPgs.cy=1;PSize=9;ShowIcons=1;SuppCN=0;HideProps=0;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideEStereo=0;ShowShape=1;FormName=;"/>
-			<Column name="Locked" value="0"/>
-			<Column name="ea_guid" value="{629C23F2-4425-4fb3-B41C-489B39A85EE8}"/>
-			<Column name="TPos" value="0"/>
-			<Column name="Swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;cls=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
-			<Column name="StyleEx" value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;ProfileData=;MDGDgm=Extended::ModelDocument;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;SaveTag=9107D218;"/>
-			<Extension Package_ID="{9CB6C0A9-5BCE-41e3-B448-B94650BB5054}"/>
-		</Row>
-		<Row>
-			<Column name="Diagram_ID" value="1"/>
-			<Column name="Package_ID" value="3"/>
-			<Column name="ParentID" value="0"/>
-			<Column name="Diagram_Type" value="Logical"/>
-			<Column name="Name" value="Class Model"/>
-			<Column name="Version" value="1.0"/>
-			<Column name="Author" value="andrzej.stasiak"/>
-			<Column name="ShowDetails" value="0"/>
-			<Column name="AttPub" value="1"/>
-			<Column name="AttPri" value="1"/>
-			<Column name="AttPro" value="1"/>
-			<Column name="Orientation" value="P"/>
-			<Column name="cx" value="827"/>
-			<Column name="cy" value="1169"/>
-			<Column name="Scale" value="100"/>
-			<Column name="CreatedDate" value="2019-02-10 19:17:15"/>
-			<Column name="ModifiedDate" value="2019-02-10 19:27:19"/>
-			<Column name="ShowForeign" value="0"/>
-			<Column name="ShowBorder" value="0"/>
-			<Column name="ShowPackageContents" value="1"/>
-			<Column name="PDATA" value="HideRel=0;ShowTags=0;ShowReqs=0;ShowCons=0;OpParams=1;ShowSN=0;ScalePI=0;PPgs.cx=0;PPgs.cy=0;PSize=9;ShowIcons=1;SuppCN=0;HideProps=0;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideEStereo=0;ShowShape=1;FormName=;"/>
-			<Column name="Locked" value="0"/>
-			<Column name="ea_guid" value="{D45BB5AD-CF43-4979-8B5C-B9B6A1E5879F}"/>
-			<Column name="TPos" value="0"/>
-			<Column name="Swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;cls=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
-			<Column name="StyleEx" value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.0;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;SaveTag=56AC0043;"/>
-			<Extension Package_ID="{474503E7-9A18-4e61-B296-DC9905FB184C}"/>
-		</Row>
-	</Table>
-	<Table name="t_diagramobjects">
-		<Row>
-			<Column name="Diagram_ID" value="1"/>
-			<Column name="Object_ID" value="8"/>
-			<Column name="RectTop" value="-82"/>
-			<Column name="RectLeft" value="166"/>
-			<Column name="RectRight" value="256"/>
-			<Column name="RectBottom" value="-152"/>
-			<Column name="Sequence" value="1"/>
-			<Column name="ObjectStyle" value="DUID=9E87515D;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;"/>
-			<Column name="Instance_ID" value="64"/>
-			<Extension Diagram_ID="{D45BB5AD-CF43-4979-8B5C-B9B6A1E5879F}" Object_ID="{D73E3341-C6E5-445c-B05A-ABB4672C24E5}"/>
-		</Row>
-		<Row>
-			<Column name="Diagram_ID" value="3"/>
-			<Column name="Object_ID" value="9"/>
-			<Column name="RectTop" value="-386"/>
-			<Column name="RectLeft" value="88"/>
-			<Column name="RectRight" value="428"/>
-			<Column name="RectBottom" value="-434"/>
-			<Column name="Sequence" value="2"/>
-			<Column name="ObjectStyle" value="DUID=BB5916DA;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;"/>
-			<Column name="Instance_ID" value="65"/>
-			<Extension Diagram_ID="{629C23F2-4425-4fb3-B41C-489B39A85EE8}" Object_ID="{87659778-CED7-4351-8AFB-5F6BDC097159}"/>
-		</Row>
-		<Row>
-			<Column name="Diagram_ID" value="3"/>
-			<Column name="Object_ID" value="14"/>
-			<Column name="RectTop" value="-502"/>
-			<Column name="RectLeft" value="88"/>
-			<Column name="RectRight" value="428"/>
-			<Column name="RectBottom" value="-550"/>
-			<Column name="Sequence" value="1"/>
-			<Column name="ObjectStyle" value="DUID=F722064A;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;"/>
-			<Column name="Instance_ID" value="66"/>
-			<Extension Diagram_ID="{629C23F2-4425-4fb3-B41C-489B39A85EE8}" Object_ID="{87DE594D-DF48-42da-8A53-6126F4BED890}"/>
-		</Row>
-		<Row>
-			<Column name="Diagram_ID" value="3"/>
-			<Column name="Object_ID" value="75"/>
-			<Column name="RectTop" value="-38"/>
-			<Column name="RectLeft" value="88"/>
-			<Column name="RectRight" value="428"/>
-			<Column name="RectBottom" value="-86"/>
-			<Column name="Sequence" value="5"/>
-			<Column name="ObjectStyle" value="DUID=D204501F;"/>
-			<Column name="Instance_ID" value="67"/>
-			<Extension Diagram_ID="{629C23F2-4425-4fb3-B41C-489B39A85EE8}" Object_ID="{ECA652D9-AC1B-44c9-AF3D-A055644A08FC}"/>
-		</Row>
-		<Row>
-			<Column name="Diagram_ID" value="3"/>
-			<Column name="Object_ID" value="83"/>
-			<Column name="RectTop" value="-154"/>
-			<Column name="RectLeft" value="88"/>
-			<Column name="RectRight" value="428"/>
-			<Column name="RectBottom" value="-202"/>
-			<Column name="Sequence" value="4"/>
-			<Column name="ObjectStyle" value="DUID=EDBDE11F;"/>
-			<Column name="Instance_ID" value="68"/>
-			<Extension Diagram_ID="{629C23F2-4425-4fb3-B41C-489B39A85EE8}" Object_ID="{2A6B3D71-AD47-46e6-A7EC-1A7D9FAEC935}"/>
-		</Row>
-		<Row>
-			<Column name="Diagram_ID" value="3"/>
-			<Column name="Object_ID" value="84"/>
-			<Column name="RectTop" value="-270"/>
-			<Column name="RectLeft" value="88"/>
-			<Column name="RectRight" value="428"/>
-			<Column name="RectBottom" value="-318"/>
-			<Column name="Sequence" value="3"/>
-			<Column name="ObjectStyle" value="DUID=7F21154D;"/>
-			<Column name="Instance_ID" value="69"/>
-			<Extension Diagram_ID="{629C23F2-4425-4fb3-B41C-489B39A85EE8}" Object_ID="{B0C5EE93-3683-4cee-8CD6-9AC72939B8C4}"/>
-		</Row>
-		<Row>
-			<Column name="Diagram_ID" value="4"/>
-			<Column name="Object_ID" value="35"/>
-			<Column name="RectTop" value="-233"/>
-			<Column name="RectLeft" value="74"/>
-			<Column name="RectRight" value="102"/>
-			<Column name="RectBottom" value="-261"/>
-			<Column name="Sequence" value="3"/>
-			<Column name="ObjectStyle" value="NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;LBL=CX=43:CY=28:OX=-14:OY=35:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;DUID=E7E6B68A;"/>
-			<Column name="Instance_ID" value="70"/>
-			<Extension Diagram_ID="{4A340205-DCD5-4a6c-94B3-5B1588B41110}" Object_ID="{E415C75F-7D18-405d-8AE5-6377A76F8E52}"/>
-		</Row>
-		<Row>
-			<Column name="Diagram_ID" value="4"/>
-			<Column name="Object_ID" value="43"/>
-			<Column name="RectTop" value="-231"/>
-			<Column name="RectLeft" value="379"/>
-			<Column name="RectRight" value="409"/>
-			<Column name="RectBottom" value="-261"/>
-			<Column name="Sequence" value="2"/>
-			<Column name="ObjectStyle" value="NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;LBL=CX=61:CY=28:OX=0:OY=30:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:ALT=0:ROT=0;DUID=4245893C;"/>
-			<Column name="Instance_ID" value="71"/>
-			<Extension Diagram_ID="{4A340205-DCD5-4a6c-94B3-5B1588B41110}" Object_ID="{30585480-2805-4933-8F36-EF65A9D7D44F}"/>
-		</Row>
-		<Row>
-			<Column name="Diagram_ID" value="4"/>
-			<Column name="Object_ID" value="44"/>
-			<Column name="RectTop" value="-145"/>
-			<Column name="RectLeft" value="75"/>
-			<Column name="RectRight" value="314"/>
-			<Column name="RectBottom" value="-163"/>
-			<Column name="Sequence" value="4"/>
-			<Column name="ObjectStyle" value="HideIcon=0;NSL=0;DUID=6F21C475;"/>
-			<Column name="Instance_ID" value="72"/>
-			<Extension Diagram_ID="{4A340205-DCD5-4a6c-94B3-5B1588B41110}" Object_ID="{C2D6178D-2086-4383-BA15-5C50A0DEA771}"/>
-		</Row>
-		<Row>
-			<Column name="Diagram_ID" value="4"/>
-			<Column name="Object_ID" value="45"/>
-			<Column name="RectTop" value="-30"/>
-			<Column name="RectLeft" value="75"/>
-			<Column name="RectRight" value="190"/>
-			<Column name="RectBottom" value="-114"/>
-			<Column name="Sequence" value="5"/>
-			<Column name="ObjectStyle" value="NSL=0;DUID=2250F5EE;"/>
-			<Column name="Instance_ID" value="73"/>
-			<Extension Diagram_ID="{4A340205-DCD5-4a6c-94B3-5B1588B41110}" Object_ID="{783B1CD9-3096-441d-AC24-051B4E77EFB7}"/>
-		</Row>
-		<Row>
-			<Column name="Diagram_ID" value="4"/>
-			<Column name="Object_ID" value="52"/>
-			<Column name="RectTop" value="-223"/>
-			<Column name="RectLeft" value="188"/>
-			<Column name="RectRight" value="298"/>
-			<Column name="RectBottom" value="-283"/>
-			<Column name="Sequence" value="1"/>
-			<Column name="ObjectStyle" value="NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;italic=0;ul=0;charset=0;pitch=0;DUID=5FC1A905;"/>
-			<Column name="Instance_ID" value="74"/>
-			<Extension Diagram_ID="{4A340205-DCD5-4a6c-94B3-5B1588B41110}" Object_ID="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-	</Table>
-	<Table name="t_diagramlinks">
-		<Row>
-			<Column name="DiagramID" value="4"/>
-			<Column name="ConnectorID" value="3"/>
-			<Column name="Geometry" value="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;"/>
-			<Column name="Style" value="Mode=3;EOID=1979F353;SOID=12ADD587;Color=-1;LWidth=0;TREE=OR;"/>
-			<Column name="Hidden" value="0"/>
-			<Column name="Instance_ID" value="5"/>
-			<Extension DiagramID="{4A340205-DCD5-4a6c-94B3-5B1588B41110}" ConnectorID="{E75B7FF2-6452-4daf-83E3-DEAC4CD9E77D}"/>
-		</Row>
-		<Row>
-			<Column name="DiagramID" value="4"/>
-			<Column name="ConnectorID" value="4"/>
-			<Column name="Geometry" value="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=CX=122:CY=13:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=0:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;"/>
-			<Column name="Style" value="Mode=3;EOID=12ADD587;SOID=F2EC905F;Color=-1;LWidth=0;TREE=OR;"/>
-			<Column name="Hidden" value="0"/>
-			<Column name="Instance_ID" value="6"/>
-			<Extension DiagramID="{4A340205-DCD5-4a6c-94B3-5B1588B41110}" ConnectorID="{C44F3BFA-EE72-47c4-B4AE-C5D354B0A806}"/>
+			<Extension PDATA1="{BEF68004-ADD8-419c-91A3-EBF463758B40}"/>
 		</Row>
 	</Table>
 	<Table name="t_document">
-		<Row>
-			<Column name="DocID" value="{0852EA25-7B26-437a-B630-EC658D98B7E3}"/>
-			<Column name="DocName" value="Dokumenty etapu definicji::Przedstawienie problemu dla systemu dyplom"/>
-			<Column name="ElementID" value="{2A6B3D71-AD47-46e6-A7EC-1A7D9FAEC935}"/>
-			<Column name="ElementType" value="ModelDocument"/>
-			<Column name="BinContent" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">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
-</Column>
-			<Column name="DocType" value="ModelDocument"/>
-			<Column name="IsActive" value="4084"/>
-			<Column name="Sequence" value="0"/>
-			<Column name="DocDate" value="2019-02-10 18:19:32"/>
-		</Row>
-		<Row>
-			<Column name="DocID" value="{87659778-CED7-4351-8AFB-5F6BDC097159}"/>
-			<Column name="DocName" value="Przedstawienie problemu"/>
-			<Column name="ElementID" value="{87659778-CED7-4351-8AFB-5F6BDC097159}"/>
-			<Column name="ElementType" value="ModelDocument"/>
-			<Column name="BinContent" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">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
-bWfrLIpAnkgQENcGkWraDQQM1bTmdQbXrchNjJdMjddkP2frfZVg1vyLMTIg
-f0BYPV+0hC3HNX0Pf0k5x9halLEv91qC8AjfjnQIvqJ1yxYeFAPXnmKLvr9I
-cTKIJm4QYTQ7RK+5RSxh5pabxBL23nSbWMLwvBvFEgwWulUsQWXpm8USnO52
-u1iA3Be4YXRYCkX7ABlqUurZgfMf0kjbsWhC2rBu3nC1tL3Fnpa2UwaYaGnT
-0jYmbU7gmUFf2kTRhLS5Wtq0tIngvGQd+y7CQEvbJCctbWPS5hMvGEibKJqQ
-Nu+e0jbbldcI23wjt8jafGtvErX5ZudJ2nz7CwnafCJLy9l8RncTs9nUvoCU
-jQmZZZmE0J6QyaIJIfO1kGkhm7SNfRewr4XsLCMtZEMhc9yAWH0hE0UTQoa7
-tXmD1UJ2mzUtZH37mGghu8AIk69IyDzbcuy+kImiCSEj8gW4OaPVSnabNa1k
-ffuYaCW7wAiTr0jJfN/zB0omiqaUTP9fn1ayadvYdwH7WsnOMtJKNlAy27QD
-l/SUTBZNKRn+CW3eaLWS3WZNK1nfPiZayS4wwuQrUjLqWIHfVzJRNKFk3xHX
-d1yXWN4CkkZDHPbYeF7DNK7FW/oM3zeJazOseB5vjiU5r+Di3I/G9m0UyB0o
-0Nso0DtQuHEirDtQuHEi7DtQuHEinDtQuHEi3DtQuHEivDtQuHEi/EUoNGrX
-0a1G7uDp06aW6U39LCB+Mxgbzo2Tek7mznnrBvgrNm9LmLll+7aEvTdt4JYw
-PG8LtwSDhTZxS1BZehu3BKe7beQWIPcFtnJj8kY8l1LLDUy3s51rC6cEboF3
-o7TAvcWeFrhTBphogdMCNy5wjuUE3X/raAunBG6BN6S0wL3Fnha4UwaYaIHT
-AjcqcJbn+l73/c+2cErgFnhPSgvcW+xpgTtlgIkWOC1w4wIX2K5tDgVOFE4J
-3AJvS2mBe4s9LXCnDDDRAqcFblTgbNOzgqHAycIpgVvgLSotcG+xpwXulAEm
-WuC0wI0LHPX93juibeGUwOm3q27TtvnW3qRs883O07X59hdStflElta0+Yzu
-pmizqX0BPTtVs8D1PGJ7Y1I29XMC1a9XaSmbto19F7CvpewsIy1lPSkjZuD5
-ljn85UBo2dQLVlS/YKW1bNo29l3Avtays4y0lvW0zPID3ybdtxIaKZv6EZTe
-93WE2b7UWqa1TGvZV6ZloFyWRYKTf1pThVNy9n/x2sF8I1rQpmxj3wXsa0E7
-y0gL2lDQfNuiNBi8ZqAKpaCJbvLULjxdsMpWSf/0rmPpsb86baZXF5f7gqvH
-U/AGcr9GEaePmbniYBxxiKB4xcwMmcw3r5jJEvmK2fGMUDlePK6z8dZweOp4
-mvsPL+icojM2Ou/to6PnRte8Q3c6PACrrXP92n/8Ge9oT3RU0Tbe0VGcd2yX
-VAdCAtOX+Q1xfcsKt6xa5+LMW8xVTY7jUXqYiTCzEUfHvmA2FafEimxRrqvy
-wPa8TDMerpIU4lo2qbb1BnpAizRhHGKMb6qSw1SScFXwKC/qaBWFacLtkCXF
-qsCzYcHfvCiqPA53azzeEW2qLNqEeAjrJOZYdqifCxwKhfwG8zAUJ1zvYcdQ
-waUknmNFM7DuBYeLZngqPz7COnrasXUCZgo8OhC/wbdIBTYmWaFScdIitN6x
-ahXWNXwxtn828SD3z+FOnDgo61RzPBYej3E3QKrAZa8oDzsAK/JPeVSuXiAn
-QppABszhLKrDb3fFhhVrAfrMGQQxTV5fO/Vp9h2e9SxPfBYHkn7MB+dZDyj3
-GOUATkzbCTcZRr0VriL5nZfyW5w7L7n/ULA8+4MZAL0+QOS9xH8UDIcpvDP0
-hCAyapqoy4FtKJbGISOtQ0ac8K48DWbevXs3xBTlEO//A1BLAQIXCxQAAAAI
-AO6aSk59LrtuZwwAAByFAAAHAAkAAAAAAAAAAAAAgAAAAABzdHIuZGF0VVQF
-AAcremBcUEsFBgAAAAABAAEAPgAAAJ0MAAAAAA==
-</Column>
-			<Column name="DocType" value="ModelDocument"/>
-			<Column name="IsActive" value="3313"/>
-			<Column name="Sequence" value="0"/>
-			<Column name="DocDate" value="2019-02-10 19:23:23"/>
-		</Row>
-		<Row>
-			<Column name="DocID" value="{87DE594D-DF48-42da-8A53-6126F4BED890}"/>
-			<Column name="DocName" value="Przedstawienie problemu"/>
-			<Column name="ElementID" value="{87DE594D-DF48-42da-8A53-6126F4BED890}"/>
-			<Column name="ElementType" value="ModelDocument"/>
-			<Column name="BinContent" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">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
-f032IVvvqwQPzb8aIx3yB4TV88WBsOW4pu/hLxSnGFuLMvblWksQHuHbkQ7B
-V9Q+sIUHxcC1p9hi7M9SnEyiiRtEGM1O0UtuEUu4ueYmsYS/V90mlnA870ax
-BIOFbhVLUFn6ZrEEp5vdLhYg9w1uGB2WQtE+wQE1KfXswPkvaaWtMU1IG16b
-110tba/xp6XtmAEWWtq0tI1JmxN4ZtCXNmGakDZXS5uWNpGc57xj20UYaGmb
-5KSlbUzafOIFA2kTpglp824pbbNDeYmwzXdyjazN9/YqUZvvdp6kzfe/kKDN
-J7K0nM1ndDMxm03tG0jZmJBZlkkI7QmZNE0Ima+FTAvZpG9su4B/LWQnGWkh
-GwqZ4wbE6guZME0IGa7W5nVWC9l13rSQ9f1joYXsDCMsviMh82zLsftCJkwT
-Qkbki2VzequV7DpvWsn6/rHQSnaGERbfkZL5vucPlEyYppRM/1+fVrJp39h2
-Af9ayU4y0ko2UDLbtAOX9JRMmqaUDP+ENq+3Wsmu86aVrO8fC61kZxhh8R0p
-GXWswO8rmTBNKNnPxPUd1yWWt4Ck0RC7PdaflzCNa/GWPsP3TeLaDCuex5vG
-kvMKTk79aGxfR4HcgAK9jgK9AYUrB8K6AYUrB8K+AYUrB8K5AYUrB8K9AYUr
-B8K7AYUrB8JfhEKrdh3dauUOnj5tapne1M8C4jeDse5cOainZO5UtK6Av2Dx
-toSba5ZvS/h71QJuCcfzlnBLMFhoEbcElaWXcUtwutlCbgFy32ApNyZvxHMp
-tdzAdDvLuYNxSuAWeDdKC9xr/GmBO2aAhRY4LXDjAudYTtD9t46DcUrgFnhD
-Sgvca/xpgTtmgIUWOC1wowJnea7vdd//PBinBG6B96S0wL3Gnxa4YwZYaIHT
-AjcucIHt2uZQ4IRxSuAWeFtKC9xr/GmBO2aAhRY4LXCjAmebnhUMBU4apwRu
-gbeotMC9xp8WuGMGWGiB0wI3LnDU93vviB6MUwKn3666Ttvme3uVss13O0/X
-5vtfSNXmE1la0+Yzupmizab2DfTsWM0C1/OI7Y1J2dTPCVS/XqWlbNo3tl3A
-v5ayk4y0lPWkjJiB51vm8JcDoWVTL1hR/YKV1rJp39h2Af9ay04y0lrW0zLL
-D3ybdN9KaKVs6kdQetvXEWbHUmuZ1jKtZd+ZloFyWRYJjv5pTRmn5Oz/4rWD
-+U60oE35xrYL+NeCdpKRFrShoPm2RWkweM1AGaWgiWZy1y7cXbDKVkl/967G
-2rRXu830rsXlvuDq8RSigdwvUcTpbWYu2BhHbCIoXjEzQyaP21fMpEW+Ytbs
-ESr7i9t1ttEadk9tT3P77gWdXXTGeue9vnf0ZO/awT/uH6DVloLYsV1SPRIS
-mL483hDXt6xwy6p1LragxaOqPeK4sx0eRHiwETu5PuNhKjZtFYdFua7KR7bn
-ZZrxcJWkkGaySrWtN9ACaqQJ4zDkfFOVHCJLwlXBo7yoo1UUpgm3Q5YUqwK3
-aoXu86Ko8jjcrXG3RfSpDtEnDE9YJzFH22P9VGBXKBxv8Bi64oTrPdzAKziV
-xHO80Hase8LhpO2eOh7vYR097Ng6ATcF7uSH3xBbpALrhKxQpdj4EGrvWLUK
-6xq+GNs/mbiv+tdwJzYAlNdUdQf3SXTDyADlgJC94GzdAViRf8mjcvUMRyLD
-CI6f2oV2V2xYsRZwT5xBNtHk5aVzPc1+xk2X5dbLYmfQz/lgY+kBWXlmSS45
-gBPTdsJNhulnhatIfuel/BYbwEvWf7BdWXHjoSxSnM4s/jMzyl1V4hZWkA5F
-xrC3IkjDgAhWozxseTbgYSsetuJhh2LPdRVscPHmzZshnrBDyv8PUEsBAhcL
-FAAAAAgAYJtKTvxOkwg/DAAABoQAAAcACQAAAAAAAAAAAACAAAAAAHN0ci5k
-YXRVVAUABxR7YFxQSwUGAAAAAAEAAQA+AAAAdQwAAAAA
-</Column>
-			<Column name="DocType" value="ModelDocument"/>
-			<Column name="IsActive" value="3273"/>
-			<Column name="Sequence" value="0"/>
-			<Column name="DocDate" value="2019-02-10 19:27:16"/>
-		</Row>
 		<Row>
 			<Column name="DocID" value="{E3D231F7-AEAC-4e86-A029-1A0AD8629387}"/>
 			<Column name="DocName" value="Dokumenty etapu definicji::Wizja projektu systemu dyplom"/>
 			<Column name="ElementID" value="{B0C5EE93-3683-4cee-8CD6-9AC72939B8C4}"/>
 			<Column name="ElementType" value="ModelDocument"/>
-			<Column name="BinContent" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">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
-yHEyfK9KnNLlfd3dbKNZbG/uBkvIbXVMoIl93WE1Oaa5N6JGvC3l/Ow+1NOg
-eeyJpAf2ZEjkHTzSbAsdadAktgIdl1RY5XmZU1cHA0t84lZd7mZTvwOhOXkc
-IDQbKP1B4265TIcO30DpDxp2iwQ7dPhXofS3z1dPeKsl0K7ndktgj1V18ngw
-cfoY/9uvuWcT28t8+ybesznVoUoOGnYL6R86XDSGRMxKe9xtHn2gIXnM9XUr
-fhxlUKEC0tuzpsJ5p9aM5B4Kj2rSvXLkqrM1bfQ028VOJ6Joq6EMZchWDRXS
-jzNUt0Q0tqvNOhafdSnbNjxRWQWrMA4Bj2L0ZOv098Y6QuUY+wjLBMViKWO1
-mE2p5hZYS42ueTNvPnQizZuPcCirwk90WlMpgAS1XS43nawLOpQm/R81kWGC
-nzzrqHNttADba10lCZvbzjwz2DCda282hUa01Ve/FF4tM0xYBx5Z8gifkjV+
-4afG5oAtccD+bjPb6D42hG9eDme1HlEn0jPWm62sM08BWsjixe+sYErmVXYp
-I3ciAKnQBkNtrQcPddlmQ2u5VnMSq4J+ThKMpCrRdSL1NetBRYeiRqq+8gvh
-JgBULEJIE3CBQiivDqKQYyC3m0t7Fd7HgeF0S8uq7dfVc1kovq/fQuU96V5p
-n967N4S09dzmqXmqSp/+u5DrK9q9PL3Ms4vQz69e0t8l/3X24i2+WEvfX/FP
-8NflCj/AX+nmsxSfrYLL/M3rM0zurf4nSHO5yumveeqn+d/4b8b/LV8+bz6d
-9z99cdp8urrxt+nOp9mVnyxOTp/jb1pE/uL5mf7rMn+p/0g3H9EC0W/2Py/f
-vLRe4O5SDn782dtTfjwf+Q0Nd98yWV87/etUbU8D6F/BOmS9rwXw1yrPulXu
-WdqwK3ZdrSXLaBz6KW0X66HhTMxTpOnBhkuIizNkagOQytkk7orF11aV1HBL
-WohFrZPz2c3cCa4YTRdWwZIRVErSElAZTLZDVxvMbmXvSqqMTjBScYGuTF61
-JEo7PqQptTvG2XGgm/mSe8a5Z4G7Szn48WNhnO8VMkmr8bFNU6hRu/tmxqbs
-VXD0u0IyQuARN477vXMGzWQrFaaTRlbNSEZlRnPYngBxvKY9UcQ9iZrlXOle
-Rc80t+sZ9wexuFuo+pvdMqUtbAAIjO+mRWnF2eRVPCMrjfQCY0egHfHBDikl
-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
-7UoV2HlttmNgqK4yjZeBnyhSTjJjy9ZKms2E5MZ2RqNtH+4umZR0SI/Dchyw
-E6fPn5sjQlkpfFtIeKTXrhR6MLGOWpPeWocqLnq5WOwGcZruZDTU+pasjcbZ
-6lnTSZU4uhl2vND8lYuF0Tjb+9hE3Ul5pKv4HM7pyrhozFIKtb2Y+Pxb7mw0
-l62+lGxAKd+jko/YAHuQ2xwTMIlc8kqXMoJXR5a62NGhCeBMt2xTEWc6MRLl
-wTpF8QfOvPnJwnNitSN59cOs31PvZuwmxqJS/lqVYeDXYePAkOI7T3V/0eSc
-VzdehK2OLOKIu5Fo2O6mC5WWqr1OVbDaXaY38oKe0fVcF3BJAdZu5+jLKlFk
-BYAXthn3zcv3y+MWJZlACfpsGa3F+mRAGejNrEpj2rwjfyC8pFpTonPva3Uv
-IEpy2qVMpxbR7+IwKdwwxptKvASAwC/kCp0skigESmoQBQm73NBxu1ZpdSya
-w/9ZvJsjBLtWc/pK1EtJrCNCG9q2+mC7HHy77al0X4xNhkaxqcVOnOILJSGO
-ocyApMgCNExuqIzo0uk6nr02jzXbsY7phAj6pOEHjEJ9J4ntJsNFD8vmtpoR
-p7AX22X/3BjYYdl/U7fCiEG1IyMTCR/MCC+DtEMo2fWl7fWGvtp1pz1ob6hD
-UEC0vDPPxLVRlaeTFJ75EKUWMXO8sSRYbScX3uaU7aUYfhunrONIk06CCVw5
-qLpk9NrSKWHnoDUaZyvphGlXQbvHmlonduRGKllqtmBbGptOSGuARpitA6+6
-RDfuAD2ICp87hSHfnQweyalGpOXj659Z7zVVMOyWm9XKkVeQ9AnYvnnR8bVB
-E9jSJVJKN3kUqGkSKiLrwmObJk+Dy4oDjCUdVy2iwrtCQ2ir/jrMNOw77JTh
-aqFye9+UpWo6ExIeO6PBtlTb7+UVIJWXrpcWMKYGsaWnmWkp5m6/tVyxPpaQ
-dYvEz2M6d62lcVWVVGup24uDRZhLYyviRwNMEeRFKBTnHCfIpCvWAVmLemHG
-qqTVsmbGSqQlNXV5uo6E5HSCejpUupFRnlWlTlyqLJUUC3qm28QOnVUQoR5J
-cxxkDZuKc7v1GPM6q/BJL/ldrvh0dB0ipybd5ALzrkjriPIgrWorIEUL4eDo
-5gouCW17jMWND5M44pXZhLYEI7Ni1qQJM+SrVdChkdsmEwhAvISBsS5qJ6Kd
-UQM7qspQ+vBja/+kMeOwyv8x94mc2XU/ahAxxUVWByt03evg0dr6mbxyCMTu
-yp1ZVsZXwY4QwASyaoEgW1OTXoZ1oVFWiFoZz3QTov6Ifk3GLOOOFGwRyzTn
-GhQ2R3TWKcmdeeFXScQ+/4qRrPECm2qyBtgIL5an1bwQ6vISPkenjbO3o9gM
-NYwPkB3oLrzPORo6KMI+/unEaUhpHWbYE90hDCgJAog6seSgMAzUag0j1Gh+
-273KudqyDeSXJE9jMr9QpO+jj3JTlUPXy2h6W2nfhQG+iKKUC46Oog2x0Wy2
-5N5TFBuISVe6oGcsXKxoJcuB6ijcJf1OJxz/1Pq5SFTTeq9sRTHOJGBiDjOS
-yJw2ytFcPrGme4xOT8xLxbY6xPY6DHFLuakATc+ITk2l8fcnyOuWNzXSNCRO
-MK9cJXBY6bk2ah7EcWP5GE1ge/4ZjC0VsXbT0HMVd40u2iQio7mtDyVCa8Im
-F9hcD7fanrrLPk45lSTpooQNTFUrOHp9Bho4+5E0HJClO+vRytltI0DXivYe
-SSFw77qFaHVuBHQJgkwP36kzwRElTic6j6quvDCDxTUTkbwkJQLGVyiA34q/
-uCHjsmkO7m2Q04jJhF7txqNs7MjuGJflAnzm/Mft4FN81wIHnTaDT5vBzZd6
-BZoh/7/p5P8DUEsBAhcLFAAAAAgA+gZlXLLxaMKWSwAA4VADAAcACQAAAAAA
-AAAAAACAAAAAAHN0ci5kYXRVVAUAB3HUqGlQSwUGAAAAAAEAAQA+AAAAzEsA
-AAAA
+			<Column name="BinContent" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">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
+iCGKnB0/sgppi0YnvsRh6dQyQgbMfJYHEdJexCfVOCuhFKctv0VRjrcDtYqc
+8jTM8QeHpXu1zmbkDW792Y53+Jnoy3yxl/PZBApmdeHHBOpfHB/N857Cd2pX
++9zugKnD3sBbzZHjxHyvWrygy/uyv9msWWxv7hZLyG11TGCIPe2xmhzT3CvR
+IN6W6fzsIdTTqHnsiWQA9sQk8h4eabGDjjRqEluBjksqrPK8+NTVw8ASn7hW
+l7va1O9BaE7vBwjNFkp/1LhrLtOxw7dQ+qOGXSPBjh3+VSj93fM1E15rCXTr
+ud4SOGBVnd4fTJwhxv/uax7YxO4yX7+Jt2xO9aiSo4ZdQ/rHDhetIRFrpT3u
+N48+MJA8fH3dih9HOVSogPT2vK1w3qs1I7mHwqOGdK8CuerammY9zXax85ko
+u2oopgzZqaFC+nGO6paIxva1WSfisyll24UnqupgE8Yh4FFYT7ZOf2+tI1SO
+aR9hlaBYLNNYLbwp1dICa6nVNa/mzcdOZHjzIxzKpvQTk9ZUCSBB7ZbLzWdp
+SYfSpv+jJjJM8JXHPXWmrAXYXus6SbS57cwzgw0zufa8KQyirbn6lfAamWPC
+JvDIkkf4lKzxMz9jmwO2xAH7u8tso/vYEj6/HM5qPaJJpMfWm62sM08BWsji
+xW+sYEoWdX4uI3ciAKnQjKG21oOHumze0EamakliVdDXSYKRVCW6TqS5ZgOo
+6FA0SNVXfincBIDKVQhpAi5QCuU1QRTqGMj15tJBhfd+YDhd07Jq93XNXBaK
+78s3UHlP+1c6pPceDCHtPLd9apGpyqd/VzK9oN0rsvMiPwv94uIZ/Vzpn14/
+fYM/pNL3N/or+Ol8gy/gp2z7WYbPNsF58erla0zubf4nyAq5KeinZeZnxd/4
+N9f/Vs+etJ8uh58+fdF+urnyu9nep/mFn6xOXzzBz7SI4umT1+an8+KZ+SHb
+fkQLREvY/zx79cx6gftLOfrxr9+80I/XR35FT9w3mqwvnf5lqranAfSv0Dpk
+c6hL79cqz/pVHljauCt2Wa0ly2ga+iltl9ZDw4VYZkjTgw2XEBfXkKktQKrO
+JnFXLJ5aVVLDLWkhFo1Ors9u4U5wxWi6sAnWGkGlIi0BlcFkO/S1wdqt7F1I
+ldMJRiou0ZXJq9dEaSfH9I12xzh7DnQ1X3LPOA8scH8pRz9+KozznUImaT09
+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
 </Column>
 			<Column name="DocType" value="ModelDocument"/>
-			<Column name="IsActive" value="19488"/>
+			<Column name="IsActive" value="19840"/>
 			<Column name="Sequence" value="0"/>
-			<Column name="DocDate" value="2026-03-05 00:55:13"/>
-		</Row>
-		<Row>
-			<Column name="DocID" value="{F5A71A02-048F-4b80-9894-ABCACEF275AA}"/>
-			<Column name="DocName" value="Przedstawienie problemu"/>
-			<Column name="ElementID" value="{ECA652D9-AC1B-44c9-AF3D-A055644A08FC}"/>
-			<Column name="ElementType" value="ModelDocument"/>
-			<Column name="BinContent" xmlns:dt="urn:schemas-microsoft-com:datatypes" dt:dt="bin.base64">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
-</Column>
-			<Column name="DocType" value="ModelDocument"/>
-			<Column name="IsActive" value="6388"/>
-			<Column name="Sequence" value="0"/>
-			<Column name="DocDate" value="2019-02-10 17:59:56"/>
-		</Row>
-	</Table>
-	<Table name="t_xref">
-		<Row>
-			<Column name="XrefID" value="{D9A1014E-BECE-4eb6-A74E-7FE1C8153D3A}"/>
-			<Column name="Name" value="CustomProperties"/>
-			<Column name="Type" value="element property"/>
-			<Column name="Visibility" value="Public"/>
-			<Column name="Partition" value="0"/>
-			<Column name="Description" value="@PROP=@NAME=_defaultDiagramType@ENDNAME;@TYPE=string@ENDTYPE;@VALU=BPMN2.0::Business Process@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=_subtypeProperty@ENDNAME;@TYPE=string@ENDTYPE;@VALU=BPMN2.0::Activity::taskType@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=_tagGroups@ENDNAME;@TYPE=string@ENDTYPE;@VALU=Base Element,Activity,Task,AdHoc,Loop,Sub-Process,Callable Element,Execution,Other@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=_tagGroupings@ENDNAME;@TYPE=string@ENDTYPE;@VALU=auditing=Base Element;categoryValue=Base Element;documentation=Base Element;monitoring=Base Element;activityType=Activity;calledActivityRef=Activity;instantiate=Activity;isACalledActivity=Activity;isATransaction=Activity;isForCompensation=Activity;resources=Activity;messageRef=Task;operationRef=Task;rendering=Task;script=Task;scriptFormat=Task;taskType=Task;adHoc=AdHoc;adHocOrdering=AdHoc;cancelRemainingInstances=AdHoc;completionCondition=AdHoc;behavior=Loop;complexBehaviorDefinition=Loop;isSequential=Loop;loopCardinality=Loop;loopCharacteristics=Loop;loopCondition=Loop;loopCounter=Loop;loopDataInputRef=Loop;loopDataOutputRef=Loop;loopMaximum=Loop;noneBehaviorEventRef=Loop;oneBehaviorEventRef=Loop;testBefore=Loop;transactionMethod=Sub-Process;transactionProtocol=Sub-Process;triggeredByEvent=Sub-Process;ioBinding=Callable Element;ioSpecification=Callable Element;supportedInterfaceRefs=Callable Element;actualOwner=Execution;completionQuantity=Execution;implementation=Execution;numberOfActiveInstances=Execution;numberOfCompletedInstances=Execution;numberOfInstances=Execution;numberOfTerminatedInstances=Execution;startQuantity=Execution;state=Execution;taskPriority=Execution;assignments=Other;sub-ProcessRef=Other;@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=_tagGroupStates@ENDNAME;@TYPE=string@ENDTYPE;@VALU=Base Element=closed;Activity=open;Task=open;AdHoc=closed;Loop=closed;Sub-Process=closed;Callable Element=closed;Execution=closed;Other=closed;@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;"/>
-			<Column name="Client" value="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="XrefID" value="{5C3B081F-08EC-4ede-B368-3D09A9E1C91D}"/>
-			<Column name="Name" value="Stereotypes"/>
-			<Column name="Type" value="element property"/>
-			<Column name="Visibility" value="Public"/>
-			<Column name="Partition" value="0"/>
-			<Column name="Description" value="@STEREO;Name=Activity;FQName=BPMN2.0::Activity;@ENDSTEREO;"/>
-			<Column name="Client" value="{0FA80FF4-50A8-4ca1-BE3D-5400C0ACB8A3}"/>
-		</Row>
-		<Row>
-			<Column name="XrefID" value="{E4895394-95B9-4f9c-918B-497D1E00EAC6}"/>
-			<Column name="Name" value="CustomProperties"/>
-			<Column name="Type" value="element property"/>
-			<Column name="Visibility" value="Public"/>
-			<Column name="Partition" value="0"/>
-			<Column name="Description" value="@PROP=@NAME=_subtypeProperty@ENDNAME;@TYPE=string@ENDTYPE;@VALU=BPMN2.0::EndEvent::eventDefinition@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=_tagGroups@ENDNAME;@TYPE=string@ENDTYPE;@VALU=Base Element,End Event,Compensation Event,Error Event,Escalation Event,Message Event,Signal Event,Other@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=_tagGroupStates@ENDNAME;@TYPE=string@ENDTYPE;@VALU=Base Element=closed;End Event=open;Compensation Event=open;Error Event=open;Escalation Event=open;Message Event=open;Signal Event=open;Other=closed;@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=_tagGroupings@ENDNAME;@TYPE=string@ENDTYPE;@VALU=auditing=Base Element;categoryValue=Base Element;documentation=Base Element;monitoring=Base Element;eventDefinition=End Event;eventDefinitionRefs=End Event;inputSet=End Event;activityRef=Compensation Event;waitForCompletion=Compensation Event;errorRef=Error Event;escalationRef=Escalation Event;messageRef=Message Event;operationRef=Message Event;signalRef=Signal Event;assignments=Other;implementation=Other;&#xA;@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;"/>
-			<Column name="Client" value="{30585480-2805-4933-8F36-EF65A9D7D44F}"/>
-		</Row>
-		<Row>
-			<Column name="XrefID" value="{21F447B5-97BE-485c-8E54-58F24B1F490C}"/>
-			<Column name="Name" value="Stereotypes"/>
-			<Column name="Type" value="element property"/>
-			<Column name="Visibility" value="Public"/>
-			<Column name="Partition" value="0"/>
-			<Column name="Description" value="@STEREO;Name=EndEvent;FQName=BPMN2.0::EndEvent;@ENDSTEREO;"/>
-			<Column name="Client" value="{30585480-2805-4933-8F36-EF65A9D7D44F}"/>
-		</Row>
-		<Row>
-			<Column name="XrefID" value="{D785FC03-B964-4758-9D5B-8AC837F1218E}"/>
-			<Column name="Name" value="Stereotypes"/>
-			<Column name="Type" value="connector property"/>
-			<Column name="Visibility" value="Public"/>
-			<Column name="Partition" value="0"/>
-			<Column name="Description" value="@STEREO;Name=SequenceFlow;FQName=BPMN2.0::SequenceFlow;@ENDSTEREO;"/>
-			<Column name="Client" value="{C44F3BFA-EE72-47c4-B4AE-C5D354B0A806}"/>
-		</Row>
-		<Row>
-			<Column name="XrefID" value="{8B8586C1-2B27-4f78-A5FB-2B5824934F48}"/>
-			<Column name="Name" value="CustomProperties"/>
-			<Column name="Type" value="element property"/>
-			<Column name="Visibility" value="Public"/>
-			<Column name="Partition" value="0"/>
-			<Column name="Description" value="@PROP=@NAME=_makeComposite@ENDNAME;@TYPE=string@ENDTYPE;@VALU=true@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=_tagGroups@ENDNAME;@TYPE=string@ENDTYPE;@VALU=Base Element,Process,Callable Element,Execution@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=_defaultDiagramType@ENDNAME;@TYPE=string@ENDTYPE;@VALU=BPMN2.0::Business Process@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=_tagGroupStates@ENDNAME;@TYPE=string@ENDTYPE;@VALU=Base Element=closed;Process=open;Callable Element=closed;Execution=closed;@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=_tagGroupings@ENDNAME;@TYPE=string@ENDTYPE;@VALU=auditing=Base Element;documentation=Base Element;monitoring=Base Element;definitionalCollaborationRef=Process;isClosed=Process;isExecutable=Process;processType=Process;resources=Process;supports=Process;ioBinding=Callable Element;ioSpecification=Callable Element;supportedInterfaceRefs=Callable Element;correlationSubscription=Execution;state=Execution;@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;"/>
-			<Column name="Client" value="{C9FE2888-9C57-432b-BB5E-5A57F35CE62F}"/>
-		</Row>
-		<Row>
-			<Column name="XrefID" value="{33A5613B-430C-4f94-A0FA-656A15C9E0D4}"/>
-			<Column name="Name" value="Stereotypes"/>
-			<Column name="Type" value="element property"/>
-			<Column name="Visibility" value="Public"/>
-			<Column name="Partition" value="0"/>
-			<Column name="Description" value="@STEREO;Name=BusinessProcess;FQName=BPMN2.0::BusinessProcess;@ENDSTEREO;"/>
-			<Column name="Client" value="{C9FE2888-9C57-432b-BB5E-5A57F35CE62F}"/>
-		</Row>
-		<Row>
-			<Column name="XrefID" value="{C6C09899-5097-4490-90FD-4B5C9C698028}"/>
-			<Column name="Name" value="CustomProperties"/>
-			<Column name="Type" value="element property"/>
-			<Column name="Visibility" value="Public"/>
-			<Column name="Description" value="@PROP=@NAME=isActive@ENDNAME;@TYPE=Boolean@ENDTYPE;@VALU=@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;"/>
-			<Column name="Client" value="{D73E3341-C6E5-445c-B05A-ABB4672C24E5}"/>
-		</Row>
-		<Row>
-			<Column name="XrefID" value="{EAECD602-722E-413f-B419-B29F81DACC93}"/>
-			<Column name="Name" value="CustomProperties"/>
-			<Column name="Type" value="element property"/>
-			<Column name="Visibility" value="Public"/>
-			<Column name="Partition" value="0"/>
-			<Column name="Description" value="@PROP=@NAME=_subtypeProperty@ENDNAME;@TYPE=string@ENDTYPE;@VALU=BPMN2.0::StartEvent::eventDefinition@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=_tagGroups@ENDNAME;@TYPE=string@ENDTYPE;@VALU=Base Element,Start Event,Conditional Event,Compensation Event,Error Event,Escalation Event,Message Event,Signal Event,Timer Event,Other@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=_tagGroupStates@ENDNAME;@TYPE=string@ENDTYPE;@VALU=Base Element=closed;Start Event=open;Conditional Event=open;Compensation Event=open;Error Event=open;Escalation Event=open;Message Event=open;Signal Event=open;Timer Event=open;Other=closed;@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;@PROP=@NAME=_tagGroupings@ENDNAME;@TYPE=string@ENDTYPE;@VALU=auditing=Base Element;categoryValue=Base Element;documentation=Base Element;monitoring=Base Element;eventDefinition=Start Event;eventDefinitionRefs=Start Event;isInterrupting=Start Event;outputSet=Start Event;parallelMultiple=Start Event;condition=Conditional Event;activityRef=Compensation Event;errorRef=Error Event;escalationRef=Escalation Event;messageRef=Message Event;operationRef=Message Event;signalRef=Signal Event;timeCycle=Timer Event;timeDate=Timer Event;timeDuration=Timer Event;assignments=Other;implementation=Other;@ENDVALU;@PRMT=@ENDPRMT;@ENDPROP;"/>
-			<Column name="Client" value="{E415C75F-7D18-405d-8AE5-6377A76F8E52}"/>
-		</Row>
-		<Row>
-			<Column name="XrefID" value="{E7A16781-859E-4a8f-AED6-165976C85815}"/>
-			<Column name="Name" value="Stereotypes"/>
-			<Column name="Type" value="element property"/>
-			<Column name="Visibility" value="Public"/>
-			<Column name="Partition" value="0"/>
-			<Column name="Description" value="@STEREO;Name=StartEvent;FQName=BPMN2.0::StartEvent;@ENDSTEREO;"/>
-			<Column name="Client" value="{E415C75F-7D18-405d-8AE5-6377A76F8E52}"/>
-		</Row>
-		<Row>
-			<Column name="XrefID" value="{712F25C8-F5A6-48c9-8C44-49D89B0CD464}"/>
-			<Column name="Name" value="Stereotypes"/>
-			<Column name="Type" value="connector property"/>
-			<Column name="Visibility" value="Public"/>
-			<Column name="Partition" value="0"/>
-			<Column name="Description" value="@STEREO;Name=SequenceFlow;FQName=BPMN2.0::SequenceFlow;@ENDSTEREO;"/>
-			<Column name="Client" value="{E75B7FF2-6452-4daf-83E3-DEAC4CD9E77D}"/>
+			<Column name="DocDate" value="2026-03-05 23:09:36"/>
 		</Row>
 	</Table>
 </Package>
