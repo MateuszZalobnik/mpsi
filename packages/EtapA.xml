@@ -55,7 +55,7 @@
 			<Column name="LogXML" value="0"/>
 			<Column name="Namespace" value="1"/>
 			<Column name="TPos" value="2"/>
-			<Column name="PackageFlags" value="isModel=1;VICON=3;CRC=0;"/>
+			<Column name="PackageFlags" value="isModel=1;CRC=0;VPK=7;VPKG=7;"/>
 			<Column name="BatchSave" value="0"/>
 			<Column name="BatchLoad" value="0"/>
 			<Extension Parent_ID="{1B8A6C19-57DA-46b7-B4B8-2B0CA2F68F79}"/>
@@ -935,7 +935,7 @@
 			<Column name="Fontcolor" value="-1"/>
 			<Column name="Bordercolor" value="-1"/>
 			<Column name="CreatedDate" value="2019-02-10 19:17:15"/>
-			<Column name="ModifiedDate" value="2019-02-10 19:18:16"/>
+			<Column name="ModifiedDate" value="2026-03-09 00:43:53"/>
 			<Column name="Status" value="Proposed"/>
 			<Column name="Abstract" value="0"/>
 			<Column name="Tagged" value="0"/>
