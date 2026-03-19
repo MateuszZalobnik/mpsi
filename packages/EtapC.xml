@@ -1,0 +1,2302 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no" ?>
+<Package name="Etap C" guid="{43E63C16-688A-4531-BE8C-1C9D6DAD7090}">
+	<Table name="t_package">
+		<Row>
+			<Column name="Package_ID" value="141"/>
+			<Column name="Name" value="Rezerwacja stolika przez klienta"/>
+			<Column name="Parent_ID" value="110"/>
+			<Column name="CreatedDate" value="2026-03-16 21:34:24"/>
+			<Column name="ModifiedDate" value="2026-03-16 21:34:24"/>
+			<Column name="ea_guid" value="{381EB640-9AAB-4217-A4CD-0C57A7188EAC}"/>
+			<Column name="IsControlled" value="0"/>
+			<Column name="Version" value="1.0"/>
+			<Column name="Protected" value="0"/>
+			<Column name="UseDTD" value="0"/>
+			<Column name="LogXML" value="0"/>
+			<Extension Parent_ID="{BF5AA9D4-4055-322B-9666-FC8CF1EF8121}"/>
+		</Row>
+		<Row>
+			<Column name="Package_ID" value="13"/>
+			<Column name="Name" value="Etap C"/>
+			<Column name="Parent_ID" value="0"/>
+			<Column name="CreatedDate" value="2019-02-10 00:00:00"/>
+			<Column name="ModifiedDate" value="2019-02-10 00:00:00"/>
+			<Column name="ea_guid" value="{43E63C16-688A-4531-BE8C-1C9D6DAD7090}"/>
+			<Column name="IsControlled" value="0"/>
+			<Column name="LastLoadDate" value="2026-03-15 22:52:01"/>
+			<Column name="Version" value="1.0"/>
+			<Column name="Protected" value="0"/>
+			<Column name="UseDTD" value="0"/>
+			<Column name="LogXML" value="0"/>
+			<Column name="TPos" value="4"/>
+			<Column name="PackageFlags" value="isModel=1;"/>
+			<Column name="BatchSave" value="0"/>
+			<Column name="BatchLoad" value="0"/>
+			<Extension/>
+		</Row>
+		<Row>
+			<Column name="Package_ID" value="108"/>
+			<Column name="Name" value="Model przypadków u&#x17C;ycia"/>
+			<Column name="Parent_ID" value="13"/>
+			<Column name="CreatedDate" value="2026-03-15 22:52:00"/>
+			<Column name="ModifiedDate" value="2026-03-15 22:52:17"/>
+			<Column name="ea_guid" value="{8208DC8D-B283-10B3-A877-0DA7C6ACADB7}"/>
+			<Column name="IsControlled" value="0"/>
+			<Column name="LastLoadDate" value="2016-07-21 08:07:37"/>
+			<Column name="LastSaveDate" value="2016-07-21 08:07:37"/>
+			<Column name="Version" value="1.0"/>
+			<Column name="Protected" value="0"/>
+			<Column name="UseDTD" value="0"/>
+			<Column name="LogXML" value="0"/>
+			<Column name="TPos" value="1"/>
+			<Column name="PackageFlags" value="CRC=0;"/>
+			<Column name="BatchSave" value="0"/>
+			<Column name="BatchLoad" value="0"/>
+			<Extension Parent_ID="{43E63C16-688A-4531-BE8C-1C9D6DAD7090}"/>
+		</Row>
+		<Row>
+			<Column name="Package_ID" value="109"/>
+			<Column name="Name" value="Aktorzy"/>
+			<Column name="Parent_ID" value="108"/>
+			<Column name="CreatedDate" value="2026-03-15 22:52:00"/>
+			<Column name="ModifiedDate" value="2026-03-18 20:45:13"/>
+			<Column name="Notes" value="Aktorzy zidentyfikowani w systemie FoodBook. Aktor reprezentuje&#xA;rol&#x119;, jak&#x105; dany u&#x17C;ytkownik lub zewn&#x119;trzny system pe&#x142;ni w interakcji z systemem&#xA;FoodBook.&#xA;"/>
+			<Column name="ea_guid" value="{9F9D21E5-2A66-6298-930B-B529F6161117}"/>
+			<Column name="IsControlled" value="0"/>
+			<Column name="LastLoadDate" value="2016-07-21 08:07:37"/>
+			<Column name="LastSaveDate" value="2016-07-21 08:07:37"/>
+			<Column name="Version" value="1.0"/>
+			<Column name="Protected" value="0"/>
+			<Column name="UseDTD" value="0"/>
+			<Column name="LogXML" value="0"/>
+			<Column name="TPos" value="0"/>
+			<Column name="BatchSave" value="0"/>
+			<Column name="BatchLoad" value="0"/>
+			<Extension Parent_ID="{8208DC8D-B283-10B3-A877-0DA7C6ACADB7}"/>
+		</Row>
+		<Row>
+			<Column name="Package_ID" value="143"/>
+			<Column name="Name" value="Analiza ob&#x142;o&#x17C;enia lokali"/>
+			<Column name="Parent_ID" value="110"/>
+			<Column name="CreatedDate" value="2026-03-16 22:07:48"/>
+			<Column name="ModifiedDate" value="2026-03-16 22:07:48"/>
+			<Column name="ea_guid" value="{B1679F50-FCFD-4f20-B916-0406B04F8766}"/>
+			<Column name="IsControlled" value="0"/>
+			<Column name="Version" value="1.0"/>
+			<Column name="Protected" value="0"/>
+			<Column name="UseDTD" value="0"/>
+			<Column name="LogXML" value="0"/>
+			<Extension Parent_ID="{BF5AA9D4-4055-322B-9666-FC8CF1EF8121}"/>
+		</Row>
+		<Row>
+			<Column name="Package_ID" value="110"/>
+			<Column name="Name" value="Przypadki u&#x17C;ycia"/>
+			<Column name="Parent_ID" value="108"/>
+			<Column name="CreatedDate" value="2026-03-15 22:52:00"/>
+			<Column name="ModifiedDate" value="2026-03-18 20:45:49"/>
+			<Column name="Notes" value="Model przypadk&amp;#243;w u&#x17C;ycia systemu FoodBook, opisuj&#x105;cy interakcje zidentyfikowanych aktor&amp;#243;w z systemem."/>
+			<Column name="ea_guid" value="{BF5AA9D4-4055-322B-9666-FC8CF1EF8121}"/>
+			<Column name="IsControlled" value="0"/>
+			<Column name="LastLoadDate" value="2016-07-21 08:07:37"/>
+			<Column name="LastSaveDate" value="2016-07-21 08:07:37"/>
+			<Column name="Version" value="1.0"/>
+			<Column name="Protected" value="0"/>
+			<Column name="UseDTD" value="0"/>
+			<Column name="LogXML" value="0"/>
+			<Column name="TPos" value="0"/>
+			<Column name="BatchSave" value="0"/>
+			<Column name="BatchLoad" value="0"/>
+			<Extension Parent_ID="{8208DC8D-B283-10B3-A877-0DA7C6ACADB7}"/>
+		</Row>
+		<Row>
+			<Column name="Package_ID" value="22"/>
+			<Column name="Name" value="Use Case View"/>
+			<Column name="Parent_ID" value="13"/>
+			<Column name="CreatedDate" value="2019-02-10 19:40:59"/>
+			<Column name="ModifiedDate" value="2019-02-10 19:40:59"/>
+			<Column name="ea_guid" value="{D18F8682-DC0F-4272-8911-C4E25B1DB818}"/>
+			<Column name="IsControlled" value="0"/>
+			<Column name="LastLoadDate" value="2019-02-10 19:40:59"/>
+			<Column name="LastSaveDate" value="2019-02-10 19:40:59"/>
+			<Column name="Protected" value="0"/>
+			<Column name="UseDTD" value="0"/>
+			<Column name="LogXML" value="0"/>
+			<Column name="TPos" value="3"/>
+			<Column name="PackageFlags" value="isModel=1;VICON=1;CRC=0;"/>
+			<Column name="BatchSave" value="0"/>
+			<Column name="BatchLoad" value="0"/>
+			<Extension Parent_ID="{43E63C16-688A-4531-BE8C-1C9D6DAD7090}"/>
+		</Row>
+	</Table>
+	<Table name="t_object">
+		<Row>
+			<Column name="Object_ID" value="778"/>
+			<Column name="Object_Type" value="UseCase"/>
+			<Column name="Diagram_ID" value="0"/>
+			<Column name="Name" value="Przegl&#x105;daj list&#x119; lokali spe&#x142;niaj&#x105;cych kryteria"/>
+			<Column name="Author" value="Miko&#x142;aj Brakowski"/>
+			<Column name="Version" value="1.0"/>
+			<Column name="Note" value="Klient podaje w aplikacji swoj&#x105; lokalizacj&#x119; (lub wybiera j&#x105; z mapy) oraz iczb&#x119; os&amp;#243;b, dla kt&amp;#243;rych szuka stolika, system zwraca posortowan&#x105; list&#x119; restauracji sieci, w kt&amp;#243;rych dost&#x119;pny jest stolik o wymaganej pojemno&#x15B;ci, posortowan&#x105; wed&#x142;ug odleg&#x142;o&#x15B;ci od podanej lokalizacji."/>
+			<Column name="Package_ID" value="141"/>
+			<Column name="NType" value="0"/>
+			<Column name="Complexity" value="1"/>
+			<Column name="Effort" value="0"/>
+			<Column name="Backcolor" value="-1"/>
+			<Column name="BorderStyle" value="0"/>
+			<Column name="BorderWidth" value="-1"/>
+			<Column name="Fontcolor" value="-1"/>
+			<Column name="Bordercolor" value="-1"/>
+			<Column name="CreatedDate" value="2026-03-16 21:46:25"/>
+			<Column name="ModifiedDate" value="2026-03-18 22:08:29"/>
+			<Column name="Status" value="Proposed"/>
+			<Column name="Abstract" value="0"/>
+			<Column name="Tagged" value="0"/>
+			<Column name="GenType" value="&lt;none&gt;"/>
+			<Column name="Phase" value="1.0"/>
+			<Column name="Scope" value="Public"/>
+			<Column name="Classifier" value="0"/>
+			<Column name="ea_guid" value="{0A67355C-5B3F-4fd8-B30E-98F25A3EFA3E}"/>
+			<Column name="ParentID" value="0"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="IsSpec" value="0"/>
+			<Column name="IsActive" value="0"/>
+			<Extension Package_ID="{381EB640-9AAB-4217-A4CD-0C57A7188EAC}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="789"/>
+			<Column name="Object_Type" value="UseCase"/>
+			<Column name="Diagram_ID" value="0"/>
+			<Column name="Name" value="Generuj raport ob&#x142;o&#x17C;enia"/>
+			<Column name="Author" value="Miko&#x142;aj Brakowski"/>
+			<Column name="Version" value="1.0"/>
+			<Column name="Note" value="Zarz&#x105;d sieci generuje zestawienie statystyczne z wybranego okresu, obejmuj&#x105;ce wska&#x17A;niki utylizacji przestrzeni dla ka&#x17C;dego lokalu, liczb&#x119; dokonanych i anulowanych rezerwacji, godziny szczytu oraz skuteczno&#x15B;&#x107; przekierowa&#x144; klient&amp;#243;w mi&#x119;dzy lokalami sieci. Raport mo&#x17C;e by&#x107; eksportowany do formatu PDF lub arkusza kalkulacyjnego. Przypadek rozszerza (extend) przypadek 'Analizuj ob&#x142;o&#x17C;enie lokali'."/>
+			<Column name="Package_ID" value="143"/>
+			<Column name="NType" value="0"/>
+			<Column name="Complexity" value="1"/>
+			<Column name="Effort" value="0"/>
+			<Column name="Backcolor" value="-1"/>
+			<Column name="BorderStyle" value="0"/>
+			<Column name="BorderWidth" value="-1"/>
+			<Column name="Fontcolor" value="-1"/>
+			<Column name="Bordercolor" value="-1"/>
+			<Column name="CreatedDate" value="2026-03-16 22:09:08"/>
+			<Column name="ModifiedDate" value="2026-03-18 22:06:58"/>
+			<Column name="Status" value="Proposed"/>
+			<Column name="Abstract" value="0"/>
+			<Column name="Tagged" value="0"/>
+			<Column name="GenType" value="&lt;none&gt;"/>
+			<Column name="Phase" value="1.0"/>
+			<Column name="Scope" value="Public"/>
+			<Column name="Classifier" value="0"/>
+			<Column name="ea_guid" value="{1F19C08B-8C60-429c-8C1C-D1B7B13A0C97}"/>
+			<Column name="ParentID" value="0"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="IsSpec" value="0"/>
+			<Column name="IsActive" value="0"/>
+			<Extension Package_ID="{B1679F50-FCFD-4f20-B916-0406B04F8766}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="760"/>
+			<Column name="Object_Type" value="Package"/>
+			<Column name="Diagram_ID" value="0"/>
+			<Column name="Name" value="Rezerwacja stolika przez klienta"/>
+			<Column name="Author" value="Miko&#x142;aj Brakowski"/>
+			<Column name="Version" value="1.0"/>
+			<Column name="Package_ID" value="110"/>
+			<Column name="NType" value="0"/>
+			<Column name="Complexity" value="1"/>
+			<Column name="Effort" value="0"/>
+			<Column name="Backcolor" value="-1"/>
+			<Column name="BorderStyle" value="0"/>
+			<Column name="BorderWidth" value="-1"/>
+			<Column name="Fontcolor" value="-1"/>
+			<Column name="Bordercolor" value="-1"/>
+			<Column name="CreatedDate" value="2026-03-16 21:34:24"/>
+			<Column name="ModifiedDate" value="2026-03-16 21:34:24"/>
+			<Column name="Status" value="Proposed"/>
+			<Column name="Abstract" value="0"/>
+			<Column name="Tagged" value="0"/>
+			<Column name="PDATA1" value="141"/>
+			<Column name="GenType" value="Java"/>
+			<Column name="Phase" value="1.0"/>
+			<Column name="Scope" value="Public"/>
+			<Column name="Classifier" value="0"/>
+			<Column name="ea_guid" value="{381EB640-9AAB-4217-A4CD-0C57A7188EAC}"/>
+			<Column name="ParentID" value="0"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="IsSpec" value="0"/>
+			<Column name="IsActive" value="0"/>
+			<Extension Package_ID="{BF5AA9D4-4055-322B-9666-FC8CF1EF8121}" PDATA1="{381EB640-9AAB-4217-A4CD-0C57A7188EAC}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="769"/>
+			<Column name="Object_Type" value="Actor"/>
+			<Column name="Diagram_ID" value="0"/>
+			<Column name="Name" value="Obs&#x142;uga restauracji"/>
+			<Column name="Author" value="Miko&#x142;aj Brakowski"/>
+			<Column name="Version" value="1.0"/>
+			<Column name="Note" value="Pracownik pierwszej linii, bezpo&#x15B;rednio obs&#x142;uguj&#x105;cy go&#x15B;ci przy wej&#x15B;ciu do restauracji. Korzysta z aplikacji na tablecie, aby weryfikowa&#x107; dost&#x119;pno&#x15B;&#x107; stolik&amp;#243;w w czasie rzeczywistym, rejestrowa&#x107; klient&amp;#243;w bez wcze&#x15B;niejszej rezerwacji (walk-in), dokonywa&#x107; rezerwacji w imieniu klienta oraz przekierowywa&#x107; go&#x15B;ci do innych lokali sieci. Pracuje w warunkach du&#x17C;ej presji czasu i ha&#x142;asu – wymaga interfejsu zoptymalizowanego pod jak najmniejsz&#x105; liczb&#x119; interakcji"/>
+			<Column name="Package_ID" value="109"/>
+			<Column name="NType" value="0"/>
+			<Column name="Complexity" value="1"/>
+			<Column name="Effort" value="0"/>
+			<Column name="Backcolor" value="-1"/>
+			<Column name="BorderStyle" value="0"/>
+			<Column name="BorderWidth" value="-1"/>
+			<Column name="Fontcolor" value="-1"/>
+			<Column name="Bordercolor" value="-1"/>
+			<Column name="CreatedDate" value="2026-03-16 21:36:59"/>
+			<Column name="ModifiedDate" value="2026-03-18 20:12:33"/>
+			<Column name="Status" value="Proposed"/>
+			<Column name="Abstract" value="0"/>
+			<Column name="Tagged" value="0"/>
+			<Column name="GenType" value="&lt;none&gt;"/>
+			<Column name="Phase" value="1.0"/>
+			<Column name="Scope" value="Public"/>
+			<Column name="Classifier" value="0"/>
+			<Column name="ea_guid" value="{45BB8A31-5807-4cc5-BF13-B4256DF86839}"/>
+			<Column name="ParentID" value="0"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="IsSpec" value="0"/>
+			<Column name="IsActive" value="0"/>
+			<Extension Package_ID="{9F9D21E5-2A66-6298-930B-B529F6161117}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="773"/>
+			<Column name="Object_Type" value="UseCase"/>
+			<Column name="Diagram_ID" value="0"/>
+			<Column name="Name" value="Zarezerwuj stolik"/>
+			<Column name="Author" value="Miko&#x142;aj Brakowski"/>
+			<Column name="Version" value="1.0"/>
+			<Column name="Note" value="Klient rezerwuje wybrany stolik w wybranym lokalu na okre&#x15B;lony termin i godzin&#x119;. System przesy&#x142;a &#x17C;&#x105;danie rezerwacji do systemu POS danej restauracji."/>
+			<Column name="Package_ID" value="141"/>
+			<Column name="NType" value="0"/>
+			<Column name="Complexity" value="1"/>
+			<Column name="Effort" value="0"/>
+			<Column name="Backcolor" value="-1"/>
+			<Column name="BorderStyle" value="0"/>
+			<Column name="BorderWidth" value="-1"/>
+			<Column name="Fontcolor" value="-1"/>
+			<Column name="Bordercolor" value="-1"/>
+			<Column name="CreatedDate" value="2026-03-16 21:38:29"/>
+			<Column name="ModifiedDate" value="2026-03-18 22:17:19"/>
+			<Column name="Status" value="Proposed"/>
+			<Column name="Abstract" value="0"/>
+			<Column name="Tagged" value="0"/>
+			<Column name="GenType" value="&lt;none&gt;"/>
+			<Column name="Phase" value="1.0"/>
+			<Column name="Scope" value="Public"/>
+			<Column name="Classifier" value="0"/>
+			<Column name="ea_guid" value="{61EA2408-D770-471f-8FA0-E5BCF3EBC0F2}"/>
+			<Column name="ParentID" value="0"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="IsSpec" value="0"/>
+			<Column name="IsActive" value="0"/>
+			<Extension Package_ID="{381EB640-9AAB-4217-A4CD-0C57A7188EAC}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="774"/>
+			<Column name="Object_Type" value="UseCase"/>
+			<Column name="Diagram_ID" value="0"/>
+			<Column name="Name" value="Anuluj rezerwacj&#x119;"/>
+			<Column name="Author" value="Miko&#x142;aj Brakowski"/>
+			<Column name="Version" value="1.0"/>
+			<Column name="Note" value="Klient anuluje wcze&#x15B;niej dokonan&#x105; rezerwacj&#x119;. System informuje POS danej estauracji o zwolnieniu miejsca. Przypadek u&#x17C;ycia rozszerza (extend) pzypadek zarezerwowania stolika – jest dost&#x119;pny wy&#x142;&#x105;cznie gdy istnieje atywna rezerwacja."/>
+			<Column name="Package_ID" value="141"/>
+			<Column name="NType" value="0"/>
+			<Column name="Complexity" value="1"/>
+			<Column name="Effort" value="0"/>
+			<Column name="Backcolor" value="-1"/>
+			<Column name="BorderStyle" value="0"/>
+			<Column name="BorderWidth" value="-1"/>
+			<Column name="Fontcolor" value="-1"/>
+			<Column name="Bordercolor" value="-1"/>
+			<Column name="CreatedDate" value="2026-03-16 21:38:36"/>
+			<Column name="ModifiedDate" value="2026-03-18 22:24:22"/>
+			<Column name="Status" value="Proposed"/>
+			<Column name="Abstract" value="0"/>
+			<Column name="Tagged" value="0"/>
+			<Column name="GenType" value="&lt;none&gt;"/>
+			<Column name="Phase" value="1.0"/>
+			<Column name="Scope" value="Public"/>
+			<Column name="Classifier" value="0"/>
+			<Column name="ea_guid" value="{6499CF34-CCF8-4986-BF93-94CD21BBCB06}"/>
+			<Column name="ParentID" value="0"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="IsSpec" value="0"/>
+			<Column name="IsActive" value="0"/>
+			<Extension Package_ID="{381EB640-9AAB-4217-A4CD-0C57A7188EAC}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="772"/>
+			<Column name="Object_Type" value="UseCase"/>
+			<Column name="Diagram_ID" value="0"/>
+			<Column name="Name" value="Sprawd&#x17A; dost&#x119;pno&#x15B;&#x107; stolików w lokalu"/>
+			<Column name="Author" value="Miko&#x142;aj Brakowski"/>
+			<Column name="Version" value="1.0"/>
+			<Column name="Note" value="System weryfikuje w czasie rzeczywistym, poprzez integracj&#x119; z ystemem POS danego lokalu, kt&amp;#243;re stoliki s&#x105; aktualnie wolne lub zaj&#x119;te."/>
+			<Column name="Package_ID" value="141"/>
+			<Column name="NType" value="0"/>
+			<Column name="Complexity" value="1"/>
+			<Column name="Effort" value="0"/>
+			<Column name="Backcolor" value="-1"/>
+			<Column name="BorderStyle" value="0"/>
+			<Column name="BorderWidth" value="-1"/>
+			<Column name="Fontcolor" value="-1"/>
+			<Column name="Bordercolor" value="-1"/>
+			<Column name="CreatedDate" value="2026-03-16 21:38:19"/>
+			<Column name="ModifiedDate" value="2026-03-18 22:06:03"/>
+			<Column name="Status" value="Proposed"/>
+			<Column name="Abstract" value="0"/>
+			<Column name="Tagged" value="0"/>
+			<Column name="GenType" value="&lt;none&gt;"/>
+			<Column name="Phase" value="1.0"/>
+			<Column name="Scope" value="Public"/>
+			<Column name="Classifier" value="0"/>
+			<Column name="ea_guid" value="{781F6E4D-D0E6-493e-8284-7A775AACBE62}"/>
+			<Column name="ParentID" value="0"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="IsSpec" value="0"/>
+			<Column name="IsActive" value="0"/>
+			<Extension Package_ID="{381EB640-9AAB-4217-A4CD-0C57A7188EAC}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="668"/>
+			<Column name="Object_Type" value="Package"/>
+			<Column name="Diagram_ID" value="0"/>
+			<Column name="Name" value="Model przypadków u&#x17C;ycia"/>
+			<Column name="Author" value="Miko&#x142;aj Brakowski"/>
+			<Column name="Version" value="1.0"/>
+			<Column name="Package_ID" value="13"/>
+			<Column name="NType" value="0"/>
+			<Column name="Complexity" value="1"/>
+			<Column name="Effort" value="0"/>
+			<Column name="Backcolor" value="-1"/>
+			<Column name="BorderStyle" value="0"/>
+			<Column name="BorderWidth" value="-1"/>
+			<Column name="Fontcolor" value="-1"/>
+			<Column name="Bordercolor" value="-1"/>
+			<Column name="CreatedDate" value="2026-03-15 22:52:00"/>
+			<Column name="ModifiedDate" value="2026-03-15 22:52:17"/>
+			<Column name="Status" value="Proposed"/>
+			<Column name="Abstract" value="0"/>
+			<Column name="Tagged" value="0"/>
+			<Column name="PDATA1" value="108"/>
+			<Column name="GenType" value="Java"/>
+			<Column name="Phase" value="1.0"/>
+			<Column name="Scope" value="Public"/>
+			<Column name="Classifier" value="0"/>
+			<Column name="ea_guid" value="{8208DC8D-B283-10B3-A877-0DA7C6ACADB7}"/>
+			<Column name="ParentID" value="0"/>
+			<Column name="TPos" value="1"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="IsSpec" value="0"/>
+			<Column name="IsActive" value="0"/>
+			<Extension Package_ID="{43E63C16-688A-4531-BE8C-1C9D6DAD7090}" PDATA1="{8208DC8D-B283-10B3-A877-0DA7C6ACADB7}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="788"/>
+			<Column name="Object_Type" value="UseCase"/>
+			<Column name="Diagram_ID" value="0"/>
+			<Column name="Name" value="Analizuj ob&#x142;o&#x17C;enie lokali"/>
+			<Column name="Author" value="Miko&#x142;aj Brakowski"/>
+			<Column name="Version" value="1.0"/>
+			<Column name="Note" value="Zarz&#x105;d sieci przegl&#x105;da w systemie FoodBook bie&#x17C;&#x105;ce i historyczne dane o poziomie ob&#x142;o&#x17C;enia poszczeg&amp;#243;lnych restauracji. Widok prezentuje wska&#x17A;niki utylizacji przestrzeni dla ka&#x17C;dego lokalu z mo&#x17C;liwo&#x15B;ci&#x105; filtrowania po dacie, przedziale czasowym i konkretnym lokalu. Przypadek u&#x17C;ycia obejmuje w&#x142;&#x105;czone przegl&#x105;danie statystyk rezerwacji oraz opcjonalne generowanie raportu (extend)."/>
+			<Column name="Package_ID" value="143"/>
+			<Column name="NType" value="0"/>
+			<Column name="Complexity" value="1"/>
+			<Column name="Effort" value="0"/>
+			<Column name="Backcolor" value="-1"/>
+			<Column name="BorderStyle" value="0"/>
+			<Column name="BorderWidth" value="-1"/>
+			<Column name="Fontcolor" value="-1"/>
+			<Column name="Bordercolor" value="-1"/>
+			<Column name="CreatedDate" value="2026-03-16 22:08:58"/>
+			<Column name="ModifiedDate" value="2026-03-18 22:06:52"/>
+			<Column name="Status" value="Proposed"/>
+			<Column name="Abstract" value="0"/>
+			<Column name="Tagged" value="0"/>
+			<Column name="GenType" value="&lt;none&gt;"/>
+			<Column name="Phase" value="1.0"/>
+			<Column name="Scope" value="Public"/>
+			<Column name="Classifier" value="0"/>
+			<Column name="ea_guid" value="{86D08707-A316-41e3-BC3C-D69CFD3C0AD4}"/>
+			<Column name="ParentID" value="0"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="IsSpec" value="0"/>
+			<Column name="IsActive" value="0"/>
+			<Extension Package_ID="{B1679F50-FCFD-4f20-B916-0406B04F8766}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="770"/>
+			<Column name="Object_Type" value="Boundary"/>
+			<Column name="Diagram_ID" value="0"/>
+			<Column name="Name" value="System FoodBook - modu&#x142; rezerwacji"/>
+			<Column name="Author" value="Miko&#x142;aj Brakowski"/>
+			<Column name="Version" value="1.0"/>
+			<Column name="Package_ID" value="141"/>
+			<Column name="NType" value="0"/>
+			<Column name="Complexity" value="1"/>
+			<Column name="Effort" value="0"/>
+			<Column name="Backcolor" value="-1"/>
+			<Column name="BorderStyle" value="3"/>
+			<Column name="BorderWidth" value="-1"/>
+			<Column name="Fontcolor" value="-1"/>
+			<Column name="Bordercolor" value="-1"/>
+			<Column name="CreatedDate" value="2026-03-16 21:37:27"/>
+			<Column name="ModifiedDate" value="2026-03-16 21:37:36"/>
+			<Column name="Status" value="Proposed"/>
+			<Column name="Abstract" value="0"/>
+			<Column name="Tagged" value="0"/>
+			<Column name="PDATA1" value="1"/>
+			<Column name="PDATA2" value="1"/>
+			<Column name="PDATA3" value="0"/>
+			<Column name="GenType" value="&lt;none&gt;"/>
+			<Column name="Phase" value="1.0"/>
+			<Column name="Scope" value="Public"/>
+			<Column name="Classifier" value="0"/>
+			<Column name="ea_guid" value="{8A9EBF24-97F8-4b1b-AB50-725CB3A42351}"/>
+			<Column name="ParentID" value="0"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="IsSpec" value="0"/>
+			<Column name="IsActive" value="0"/>
+			<Extension Package_ID="{381EB640-9AAB-4217-A4CD-0C57A7188EAC}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="669"/>
+			<Column name="Object_Type" value="Boundary"/>
+			<Column name="Diagram_ID" value="0"/>
+			<Column name="Name" value="System One"/>
+			<Column name="Author" value="Miko&#x142;aj Brakowski"/>
+			<Column name="Version" value="1.0"/>
+			<Column name="Note" value="[Description of the System]"/>
+			<Column name="Package_ID" value="108"/>
+			<Column name="NType" value="0"/>
+			<Column name="Complexity" value="1"/>
+			<Column name="Effort" value="0"/>
+			<Column name="Backcolor" value="-1"/>
+			<Column name="BorderStyle" value="3"/>
+			<Column name="BorderWidth" value="-1"/>
+			<Column name="Fontcolor" value="-1"/>
+			<Column name="Bordercolor" value="-1"/>
+			<Column name="CreatedDate" value="2026-03-15 22:52:00"/>
+			<Column name="ModifiedDate" value="2026-03-15 22:52:00"/>
+			<Column name="Status" value="Proposed"/>
+			<Column name="Abstract" value="0"/>
+			<Column name="Tagged" value="0"/>
+			<Column name="PDATA1" value="1"/>
+			<Column name="PDATA2" value="1"/>
+			<Column name="PDATA3" value="0"/>
+			<Column name="GenType" value="&lt;none&gt;"/>
+			<Column name="Phase" value="1.0"/>
+			<Column name="Scope" value="Public"/>
+			<Column name="Classifier" value="0"/>
+			<Column name="ea_guid" value="{917CCBE7-D505-30D1-A632-4674CF284358}"/>
+			<Column name="ParentID" value="0"/>
+			<Column name="TPos" value="0"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="IsSpec" value="0"/>
+			<Column name="IsActive" value="0"/>
+			<Extension Package_ID="{8208DC8D-B283-10B3-A877-0DA7C6ACADB7}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="671"/>
+			<Column name="Object_Type" value="Package"/>
+			<Column name="Diagram_ID" value="0"/>
+			<Column name="Name" value="Aktorzy"/>
+			<Column name="Author" value="Miko&#x142;aj Brakowski"/>
+			<Column name="Version" value="1.0"/>
+			<Column name="Note" value="Aktorzy zidentyfikowani w systemie FoodBook. Aktor reprezentuje&#xA;rol&#x119;, jak&#x105; dany u&#x17C;ytkownik lub zewn&#x119;trzny system pe&#x142;ni w interakcji z systemem&#xA;FoodBook.&#xA;"/>
+			<Column name="Package_ID" value="108"/>
+			<Column name="NType" value="0"/>
+			<Column name="Complexity" value="1"/>
+			<Column name="Effort" value="0"/>
+			<Column name="Backcolor" value="-1"/>
+			<Column name="BorderStyle" value="0"/>
+			<Column name="BorderWidth" value="-1"/>
+			<Column name="Fontcolor" value="-1"/>
+			<Column name="Bordercolor" value="-1"/>
+			<Column name="CreatedDate" value="2026-03-15 22:52:00"/>
+			<Column name="ModifiedDate" value="2026-03-18 20:45:13"/>
+			<Column name="Status" value="Proposed"/>
+			<Column name="Abstract" value="0"/>
+			<Column name="Tagged" value="0"/>
+			<Column name="PDATA1" value="109"/>
+			<Column name="GenType" value="Java"/>
+			<Column name="Phase" value="1.0"/>
+			<Column name="Scope" value="Public"/>
+			<Column name="Classifier" value="0"/>
+			<Column name="ea_guid" value="{9F9D21E5-2A66-6298-930B-B529F6161117}"/>
+			<Column name="ParentID" value="0"/>
+			<Column name="TPos" value="0"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="IsSpec" value="0"/>
+			<Column name="IsActive" value="0"/>
+			<Extension Package_ID="{8208DC8D-B283-10B3-A877-0DA7C6ACADB7}" PDATA1="{9F9D21E5-2A66-6298-930B-B529F6161117}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="784"/>
+			<Column name="Object_Type" value="Package"/>
+			<Column name="Diagram_ID" value="0"/>
+			<Column name="Name" value="Analiza ob&#x142;o&#x17C;enia lokali"/>
+			<Column name="Author" value="Miko&#x142;aj Brakowski"/>
+			<Column name="Version" value="1.0"/>
+			<Column name="Package_ID" value="110"/>
+			<Column name="NType" value="0"/>
+			<Column name="Complexity" value="1"/>
+			<Column name="Effort" value="0"/>
+			<Column name="Backcolor" value="-1"/>
+			<Column name="BorderStyle" value="0"/>
+			<Column name="BorderWidth" value="-1"/>
+			<Column name="Fontcolor" value="-1"/>
+			<Column name="Bordercolor" value="-1"/>
+			<Column name="CreatedDate" value="2026-03-16 22:07:49"/>
+			<Column name="ModifiedDate" value="2026-03-16 22:07:49"/>
+			<Column name="Status" value="Proposed"/>
+			<Column name="Abstract" value="0"/>
+			<Column name="Tagged" value="0"/>
+			<Column name="PDATA1" value="143"/>
+			<Column name="GenType" value="Java"/>
+			<Column name="Phase" value="1.0"/>
+			<Column name="Scope" value="Public"/>
+			<Column name="Classifier" value="0"/>
+			<Column name="ea_guid" value="{B1679F50-FCFD-4f20-B916-0406B04F8766}"/>
+			<Column name="ParentID" value="0"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="IsSpec" value="0"/>
+			<Column name="IsActive" value="0"/>
+			<Extension Package_ID="{BF5AA9D4-4055-322B-9666-FC8CF1EF8121}" PDATA1="{B1679F50-FCFD-4f20-B916-0406B04F8766}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="767"/>
+			<Column name="Object_Type" value="Actor"/>
+			<Column name="Diagram_ID" value="0"/>
+			<Column name="Name" value="POS"/>
+			<Column name="Author" value="Miko&#x142;aj Brakowski"/>
+			<Column name="Version" value="1.0"/>
+			<Column name="Note" value="Zewn&#x119;trzny system kasowy (Point of Sale) funkcjonuj&#x105;cy lokalnie w ka&#x17C;dej restauracji. Pe&#x142;ni rol&#x119; aktora zewn&#x119;trznego, kt&amp;#243;ry przekazuje do systemu FoodBook informacje o stanie stolik&amp;#243;w. Zamkni&#x119;cie rachunku w systemie POS automatycznie zmienia status danego stolika na &quot;wolny&quot; w systemie FoodBook. Dane z POS s&#x105; pobierane i normalizowane do sp&amp;#243;jnego formatu przez aplikacj&#x119; FoodBook."/>
+			<Column name="Package_ID" value="109"/>
+			<Column name="NType" value="0"/>
+			<Column name="Complexity" value="1"/>
+			<Column name="Effort" value="0"/>
+			<Column name="Backcolor" value="-1"/>
+			<Column name="BorderStyle" value="0"/>
+			<Column name="BorderWidth" value="-1"/>
+			<Column name="Fontcolor" value="-1"/>
+			<Column name="Bordercolor" value="-1"/>
+			<Column name="CreatedDate" value="2026-03-16 21:36:51"/>
+			<Column name="ModifiedDate" value="2026-03-18 22:29:55"/>
+			<Column name="Status" value="Proposed"/>
+			<Column name="Abstract" value="0"/>
+			<Column name="Tagged" value="0"/>
+			<Column name="GenType" value="&lt;none&gt;"/>
+			<Column name="Phase" value="1.0"/>
+			<Column name="Scope" value="Public"/>
+			<Column name="Classifier" value="0"/>
+			<Column name="ea_guid" value="{BCC20810-55F1-4033-9D3A-087CF8467E26}"/>
+			<Column name="ParentID" value="0"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="IsSpec" value="0"/>
+			<Column name="IsActive" value="0"/>
+			<Extension Package_ID="{9F9D21E5-2A66-6298-930B-B529F6161117}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="670"/>
+			<Column name="Object_Type" value="Package"/>
+			<Column name="Diagram_ID" value="0"/>
+			<Column name="Name" value="Przypadki u&#x17C;ycia"/>
+			<Column name="Author" value="Miko&#x142;aj Brakowski"/>
+			<Column name="Version" value="1.0"/>
+			<Column name="Note" value="Model przypadk&amp;#243;w u&#x17C;ycia systemu FoodBook, opisuj&#x105;cy interakcje zidentyfikowanych aktor&amp;#243;w z systemem."/>
+			<Column name="Package_ID" value="108"/>
+			<Column name="NType" value="0"/>
+			<Column name="Complexity" value="1"/>
+			<Column name="Effort" value="0"/>
+			<Column name="Backcolor" value="-1"/>
+			<Column name="BorderStyle" value="0"/>
+			<Column name="BorderWidth" value="-1"/>
+			<Column name="Fontcolor" value="-1"/>
+			<Column name="Bordercolor" value="-1"/>
+			<Column name="CreatedDate" value="2026-03-15 22:52:00"/>
+			<Column name="ModifiedDate" value="2026-03-18 20:45:49"/>
+			<Column name="Status" value="Proposed"/>
+			<Column name="Abstract" value="0"/>
+			<Column name="Tagged" value="0"/>
+			<Column name="PDATA1" value="110"/>
+			<Column name="GenType" value="Java"/>
+			<Column name="Phase" value="1.0"/>
+			<Column name="Scope" value="Public"/>
+			<Column name="Classifier" value="0"/>
+			<Column name="ea_guid" value="{BF5AA9D4-4055-322B-9666-FC8CF1EF8121}"/>
+			<Column name="ParentID" value="0"/>
+			<Column name="TPos" value="0"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="IsSpec" value="0"/>
+			<Column name="IsActive" value="0"/>
+			<Extension Package_ID="{8208DC8D-B283-10B3-A877-0DA7C6ACADB7}" PDATA1="{BF5AA9D4-4055-322B-9666-FC8CF1EF8121}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="785"/>
+			<Column name="Object_Type" value="Actor"/>
+			<Column name="Diagram_ID" value="0"/>
+			<Column name="Name" value="Zarz&#x105;d sieci"/>
+			<Column name="Author" value="Miko&#x142;aj Brakowski"/>
+			<Column name="Version" value="1.0"/>
+			<Column name="Note" value="Przedstawiciel w&#x142;a&#x15B;ciciela lub member zarz&#x105;du, decydent biznesowy monitoruj&#x105;cy wska&#x17A;niki efektywno&#x15B;ci i utylizacj&#x119; miejsc we wszystkich restauracjach sieci. Korzysta z modu&#x142;u analitycznego systemu w celu przegl&#x105;dania raport&amp;#243;w ob&#x142;o&#x17C;enia lokali, statystyk rezerwacji oraz wska&#x17A;nik&amp;#243;w skuteczno&#x15B;ci przekierowa&#x144; klient&amp;#243;w. Pracuje g&#x142;&amp;#243;wnie na stacjonarnym komputerze z przegl&#x105;dark&#x105; internetow&#x105;."/>
+			<Column name="Package_ID" value="109"/>
+			<Column name="NType" value="0"/>
+			<Column name="Complexity" value="1"/>
+			<Column name="Effort" value="0"/>
+			<Column name="Backcolor" value="-1"/>
+			<Column name="BorderStyle" value="0"/>
+			<Column name="BorderWidth" value="-1"/>
+			<Column name="Fontcolor" value="-1"/>
+			<Column name="Bordercolor" value="-1"/>
+			<Column name="CreatedDate" value="2026-03-16 22:08:12"/>
+			<Column name="ModifiedDate" value="2026-03-18 22:30:12"/>
+			<Column name="Status" value="Proposed"/>
+			<Column name="Abstract" value="0"/>
+			<Column name="Tagged" value="0"/>
+			<Column name="GenType" value="&lt;none&gt;"/>
+			<Column name="Phase" value="1.0"/>
+			<Column name="Scope" value="Public"/>
+			<Column name="Classifier" value="0"/>
+			<Column name="ea_guid" value="{C14E38CD-20AC-40bf-AC7D-F26E382A405C}"/>
+			<Column name="ParentID" value="0"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="IsSpec" value="0"/>
+			<Column name="IsActive" value="0"/>
+			<Extension Package_ID="{9F9D21E5-2A66-6298-930B-B529F6161117}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="782"/>
+			<Column name="Object_Type" value="UseCase"/>
+			<Column name="Diagram_ID" value="0"/>
+			<Column name="Name" value="Dokonaj rezerwacji w imieniu klienta"/>
+			<Column name="Author" value="Miko&#x142;aj Brakowski"/>
+			<Column name="Version" value="1.0"/>
+			<Column name="Note" value="Obs&#x142;uga restauracji (hostessa lub kelner) rezerwuje stolik w systemie FoodBook na pro&#x15B;b&#x119; klienta znajduj&#x105;cego si&#x119; fizycznie przy wej&#x15B;ciu do restauracji lub dzwoni&#x105;cego telefonicznie. Pracownik korzysta z aplikacji na tablecie. Szczeg&amp;#243;lny przypadek PU 'Zarezerwuj stolik'."/>
+			<Column name="Package_ID" value="141"/>
+			<Column name="NType" value="0"/>
+			<Column name="Complexity" value="1"/>
+			<Column name="Effort" value="0"/>
+			<Column name="Backcolor" value="-1"/>
+			<Column name="BorderStyle" value="0"/>
+			<Column name="BorderWidth" value="-1"/>
+			<Column name="Fontcolor" value="-1"/>
+			<Column name="Bordercolor" value="-1"/>
+			<Column name="CreatedDate" value="2026-03-16 22:05:19"/>
+			<Column name="ModifiedDate" value="2026-03-18 22:28:09"/>
+			<Column name="Status" value="Proposed"/>
+			<Column name="Abstract" value="0"/>
+			<Column name="Tagged" value="0"/>
+			<Column name="GenType" value="&lt;none&gt;"/>
+			<Column name="Phase" value="1.0"/>
+			<Column name="Scope" value="Public"/>
+			<Column name="Classifier" value="0"/>
+			<Column name="ea_guid" value="{CB8E7A19-486D-4fca-8EB6-F6B3FAC7F052}"/>
+			<Column name="ParentID" value="0"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="IsSpec" value="0"/>
+			<Column name="IsActive" value="0"/>
+			<Extension Package_ID="{381EB640-9AAB-4217-A4CD-0C57A7188EAC}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="15"/>
+			<Column name="Object_Type" value="Package"/>
+			<Column name="Diagram_ID" value="0"/>
+			<Column name="Name" value="Use Case View"/>
+			<Column name="Author" value="andrzej.stasiak"/>
+			<Column name="Package_ID" value="13"/>
+			<Column name="NType" value="0"/>
+			<Column name="Complexity" value="1"/>
+			<Column name="Effort" value="0"/>
+			<Column name="Backcolor" value="-1"/>
+			<Column name="BorderStyle" value="0"/>
+			<Column name="BorderWidth" value="-1"/>
+			<Column name="Fontcolor" value="-1"/>
+			<Column name="Bordercolor" value="-1"/>
+			<Column name="CreatedDate" value="2019-02-10 19:40:59"/>
+			<Column name="ModifiedDate" value="2019-02-10 19:40:59"/>
+			<Column name="Status" value="Proposed"/>
+			<Column name="Abstract" value="0"/>
+			<Column name="Tagged" value="0"/>
+			<Column name="PDATA1" value="22"/>
+			<Column name="Phase" value="1.0"/>
+			<Column name="Scope" value="Public"/>
+			<Column name="Classifier" value="0"/>
+			<Column name="ea_guid" value="{D18F8682-DC0F-4272-8911-C4E25B1DB818}"/>
+			<Column name="ParentID" value="0"/>
+			<Column name="TPos" value="3"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="IsSpec" value="0"/>
+			<Column name="IsActive" value="0"/>
+			<Extension Package_ID="{43E63C16-688A-4531-BE8C-1C9D6DAD7090}" PDATA1="{D18F8682-DC0F-4272-8911-C4E25B1DB818}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="676"/>
+			<Column name="Object_Type" value="UseCase"/>
+			<Column name="Diagram_ID" value="0"/>
+			<Column name="Name" value="Use Case1"/>
+			<Column name="Author" value="Miko&#x142;aj Brakowski"/>
+			<Column name="Version" value="1.0"/>
+			<Column name="Package_ID" value="108"/>
+			<Column name="NType" value="0"/>
+			<Column name="Complexity" value="1"/>
+			<Column name="Effort" value="0"/>
+			<Column name="Backcolor" value="-1"/>
+			<Column name="BorderStyle" value="0"/>
+			<Column name="BorderWidth" value="-1"/>
+			<Column name="Fontcolor" value="-1"/>
+			<Column name="Bordercolor" value="-1"/>
+			<Column name="CreatedDate" value="2026-03-15 22:53:21"/>
+			<Column name="ModifiedDate" value="2026-03-15 22:53:21"/>
+			<Column name="Status" value="Proposed"/>
+			<Column name="Abstract" value="0"/>
+			<Column name="Tagged" value="0"/>
+			<Column name="GenType" value="&lt;none&gt;"/>
+			<Column name="Phase" value="1.0"/>
+			<Column name="Scope" value="Public"/>
+			<Column name="Classifier" value="0"/>
+			<Column name="ea_guid" value="{D912FA5A-C290-45a4-8818-AE680C4EED6D}"/>
+			<Column name="ParentID" value="0"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="IsSpec" value="0"/>
+			<Column name="IsActive" value="0"/>
+			<Extension Package_ID="{8208DC8D-B283-10B3-A877-0DA7C6ACADB7}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="768"/>
+			<Column name="Object_Type" value="Actor"/>
+			<Column name="Diagram_ID" value="0"/>
+			<Column name="Name" value="Klient"/>
+			<Column name="Author" value="Miko&#x142;aj Brakowski"/>
+			<Column name="Version" value="1.0"/>
+			<Column name="Note" value="Osoba fizyczna korzystaj&#x105;ca z us&#x142;ug restauracji. Inicjuje procesy rezerwacyjne samodzielnie przez aplikacj&#x119; mobiln&#x105; lub przegl&#x105;dark&#x119; internetow&#x105;. Wyszukuje wolne stoliki wed&#x142;ug lokalizacji i liczby os&amp;#243;b, dokonuje rezerwacji oraz mo&#x17C;e j&#x105; anulowa&#x107;. Reprezentuje szeroki przekr&amp;#243;j wiekowy i technologiczny – interfejs musi by&#x107; intuicyjny."/>
+			<Column name="Package_ID" value="109"/>
+			<Column name="NType" value="0"/>
+			<Column name="Complexity" value="1"/>
+			<Column name="Effort" value="0"/>
+			<Column name="Backcolor" value="-1"/>
+			<Column name="BorderStyle" value="0"/>
+			<Column name="BorderWidth" value="-1"/>
+			<Column name="Fontcolor" value="-1"/>
+			<Column name="Bordercolor" value="-1"/>
+			<Column name="CreatedDate" value="2026-03-16 21:36:56"/>
+			<Column name="ModifiedDate" value="2026-03-18 20:12:15"/>
+			<Column name="Status" value="Proposed"/>
+			<Column name="Abstract" value="0"/>
+			<Column name="Tagged" value="0"/>
+			<Column name="GenType" value="&lt;none&gt;"/>
+			<Column name="Phase" value="1.0"/>
+			<Column name="Scope" value="Public"/>
+			<Column name="Classifier" value="0"/>
+			<Column name="ea_guid" value="{D93C2EBC-9927-4fdc-9CB7-B2646F15755C}"/>
+			<Column name="ParentID" value="0"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="IsSpec" value="0"/>
+			<Column name="IsActive" value="0"/>
+			<Extension Package_ID="{9F9D21E5-2A66-6298-930B-B529F6161117}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="790"/>
+			<Column name="Object_Type" value="UseCase"/>
+			<Column name="Diagram_ID" value="0"/>
+			<Column name="Name" value="Przegl&#x105;daj statystyki rezerwacji"/>
+			<Column name="Author" value="Miko&#x142;aj Brakowski"/>
+			<Column name="Version" value="1.0"/>
+			<Column name="Note" value="Zarz&#x105;d sieci przegl&#x105;da zagregowane statystyki dotycz&#x105;ce rezerwacji w ca&#x142;ej sieci lub w wybranym lokalu: liczb&#x119; rezerwacji w podziale na lokale i okresy, liczb&#x119; anulowa&#x144;, liczb&#x119; klient&amp;#243;w przekierowanych z innych lokali oraz procentowy wska&#x17A;nik wykorzystania stolik&amp;#243;w. Jest to operacja w&#x142;&#x105;czona (include) w przypadek 'Analizuj ob&#x142;o&#x17C;enie lokali'."/>
+			<Column name="Package_ID" value="143"/>
+			<Column name="NType" value="0"/>
+			<Column name="Complexity" value="1"/>
+			<Column name="Effort" value="0"/>
+			<Column name="Backcolor" value="-1"/>
+			<Column name="BorderStyle" value="0"/>
+			<Column name="BorderWidth" value="-1"/>
+			<Column name="Fontcolor" value="-1"/>
+			<Column name="Bordercolor" value="-1"/>
+			<Column name="CreatedDate" value="2026-03-16 22:09:18"/>
+			<Column name="ModifiedDate" value="2026-03-18 22:07:04"/>
+			<Column name="Status" value="Proposed"/>
+			<Column name="Abstract" value="0"/>
+			<Column name="Tagged" value="0"/>
+			<Column name="GenType" value="&lt;none&gt;"/>
+			<Column name="Phase" value="1.0"/>
+			<Column name="Scope" value="Public"/>
+			<Column name="Classifier" value="0"/>
+			<Column name="ea_guid" value="{ED8779CD-6165-4cd5-A538-1F53EFA93E62}"/>
+			<Column name="ParentID" value="0"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="IsSpec" value="0"/>
+			<Column name="IsActive" value="0"/>
+			<Extension Package_ID="{B1679F50-FCFD-4f20-B916-0406B04F8766}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="786"/>
+			<Column name="Object_Type" value="Boundary"/>
+			<Column name="Diagram_ID" value="0"/>
+			<Column name="Name" value="System FoodBook - analityka"/>
+			<Column name="Author" value="Miko&#x142;aj Brakowski"/>
+			<Column name="Version" value="1.0"/>
+			<Column name="Package_ID" value="143"/>
+			<Column name="NType" value="0"/>
+			<Column name="Complexity" value="1"/>
+			<Column name="Effort" value="0"/>
+			<Column name="Backcolor" value="-1"/>
+			<Column name="BorderStyle" value="3"/>
+			<Column name="BorderWidth" value="-1"/>
+			<Column name="Fontcolor" value="-1"/>
+			<Column name="Bordercolor" value="-1"/>
+			<Column name="CreatedDate" value="2026-03-16 22:08:30"/>
+			<Column name="ModifiedDate" value="2026-03-16 22:08:39"/>
+			<Column name="Status" value="Proposed"/>
+			<Column name="Abstract" value="0"/>
+			<Column name="Tagged" value="0"/>
+			<Column name="PDATA1" value="1"/>
+			<Column name="PDATA2" value="1"/>
+			<Column name="PDATA3" value="0"/>
+			<Column name="GenType" value="&lt;none&gt;"/>
+			<Column name="Phase" value="1.0"/>
+			<Column name="Scope" value="Public"/>
+			<Column name="Classifier" value="0"/>
+			<Column name="ea_guid" value="{FC4F7601-2955-4c58-880F-7FBEEE5B34E4}"/>
+			<Column name="ParentID" value="0"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="IsSpec" value="0"/>
+			<Column name="IsActive" value="0"/>
+			<Extension Package_ID="{B1679F50-FCFD-4f20-B916-0406B04F8766}"/>
+		</Row>
+	</Table>
+	<Table name="t_objectrequires">
+		<Row>
+			<Column name="ReqID" value="4"/>
+			<Column name="Object_ID" value="772"/>
+			<Column name="Requirement" value="Integracja z systemami POS poszczególnych lokali."/>
+			<Column name="ReqType" value="Functional"/>
+			<Column name="Status" value="Proposed"/>
+			<Column name="Stability" value="Moderate"/>
+			<Column name="Difficulty" value="Medium"/>
+			<Column name="Priority" value="High"/>
+			<Column name="LastUpdate" value="2026-03-18 20:20:33"/>
+			<Extension Object_ID="{781F6E4D-D0E6-493e-8284-7A775AACBE62}"/>
+		</Row>
+		<Row>
+			<Column name="ReqID" value="5"/>
+			<Column name="Object_ID" value="772"/>
+			<Column name="Requirement" value="Prezentacja dost&#x119;pno&#x15B;ci stolików w czasie rzeczywistym"/>
+			<Column name="ReqType" value="Functional"/>
+			<Column name="Status" value="Proposed"/>
+			<Column name="Stability" value="Moderate"/>
+			<Column name="Difficulty" value="Medium"/>
+			<Column name="Priority" value="High"/>
+			<Column name="LastUpdate" value="2026-03-18 20:20:48"/>
+			<Extension Object_ID="{781F6E4D-D0E6-493e-8284-7A775AACBE62}"/>
+		</Row>
+		<Row>
+			<Column name="ReqID" value="3"/>
+			<Column name="Object_ID" value="778"/>
+			<Column name="Requirement" value="Prezentacja dost&#x119;pno&#x15B;ci stolików w czasie&#xA;rzeczywistym."/>
+			<Column name="ReqType" value="Functional"/>
+			<Column name="Status" value="Proposed"/>
+			<Column name="Stability" value="Moderate"/>
+			<Column name="Difficulty" value="Medium"/>
+			<Column name="Priority" value="High"/>
+			<Column name="LastUpdate" value="2026-03-18 20:19:41"/>
+			<Extension Object_ID="{0A67355C-5B3F-4fd8-B30E-98F25A3EFA3E}"/>
+		</Row>
+		<Row>
+			<Column name="ReqID" value="2"/>
+			<Column name="Object_ID" value="778"/>
+			<Column name="Requirement" value="Wyszukiwanie wolnych stolików w ca&#x142;ej sieci wed&#x142;ug lokalizacji i&#xA;pojemno&#x15B;ci."/>
+			<Column name="ReqType" value="Functional"/>
+			<Column name="Status" value="Proposed"/>
+			<Column name="Stability" value="Moderate"/>
+			<Column name="Difficulty" value="Medium"/>
+			<Column name="Priority" value="High"/>
+			<Column name="LastUpdate" value="2026-03-18 20:19:29"/>
+			<Extension Object_ID="{0A67355C-5B3F-4fd8-B30E-98F25A3EFA3E}"/>
+		</Row>
+	</Table>
+	<Table name="t_objectscenarios">
+		<Row>
+			<Column name="Object_ID" value="772"/>
+			<Column name="Scenario" value="Basic Path"/>
+			<Column name="ScenarioType" value="Basic Path"/>
+			<Column name="EValue" value="0,000000"/>
+			<Column name="XMLContent" value="&lt;path&gt;&#xA;&#x9;&lt;step name=&quot;FoodBook wysy&#x142;a zapytanie do POS &quot; guid=&quot;{14308F09-E861-4316-83EF-FFDA4EDDDFFD}&quot; level=&quot;1&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;0&quot; link=&quot;&quot;&gt;&#xA;&#x9;&#x9;&lt;extension level=&quot;1a&quot; guid=&quot;{0D9F02A8-402B-4bb9-8191-F36596E94219}&quot; join=&quot;End&quot;/&gt;&#xA;&#x9;&lt;/step&gt;&#xA;&#x9;&lt;step name=&quot;POS zwraca surowe dane o stanie sali &quot; guid=&quot;{9111646F-4BB4-4d43-9498-C03AB267C87E}&quot; level=&quot;2&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;1&quot; link=&quot;&quot;/&gt;&#xA;&#x9;&lt;step name=&quot;FoodBook normalizuje dane &quot; guid=&quot;{B8247D4D-CF29-434e-AF40-4F24F8BAF536}&quot; level=&quot;3&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;0&quot; link=&quot;&quot;/&gt;&#xA;&#x9;&lt;step name=&quot;FoodBook filtruje stoliki wg pojemno&#x15B;ci i dost&#x119;pno&#x15B;ci &quot; guid=&quot;{90664DAF-BD44-4178-8157-07BF7CDA6F80}&quot; level=&quot;4&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;0&quot; link=&quot;&quot;/&gt;&#xA;&#x9;&lt;step name=&quot;FoodBook przekazuje wynik do wywo&#x142;uj&#x105;cego przypadku u&#x17C;ycia&quot; guid=&quot;{B3B2FA8C-A1D6-461f-9E9E-199A7F49680B}&quot; level=&quot;5&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;0&quot; link=&quot;&quot;/&gt;&#xA;&#x9;&lt;step name=&quot;Koniec&quot; guid=&quot;{1196D610-FF96-4c48-BAA2-9491C1F4BF31}&quot; level=&quot;6&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;1&quot; link=&quot;&quot;/&gt;&#xA;&#x9;&lt;context&gt;&#xA;&#x9;&#x9;&lt;item oldname=&quot;Przegl&#x105;daj list&#x119; lokali spe&#x142;niaj&#x105;cych kryteria&quot; guid=&quot;{0A67355C-5B3F-4fd8-B30E-98F25A3EFA3E}&quot;/&gt;&#xA;&#x9;&#x9;&lt;item oldname=&quot;POS&quot; guid=&quot;{BCC20810-55F1-4033-9D3A-087CF8467E26}&quot;/&gt;&#xA;&#x9;&lt;/context&gt;&#xA;&lt;/path&gt;"/>
+			<Column name="ea_guid" value="{5C739BF2-04DF-41e7-931E-6AC01F799273}"/>
+			<Extension Object_ID="{781F6E4D-D0E6-493e-8284-7A775AACBE62}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="772"/>
+			<Column name="Scenario" value="POS nie odpowiada"/>
+			<Column name="ScenarioType" value="Alternate"/>
+			<Column name="EValue" value="1,000000"/>
+			<Column name="XMLContent" value="&lt;path&gt;&#xA;&#x9;&lt;step name=&quot;System wy&#x15B;wietla ostrze&#x17C;enie o braku aktualnych danych dla tego lokalu&quot; guid=&quot;{A64D2982-8ECD-421c-B971-25D0717AE757}&quot; level=&quot;1&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;POS nie odpowiada w wymaganym czasie&quot; trigger=&quot;0&quot; link=&quot;&quot;/&gt;&#xA;&#x9;&lt;context&gt;&#xA;&#x9;&#x9;&lt;item oldname=&quot;Przegl&#x105;daj list&#x119; lokali spe&#x142;niaj&#x105;cych kryteria&quot; guid=&quot;{0A67355C-5B3F-4fd8-B30E-98F25A3EFA3E}&quot;/&gt;&#xA;&#x9;&#x9;&lt;item oldname=&quot;POS&quot; guid=&quot;{BCC20810-55F1-4033-9D3A-087CF8467E26}&quot;/&gt;&#xA;&#x9;&lt;/context&gt;&#xA;&lt;/path&gt;"/>
+			<Column name="ea_guid" value="{0D9F02A8-402B-4bb9-8191-F36596E94219}"/>
+			<Extension Object_ID="{781F6E4D-D0E6-493e-8284-7A775AACBE62}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="773"/>
+			<Column name="Scenario" value="Basic Path"/>
+			<Column name="ScenarioType" value="Basic Path"/>
+			<Column name="EValue" value="0,000000"/>
+			<Column name="XMLContent" value="&lt;path&gt;&#xA;&#x9;&lt;step name=&quot;Klient zatwierdza parametry rezerwacji &quot; guid=&quot;{4866281C-8F3F-47f4-AE7B-0C62F0050D17}&quot; level=&quot;1&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;1&quot; link=&quot;&quot;/&gt;&#xA;&#x9;&lt;step name=&quot;FoodBook sprawdza czy w POS jest wolny stolik spe&#x142;niaj&#x105;cy kryteria&quot; guid=&quot;{3DEE588C-1EDA-4e8a-B77A-30D3912628A9}&quot; level=&quot;2&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;0&quot; link=&quot;&quot;&gt;&#xA;&#x9;&#x9;&lt;extension level=&quot;2a&quot; guid=&quot;{0E807364-738D-4f90-9B28-E4864453C7A0}&quot; join=&quot;{3DEE588C-1EDA-4e8a-B77A-30D3912628A9}&quot;/&gt;&#xA;&#x9;&#x9;&lt;extension level=&quot;2b&quot; guid=&quot;{D6829FD5-823B-4f9f-858A-D22BDD63035A}&quot; join=&quot;End&quot;/&gt;&#xA;&#x9;&#x9;&lt;extension level=&quot;2c&quot; guid=&quot;{706F2DC5-FC21-4351-BC51-206748D111F1}&quot; join=&quot;End&quot;/&gt;&#xA;&#x9;&lt;/step&gt;&#xA;&#x9;&lt;step name=&quot;FoodBook tworzy rezerwacj&#x119; w systemie POS wybranego lokalu&quot; guid=&quot;{D860742E-FC41-4266-8D76-4393F8633C9A}&quot; level=&quot;3&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;0&quot; link=&quot;&quot;/&gt;&#xA;&#x9;&lt;step name=&quot;Wysy&#x142;a potwierdzenie do klienta&quot; guid=&quot;{16A7469C-5507-4b9d-A35F-6D87104CB7C0}&quot; level=&quot;4&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;0&quot; link=&quot;&quot;/&gt;&#xA;&#x9;&lt;step name=&quot;Koniec&quot; guid=&quot;{A53604D2-ED4C-4f3d-BD88-C9250D179267}&quot; level=&quot;5&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;1&quot; link=&quot;&quot;/&gt;&#xA;&#x9;&lt;context&gt;&#xA;&#x9;&#x9;&lt;item oldname=&quot;Anuluj rezerwacj&#x119;&quot; guid=&quot;{6499CF34-CCF8-4986-BF93-94CD21BBCB06}&quot;/&gt;&#xA;&#x9;&#x9;&lt;item oldname=&quot;POS&quot; guid=&quot;{BCC20810-55F1-4033-9D3A-087CF8467E26}&quot;/&gt;&#xA;&#x9;&#x9;&lt;item oldname=&quot;Dokonaj rezerwacji w imieniu klienta&quot; guid=&quot;{CB8E7A19-486D-4fca-8EB6-F6B3FAC7F052}&quot;/&gt;&#xA;&#x9;&#x9;&lt;item oldname=&quot;Klient&quot; guid=&quot;{D93C2EBC-9927-4fdc-9CB7-B2646F15755C}&quot;/&gt;&#xA;&#x9;&lt;/context&gt;&#xA;&lt;/path&gt;"/>
+			<Column name="ea_guid" value="{2537FF77-3CFE-4123-8528-B6A37590B64B}"/>
+			<Extension Object_ID="{61EA2408-D770-471f-8FA0-E5BCF3EBC0F2}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="773"/>
+			<Column name="Scenario" value="Brak po&#x142;&#x105;czenia z POS, mniej ni&#x17C; 3 próby odzyskania po&#x142;&#x105;czenia"/>
+			<Column name="ScenarioType" value="Alternate"/>
+			<Column name="EValue" value="2,000000"/>
+			<Column name="XMLContent" value="&lt;path&gt;&#xA;&#x9;&lt;step name=&quot;FoodBook wykonuje prób&#x119; ponowienia po&#x142;&#x105;czenia z POS&quot; guid=&quot;{19E84376-1FF4-41cf-80B2-851B78F54FAE}&quot; level=&quot;1&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;Brak &#x142;&#x105;czno&#x15B;ci z POS&quot; trigger=&quot;0&quot; link=&quot;&quot;/&gt;&#xA;&#x9;&lt;context&gt;&#xA;&#x9;&#x9;&lt;item oldname=&quot;Anuluj rezerwacj&#x119;&quot; guid=&quot;{6499CF34-CCF8-4986-BF93-94CD21BBCB06}&quot;/&gt;&#xA;&#x9;&#x9;&lt;item oldname=&quot;POS&quot; guid=&quot;{BCC20810-55F1-4033-9D3A-087CF8467E26}&quot;/&gt;&#xA;&#x9;&#x9;&lt;item oldname=&quot;Dokonaj rezerwacji w imieniu klienta&quot; guid=&quot;{CB8E7A19-486D-4fca-8EB6-F6B3FAC7F052}&quot;/&gt;&#xA;&#x9;&#x9;&lt;item oldname=&quot;Klient&quot; guid=&quot;{D93C2EBC-9927-4fdc-9CB7-B2646F15755C}&quot;/&gt;&#xA;&#x9;&lt;/context&gt;&#xA;&lt;/path&gt;"/>
+			<Column name="ea_guid" value="{0E807364-738D-4f90-9B28-E4864453C7A0}"/>
+			<Extension Object_ID="{61EA2408-D770-471f-8FA0-E5BCF3EBC0F2}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="773"/>
+			<Column name="Scenario" value="Brak po&#x142;&#x105;czenia z POS, przekroczona ilo&#x15B;&#x107; prób odzyskania po&#x142;&#x105;czenia"/>
+			<Column name="ScenarioType" value="Alternate"/>
+			<Column name="EValue" value="3,000000"/>
+			<Column name="XMLContent" value="&lt;path&gt;&#xA;&#x9;&lt;step name=&quot;FoodBook informuje klienta o problemach z utworzeniem rezerwacji&quot; guid=&quot;{99699CAC-E34F-4972-BA5E-E01766C6C3F3}&quot; level=&quot;1&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;0&quot; link=&quot;&quot;/&gt;&#xA;&#x9;&lt;context&gt;&#xA;&#x9;&#x9;&lt;item oldname=&quot;Anuluj rezerwacj&#x119;&quot; guid=&quot;{6499CF34-CCF8-4986-BF93-94CD21BBCB06}&quot;/&gt;&#xA;&#x9;&#x9;&lt;item oldname=&quot;POS&quot; guid=&quot;{BCC20810-55F1-4033-9D3A-087CF8467E26}&quot;/&gt;&#xA;&#x9;&#x9;&lt;item oldname=&quot;Dokonaj rezerwacji w imieniu klienta&quot; guid=&quot;{CB8E7A19-486D-4fca-8EB6-F6B3FAC7F052}&quot;/&gt;&#xA;&#x9;&#x9;&lt;item oldname=&quot;Klient&quot; guid=&quot;{D93C2EBC-9927-4fdc-9CB7-B2646F15755C}&quot;/&gt;&#xA;&#x9;&lt;/context&gt;&#xA;&lt;/path&gt;"/>
+			<Column name="ea_guid" value="{D6829FD5-823B-4f9f-858A-D22BDD63035A}"/>
+			<Extension Object_ID="{61EA2408-D770-471f-8FA0-E5BCF3EBC0F2}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="773"/>
+			<Column name="Scenario" value="Wszystkie stoliki zosta&#x142;y zaj&#x119;te"/>
+			<Column name="ScenarioType" value="Alternate"/>
+			<Column name="EValue" value="1,000000"/>
+			<Column name="XMLContent" value="&lt;path&gt;&#xA;&#x9;&lt;step name=&quot;FoodBook informuje klienta o problemie z dokonaniem rezerwacji&quot; guid=&quot;{CAD621DE-6FE4-415b-9CA0-0E253A3FC0A5}&quot; level=&quot;1&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;Stoliki spe&#x142;niaj&#x105;ce kryteria zosta&#x142;y zaj&#x119;te w POS restauracji&quot; trigger=&quot;0&quot; link=&quot;&quot;/&gt;&#xA;&#x9;&lt;context&gt;&#xA;&#x9;&#x9;&lt;item oldname=&quot;Anuluj rezerwacj&#x119;&quot; guid=&quot;{6499CF34-CCF8-4986-BF93-94CD21BBCB06}&quot;/&gt;&#xA;&#x9;&#x9;&lt;item oldname=&quot;POS&quot; guid=&quot;{BCC20810-55F1-4033-9D3A-087CF8467E26}&quot;/&gt;&#xA;&#x9;&#x9;&lt;item oldname=&quot;Dokonaj rezerwacji w imieniu klienta&quot; guid=&quot;{CB8E7A19-486D-4fca-8EB6-F6B3FAC7F052}&quot;/&gt;&#xA;&#x9;&#x9;&lt;item oldname=&quot;Klient&quot; guid=&quot;{D93C2EBC-9927-4fdc-9CB7-B2646F15755C}&quot;/&gt;&#xA;&#x9;&lt;/context&gt;&#xA;&lt;/path&gt;"/>
+			<Column name="ea_guid" value="{706F2DC5-FC21-4351-BC51-206748D111F1}"/>
+			<Extension Object_ID="{61EA2408-D770-471f-8FA0-E5BCF3EBC0F2}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="774"/>
+			<Column name="Scenario" value="Basic Path"/>
+			<Column name="ScenarioType" value="Basic Path"/>
+			<Column name="EValue" value="0,000000"/>
+			<Column name="XMLContent" value="&lt;path&gt;&#xA;&#x9;&lt;step name=&quot;Klient wybiera opcj&#x119; anulowania rezerwacji&quot; guid=&quot;{600DF0AA-2EAA-403d-8C9A-2150EDB004E1}&quot; level=&quot;1&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;1&quot; link=&quot;&quot;/&gt;&#xA;&#x9;&lt;step name=&quot;Klient potwierdza anulowanie rezerwacji&quot; guid=&quot;{24207F68-76C2-4c5a-BF1C-BAF7234F19DF}&quot; level=&quot;2&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;1&quot; link=&quot;&quot;/&gt;&#xA;&#x9;&lt;step name=&quot; FoodBook wysy&#x142;a &#x17C;&#x105;danie anulowania do POS&quot; guid=&quot;{3FC61B73-460C-4fea-B585-BBAC219661A0}&quot; level=&quot;3&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;0&quot; link=&quot;&quot;&gt;&#xA;&#x9;&#x9;&lt;extension level=&quot;3a&quot; guid=&quot;{C8269D1A-FE93-43e4-9638-E0E652148FBE}&quot; join=&quot;{64648156-A2C6-4c3a-BC6C-DEE2EA7A5526}&quot;/&gt;&#xA;&#x9;&#x9;&lt;extension level=&quot;3b&quot; guid=&quot;{5C6DFC69-E097-4157-9F9D-29380FAB5AC2}&quot; join=&quot;End&quot;/&gt;&#xA;&#x9;&lt;/step&gt;&#xA;&#x9;&lt;step name=&quot;POS ustawia stolik jako wolny&quot; guid=&quot;{64648156-A2C6-4c3a-BC6C-DEE2EA7A5526}&quot; level=&quot;4&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;1&quot; link=&quot;&quot;/&gt;&#xA;&#x9;&lt;step name=&quot;FoodBook potwierdza anulowanie klientowi&quot; guid=&quot;{F7400E0C-FFFB-48f0-B252-84EBBF825834}&quot; level=&quot;5&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;0&quot; link=&quot;&quot;/&gt;&#xA;&#x9;&lt;step name=&quot;Koniec&quot; guid=&quot;{FE7D1255-7366-48f5-8D1D-28FEFA43FE38}&quot; level=&quot;6&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;1&quot; link=&quot;&quot;/&gt;&#xA;&#x9;&lt;context&gt;&#xA;&#x9;&#x9;&lt;item oldname=&quot;Zarezerwuj stolik&quot; guid=&quot;{61EA2408-D770-471f-8FA0-E5BCF3EBC0F2}&quot;/&gt;&#xA;&#x9;&#x9;&lt;item oldname=&quot;POS&quot; guid=&quot;{BCC20810-55F1-4033-9D3A-087CF8467E26}&quot;/&gt;&#xA;&#x9;&lt;/context&gt;&#xA;&lt;/path&gt;"/>
+			<Column name="ea_guid" value="{350E37B0-D78E-431c-922C-D93B976329FF}"/>
+			<Extension Object_ID="{6499CF34-CCF8-4986-BF93-94CD21BBCB06}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="774"/>
+			<Column name="Scenario" value="Brak &#x142;aczno&#x15B;ci z POS, przekroczony limit prób"/>
+			<Column name="ScenarioType" value="Alternate"/>
+			<Column name="EValue" value="2,000000"/>
+			<Column name="XMLContent" value="&lt;path&gt;&#xA;&#x9;&lt;step name=&quot;FoodBook prosi klienta o kontakt telefoniczny z restauracj&#x105;&quot; guid=&quot;{ADEFADA1-8A8D-4068-A20B-6FE73105B0D6}&quot; level=&quot;1&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;0&quot; link=&quot;&quot;/&gt;&#xA;&#x9;&lt;context&gt;&#xA;&#x9;&#x9;&lt;item oldname=&quot;Zarezerwuj stolik&quot; guid=&quot;{61EA2408-D770-471f-8FA0-E5BCF3EBC0F2}&quot;/&gt;&#xA;&#x9;&#x9;&lt;item oldname=&quot;POS&quot; guid=&quot;{BCC20810-55F1-4033-9D3A-087CF8467E26}&quot;/&gt;&#xA;&#x9;&lt;/context&gt;&#xA;&lt;/path&gt;"/>
+			<Column name="ea_guid" value="{5C6DFC69-E097-4157-9F9D-29380FAB5AC2}"/>
+			<Extension Object_ID="{6499CF34-CCF8-4986-BF93-94CD21BBCB06}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="774"/>
+			<Column name="Scenario" value="Brak &#x142;&#x105;czno&#x15B;ci z POS, limit prób odzyskania po&#x142;&#x105;czenia nieprzekroczony"/>
+			<Column name="ScenarioType" value="Alternate"/>
+			<Column name="EValue" value="1,000000"/>
+			<Column name="XMLContent" value="&lt;path&gt;&#xA;&#x9;&lt;step name=&quot;FoodBook dokonuje kilku prób poinformowania POS o anulowaniu rezerwacji&quot; guid=&quot;{FEB8D5FA-D4B1-4d05-86A1-35E5AF4E9CBA}&quot; level=&quot;1&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;0&quot; link=&quot;&quot;/&gt;&#xA;&#x9;&lt;context&gt;&#xA;&#x9;&#x9;&lt;item oldname=&quot;Zarezerwuj stolik&quot; guid=&quot;{61EA2408-D770-471f-8FA0-E5BCF3EBC0F2}&quot;/&gt;&#xA;&#x9;&#x9;&lt;item oldname=&quot;POS&quot; guid=&quot;{BCC20810-55F1-4033-9D3A-087CF8467E26}&quot;/&gt;&#xA;&#x9;&lt;/context&gt;&#xA;&lt;/path&gt;"/>
+			<Column name="ea_guid" value="{C8269D1A-FE93-43e4-9638-E0E652148FBE}"/>
+			<Extension Object_ID="{6499CF34-CCF8-4986-BF93-94CD21BBCB06}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="778"/>
+			<Column name="Scenario" value="Basic Path"/>
+			<Column name="ScenarioType" value="Basic Path"/>
+			<Column name="EValue" value="0,000000"/>
+			<Column name="XMLContent" value="&lt;path&gt;&#xA;&#x9;&lt;step name=&quot;Klient wpisuje lokalizacj&#x119; i liczb&#x119; osób &quot; guid=&quot;{13AE9A2F-26BF-457c-AEDA-C1AE8C34503C}&quot; level=&quot;1&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;1&quot; link=&quot;&quot;/&gt;&#xA;&#x9;&lt;step name=&quot;System pobiera dane o dost&#x119;pno&#x15B;ci ze wszystkich lokali sieci &quot; guid=&quot;{15D934D6-F4DB-42e1-9B9C-D1DE2C4C876D}&quot; level=&quot;2&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;0&quot; link=&quot;&quot;&gt;&#xA;&#x9;&#x9;&lt;extension level=&quot;2a&quot; guid=&quot;{B0E2D195-FF35-4705-BC61-100B73A33686}&quot; join=&quot;{13AE9A2F-26BF-457c-AEDA-C1AE8C34503C}&quot;/&gt;&#xA;&#x9;&lt;/step&gt;&#xA;&#x9;&lt;step name=&quot;Filtruje stoliki wg pojemno&#x15B;ci i zaj&#x119;to&#x15B;ci &quot; guid=&quot;{DE699752-B579-4aff-93F5-8AAEABE7161D}&quot; level=&quot;3&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;0&quot; link=&quot;&quot;/&gt;&#xA;&#x9;&lt;step name=&quot;Sortuje wyniki wg odleg&#x142;o&#x15B;ci &quot; guid=&quot;{533773BF-153A-4067-85DA-C21FA3CAB992}&quot; level=&quot;4&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;0&quot; link=&quot;&quot;/&gt;&#xA;&#x9;&lt;step name=&quot;Wy&#x15B;wietla list&#x119; lokali&quot; guid=&quot;{41F72A48-3A16-429c-945D-321E0E5CDCFA}&quot; level=&quot;5&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;0&quot; link=&quot;&quot;/&gt;&#xA;&#x9;&lt;step name=&quot;Koniec&quot; guid=&quot;{9B3EE1FB-30E2-4ca0-B44D-AE8EF31FE61E}&quot; level=&quot;6&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;1&quot; link=&quot;&quot;/&gt;&#xA;&#x9;&lt;context&gt;&#xA;&#x9;&#x9;&lt;item oldname=&quot;Sprawd&#x17A; dost&#x119;pno&#x15B;&#x107; stolików w lokalu&quot; guid=&quot;{781F6E4D-D0E6-493e-8284-7A775AACBE62}&quot;/&gt;&#xA;&#x9;&#x9;&lt;item oldname=&quot;Klient&quot; guid=&quot;{D93C2EBC-9927-4fdc-9CB7-B2646F15755C}&quot;/&gt;&#xA;&#x9;&lt;/context&gt;&#xA;&lt;/path&gt;"/>
+			<Column name="ea_guid" value="{1F3C80AD-A1A7-4d3c-A24C-C17CFEE27120}"/>
+			<Extension Object_ID="{0A67355C-5B3F-4fd8-B30E-98F25A3EFA3E}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="778"/>
+			<Column name="Scenario" value="Brak lokali spe&#x142;niaj&#x105;cych kryteria"/>
+			<Column name="ScenarioType" value="Alternate"/>
+			<Column name="EValue" value="1,000000"/>
+			<Column name="XMLContent" value="&lt;path&gt;&#xA;&#x9;&lt;step name=&quot;System informuje klienta i proponuje poszerzenie obszaru wyszukiwania&amp;#xA;lub zmian&#x119; godziny&quot; guid=&quot;{DE0217DF-8FCC-4e17-A6B1-6EF4B7C53459}&quot; level=&quot;1&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;Brak lokali spe&#x142;niaj&#x105;cych kryteria &quot; trigger=&quot;0&quot; link=&quot;&quot;/&gt;&#xA;&#x9;&lt;context&gt;&#xA;&#x9;&#x9;&lt;item oldname=&quot;Sprawd&#x17A; dost&#x119;pno&#x15B;&#x107; stolików w lokalu&quot; guid=&quot;{781F6E4D-D0E6-493e-8284-7A775AACBE62}&quot;/&gt;&#xA;&#x9;&#x9;&lt;item oldname=&quot;Klient&quot; guid=&quot;{D93C2EBC-9927-4fdc-9CB7-B2646F15755C}&quot;/&gt;&#xA;&#x9;&lt;/context&gt;&#xA;&lt;/path&gt;"/>
+			<Column name="ea_guid" value="{B0E2D195-FF35-4705-BC61-100B73A33686}"/>
+			<Extension Object_ID="{0A67355C-5B3F-4fd8-B30E-98F25A3EFA3E}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="782"/>
+			<Column name="Scenario" value="Basic Path"/>
+			<Column name="ScenarioType" value="Basic Path"/>
+			<Column name="EValue" value="0,000000"/>
+			<Column name="XMLContent" value="&lt;path&gt;&#xA;&#x9;&lt;step name=&quot;Obs&#x142;uga wprowadza dane klienta (imi&#x119;, liczba osób) &quot; guid=&quot;{6DDB72CF-2A7A-4a17-9BDD-6B1CD91AA392}&quot; level=&quot;1&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;1&quot; link=&quot;&quot;&gt;&#xA;&#x9;&#x9;&lt;extension level=&quot;1a&quot; guid=&quot;{B09AD435-8CAE-4691-B5A0-83D6610FCE4C}&quot; join=&quot;End&quot;/&gt;&#xA;&#x9;&lt;/step&gt;&#xA;&#x9;&lt;step name=&quot;Obs&#x142;uga wybiera preferowany lokal spe&#x142;niaj&#x105;cy parametry&quot; guid=&quot;{796DEC2E-FF52-47ca-A283-5650BCEFF43A}&quot; level=&quot;2&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;1&quot; link=&quot;&quot;/&gt;&#xA;&#x9;&lt;step name=&quot;Obs&#x142;uga zatwierdza rezerwacj&#x119;&quot; guid=&quot;{C6F902B1-13B0-48c0-AA79-0A52E8394820}&quot; level=&quot;3&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;1&quot; link=&quot;&quot;/&gt;&#xA;&#x9;&lt;step name=&quot;System przeprowadza proces rezerwacji&quot; guid=&quot;{DB69261E-0870-4601-80E5-1AEE9A3A3FB4}&quot; level=&quot;4&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;0&quot; link=&quot;&quot;/&gt;&#xA;&#x9;&lt;step name=&quot;System zwraca informacj&#x119; o dokonaniu rezerwacji&quot; guid=&quot;{9159A476-46C0-4e17-9C5B-8B7B4ED4547D}&quot; level=&quot;5&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;0&quot; link=&quot;&quot;/&gt;&#xA;&#x9;&lt;step name=&quot;Koniec&quot; guid=&quot;{CBD58C55-F5DC-46bf-A6F0-FC2A81C5C07D}&quot; level=&quot;6&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;1&quot; link=&quot;&quot;/&gt;&#xA;&#x9;&lt;context&gt;&#xA;&#x9;&#x9;&lt;item oldname=&quot;Obs&#x142;uga restauracji&quot; guid=&quot;{45BB8A31-5807-4cc5-BF13-B4256DF86839}&quot;/&gt;&#xA;&#x9;&#x9;&lt;item oldname=&quot;Zarezerwuj stolik&quot; guid=&quot;{61EA2408-D770-471f-8FA0-E5BCF3EBC0F2}&quot;/&gt;&#xA;&#x9;&lt;/context&gt;&#xA;&lt;/path&gt;"/>
+			<Column name="ea_guid" value="{777A6062-CAC3-40bc-9C2B-D7DFEB27F813}"/>
+			<Extension Object_ID="{CB8E7A19-486D-4fca-8EB6-F6B3FAC7F052}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="782"/>
+			<Column name="Scenario" value="&#x17B;aden lokal nie ma miejsca"/>
+			<Column name="ScenarioType" value="Alternate"/>
+			<Column name="EValue" value="1,000000"/>
+			<Column name="XMLContent" value="&lt;path&gt;&#xA;&#x9;&lt;step name=&quot;System informuje obs&#x142;ug&#x119;, &#x17C;e &#x17C;aden lokal w tym momencie nie ma odpowiedniego stolika&quot; guid=&quot;{0CA47071-96B9-40fc-8A1F-25277A6D326D}&quot; level=&quot;1&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;0&quot; link=&quot;&quot;/&gt;&#xA;&#x9;&lt;context&gt;&#xA;&#x9;&#x9;&lt;item oldname=&quot;Obs&#x142;uga restauracji&quot; guid=&quot;{45BB8A31-5807-4cc5-BF13-B4256DF86839}&quot;/&gt;&#xA;&#x9;&#x9;&lt;item oldname=&quot;Zarezerwuj stolik&quot; guid=&quot;{61EA2408-D770-471f-8FA0-E5BCF3EBC0F2}&quot;/&gt;&#xA;&#x9;&lt;/context&gt;&#xA;&lt;/path&gt;"/>
+			<Column name="ea_guid" value="{B09AD435-8CAE-4691-B5A0-83D6610FCE4C}"/>
+			<Extension Object_ID="{CB8E7A19-486D-4fca-8EB6-F6B3FAC7F052}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="788"/>
+			<Column name="Scenario" value="Basic Path"/>
+			<Column name="ScenarioType" value="Basic Path"/>
+			<Column name="EValue" value="0,000000"/>
+			<Column name="XMLContent" value="&lt;path&gt;&#xA;&#x9;&lt;step name=&quot;Zarz&#x105;d otwiera modu&#x142; analityki &quot; guid=&quot;{B046C40F-EE91-432c-A444-6BD26B55A2C2}&quot; level=&quot;1&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;1&quot; link=&quot;&quot;/&gt;&#xA;&#x9;&lt;step name=&quot;System &#x142;aduje dane o ob&#x142;o&#x17C;eniu wszystkich lokali z centralnej bazy&quot; guid=&quot;{6D64E3B0-A535-4091-B439-822CD34C74DF}&quot; level=&quot;2&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;0&quot; link=&quot;&quot;/&gt;&#xA;&#x9;&lt;step name=&quot;Prezentuje dashboard z wska&#x17A;nikami utylizacji przestrzeni, liczb&#x105; rezerwacji i liczb&#x105; przekierowa&#x144; mi&#x119;dzy lokalami&quot; guid=&quot;{0C11102C-19EF-4ecc-A556-41E561D1164B}&quot; level=&quot;3&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;0&quot; link=&quot;&quot;&gt;&#xA;&#x9;&#x9;&lt;extension level=&quot;3a&quot; guid=&quot;{4E9CE763-F706-43e9-8CC8-0DD11E7F5C95}&quot; join=&quot;End&quot;/&gt;&#xA;&#x9;&lt;/step&gt;&#xA;&#x9;&lt;step name=&quot;Koniec&quot; guid=&quot;{F64D092D-1951-46a3-8857-4CDB5110BFB6}&quot; level=&quot;4&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;1&quot; link=&quot;&quot;/&gt;&#xA;&#x9;&lt;context&gt;&#xA;&#x9;&#x9;&lt;item oldname=&quot;Generuj raport ob&#x142;o&#x17C;enia&quot; guid=&quot;{1F19C08B-8C60-429c-8C1C-D1B7B13A0C97}&quot;/&gt;&#xA;&#x9;&#x9;&lt;item oldname=&quot;Zarz&#x105;d sieci&quot; guid=&quot;{C14E38CD-20AC-40bf-AC7D-F26E382A405C}&quot;/&gt;&#xA;&#x9;&#x9;&lt;item oldname=&quot;Przegl&#x105;daj statystyki rezerwacji&quot; guid=&quot;{ED8779CD-6165-4cd5-A538-1F53EFA93E62}&quot;/&gt;&#xA;&#x9;&lt;/context&gt;&#xA;&lt;/path&gt;"/>
+			<Column name="ea_guid" value="{D1A327D9-AB12-4726-B620-83E680236AEA}"/>
+			<Extension Object_ID="{86D08707-A316-41e3-BC3C-D69CFD3C0AD4}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="788"/>
+			<Column name="Scenario" value="Brak danych"/>
+			<Column name="ScenarioType" value="Alternate"/>
+			<Column name="EValue" value="1,000000"/>
+			<Column name="XMLContent" value="&lt;path&gt;&#xA;&#x9;&lt;step name=&quot;System informuje o braku danych.&quot; guid=&quot;{B2F26539-98DA-4ba4-BCDB-38BC045B2708}&quot; level=&quot;1&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;0&quot; link=&quot;&quot;/&gt;&#xA;&#x9;&lt;context&gt;&#xA;&#x9;&#x9;&lt;item oldname=&quot;Generuj raport ob&#x142;o&#x17C;enia&quot; guid=&quot;{1F19C08B-8C60-429c-8C1C-D1B7B13A0C97}&quot;/&gt;&#xA;&#x9;&#x9;&lt;item oldname=&quot;Zarz&#x105;d sieci&quot; guid=&quot;{C14E38CD-20AC-40bf-AC7D-F26E382A405C}&quot;/&gt;&#xA;&#x9;&#x9;&lt;item oldname=&quot;Przegl&#x105;daj statystyki rezerwacji&quot; guid=&quot;{ED8779CD-6165-4cd5-A538-1F53EFA93E62}&quot;/&gt;&#xA;&#x9;&lt;/context&gt;&#xA;&lt;/path&gt;"/>
+			<Column name="ea_guid" value="{4E9CE763-F706-43e9-8CC8-0DD11E7F5C95}"/>
+			<Extension Object_ID="{86D08707-A316-41e3-BC3C-D69CFD3C0AD4}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="789"/>
+			<Column name="Scenario" value="Basic Path"/>
+			<Column name="ScenarioType" value="Basic Path"/>
+			<Column name="EValue" value="0,000000"/>
+			<Column name="XMLContent" value="&lt;path&gt;&#xA;&#x9;&lt;step name=&quot;Zarz&#x105;d wybiera zakres dat i lokale -&amp;gt; zatwierdza parametry&quot; guid=&quot;{25B8595B-C0FC-468e-8EEE-2C4C191538E6}&quot; level=&quot;1&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;1&quot; link=&quot;&quot;/&gt;&#xA;&#x9;&lt;step name=&quot;System generuje raport&quot; guid=&quot;{19AF385B-3D44-4106-AE0C-5567C1576E3A}&quot; level=&quot;2&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;0&quot; link=&quot;&quot;&gt;&#xA;&#x9;&#x9;&lt;extension level=&quot;2a&quot; guid=&quot;{1B22F934-F21B-4edf-BD43-1D368F62BB6A}&quot; join=&quot;End&quot;/&gt;&#xA;&#x9;&lt;/step&gt;&#xA;&#x9;&lt;step name=&quot;Raport jest&amp;#xA;wy&#x15B;wietlany na ekranie z opcj&#x105; eksportu&quot; guid=&quot;{B4E338C9-7C16-4d31-8714-24A4A0B3833A}&quot; level=&quot;3&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;0&quot; link=&quot;&quot;/&gt;&#xA;&#x9;&lt;step name=&quot;Koniec&quot; guid=&quot;{9555510B-38E6-4d36-B9A0-1D171DCF0848}&quot; level=&quot;4&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;1&quot; link=&quot;&quot;/&gt;&#xA;&#x9;&lt;context&gt;&#xA;&#x9;&#x9;&lt;item oldname=&quot;Analizuj ob&#x142;o&#x17C;enie lokali&quot; guid=&quot;{86D08707-A316-41e3-BC3C-D69CFD3C0AD4}&quot;/&gt;&#xA;&#x9;&lt;/context&gt;&#xA;&lt;/path&gt;"/>
+			<Column name="ea_guid" value="{3B00DB85-91DF-4475-8FF8-B76629DFBF20}"/>
+			<Extension Object_ID="{1F19C08B-8C60-429c-8C1C-D1B7B13A0C97}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="789"/>
+			<Column name="Scenario" value="Brak danych"/>
+			<Column name="ScenarioType" value="Alternate"/>
+			<Column name="EValue" value="1,000000"/>
+			<Column name="XMLContent" value="&lt;path&gt;&#xA;&#x9;&lt;step name=&quot;System wy&#x15B;wietla komunikat i sugeruje&amp;#xA;inny zakres dat&quot; guid=&quot;{8C38CBA3-57D4-49b9-AE1C-A9E11CB5FFC5}&quot; level=&quot;1&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;Brak danych dla  wybranego okresu&quot; trigger=&quot;0&quot; link=&quot;&quot;/&gt;&#xA;&#x9;&lt;context&gt;&#xA;&#x9;&#x9;&lt;item oldname=&quot;Analizuj ob&#x142;o&#x17C;enie lokali&quot; guid=&quot;{86D08707-A316-41e3-BC3C-D69CFD3C0AD4}&quot;/&gt;&#xA;&#x9;&lt;/context&gt;&#xA;&lt;/path&gt;"/>
+			<Column name="ea_guid" value="{1B22F934-F21B-4edf-BD43-1D368F62BB6A}"/>
+			<Extension Object_ID="{1F19C08B-8C60-429c-8C1C-D1B7B13A0C97}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="790"/>
+			<Column name="Scenario" value="Basic Path"/>
+			<Column name="ScenarioType" value="Basic Path"/>
+			<Column name="EValue" value="0,000000"/>
+			<Column name="XMLContent" value="&lt;path&gt;&#xA;&#x9;&lt;step name=&quot;System pobiera dane rezerwacji z bazy&quot; guid=&quot;{AFFA4411-818A-48bc-A98D-24B63930DAE5}&quot; level=&quot;1&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;0&quot; link=&quot;&quot;/&gt;&#xA;&#x9;&lt;step name=&quot;Agreguje je wed&#x142;ug wybranych parametrów (lokalizacja, czas) &quot; guid=&quot;{852B413E-BDF0-49f3-9069-201CB6A0A374}&quot; level=&quot;2&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;0&quot; link=&quot;&quot;&gt;&#xA;&#x9;&#x9;&lt;extension level=&quot;2a&quot; guid=&quot;{F435154F-4FBE-4517-AE84-5639471B3949}&quot; join=&quot;End&quot;/&gt;&#xA;&#x9;&lt;/step&gt;&#xA;&#x9;&lt;step name=&quot;Zwraca wyniki w formie tabelarycznej i wykresów&quot; guid=&quot;{18566436-18D6-494c-A35F-2A91755E9E7F}&quot; level=&quot;3&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;0&quot; link=&quot;&quot;/&gt;&#xA;&#x9;&lt;step name=&quot;Koniec&quot; guid=&quot;{94FA8AF8-961F-4cb1-BD2D-E140A228D2B8}&quot; level=&quot;4&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;&quot; trigger=&quot;1&quot; link=&quot;&quot;/&gt;&#xA;&#x9;&lt;context&gt;&#xA;&#x9;&#x9;&lt;item oldname=&quot;Analizuj ob&#x142;o&#x17C;enie lokali&quot; guid=&quot;{86D08707-A316-41e3-BC3C-D69CFD3C0AD4}&quot;/&gt;&#xA;&#x9;&lt;/context&gt;&#xA;&lt;/path&gt;"/>
+			<Column name="ea_guid" value="{573A8BDF-30A9-488a-8B6C-35523BFCA88A}"/>
+			<Extension Object_ID="{ED8779CD-6165-4cd5-A538-1F53EFA93E62}"/>
+		</Row>
+		<Row>
+			<Column name="Object_ID" value="790"/>
+			<Column name="Scenario" value="Brak danych"/>
+			<Column name="ScenarioType" value="Alternate"/>
+			<Column name="EValue" value="1,000000"/>
+			<Column name="XMLContent" value="&lt;path&gt;&#xA;&#x9;&lt;step name=&quot;System informuje o braku danych&quot; guid=&quot;{5090B805-C89C-4b8f-A4E5-C0BF5BE58754}&quot; level=&quot;1&quot; uses=&quot;&quot; useslist=&quot;&quot; result=&quot;&quot; state=&quot;Brak rezerwacji w wybranym filtrze&quot; trigger=&quot;0&quot; link=&quot;&quot;/&gt;&#xA;&#x9;&lt;context&gt;&#xA;&#x9;&#x9;&lt;item oldname=&quot;Analizuj ob&#x142;o&#x17C;enie lokali&quot; guid=&quot;{86D08707-A316-41e3-BC3C-D69CFD3C0AD4}&quot;/&gt;&#xA;&#x9;&lt;/context&gt;&#xA;&lt;/path&gt;"/>
+			<Column name="ea_guid" value="{F435154F-4FBE-4517-AE84-5639471B3949}"/>
+			<Extension Object_ID="{ED8779CD-6165-4cd5-A538-1F53EFA93E62}"/>
+		</Row>
+	</Table>
+	<Table name="t_connector">
+		<Row>
+			<Column name="Connector_ID" value="282"/>
+			<Column name="Direction" value="Source -&gt; Destination"/>
+			<Column name="Connector_Type" value="UseCase"/>
+			<Column name="SubType" value="Includes"/>
+			<Column name="SourceAccess" value="Public"/>
+			<Column name="DestAccess" value="Public"/>
+			<Column name="SourceContainment" value="Unspecified"/>
+			<Column name="SourceIsAggregate" value="0"/>
+			<Column name="SourceIsOrdered" value="0"/>
+			<Column name="DestContainment" value="Unspecified"/>
+			<Column name="DestIsAggregate" value="0"/>
+			<Column name="DestIsOrdered" value="0"/>
+			<Column name="Start_Object_ID" value="788"/>
+			<Column name="End_Object_ID" value="790"/>
+			<Column name="Btm_Mid_Label" value="«include»"/>
+			<Column name="Start_Edge" value="0"/>
+			<Column name="End_Edge" value="0"/>
+			<Column name="PtStartX" value="0"/>
+			<Column name="PtStartY" value="0"/>
+			<Column name="PtEndX" value="0"/>
+			<Column name="PtEndY" value="0"/>
+			<Column name="SeqNo" value="0"/>
+			<Column name="HeadStyle" value="0"/>
+			<Column name="LineStyle" value="0"/>
+			<Column name="RouteStyle" value="3"/>
+			<Column name="IsBold" value="0"/>
+			<Column name="LineColor" value="-1"/>
+			<Column name="Stereotype" value="include"/>
+			<Column name="VirtualInheritance" value="0"/>
+			<Column name="PDATA5" value="SX=0;SY=0;EX=0;EY=0;"/>
+			<Column name="DiagramID" value="0"/>
+			<Column name="ea_guid" value="{096C746D-6E59-4017-8070-C5215FFCAE82}"/>
+			<Column name="SourceIsNavigable" value="0"/>
+			<Column name="DestIsNavigable" value="1"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="SourceChangeable" value="none"/>
+			<Column name="DestChangeable" value="none"/>
+			<Column name="SourceTS" value="instance"/>
+			<Column name="DestTS" value="instance"/>
+			<Column name="Target2" value="0"/>
+			<Column name="SourceStyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+			<Column name="DestStyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+			<Extension Start_Object_ID="{86D08707-A316-41e3-BC3C-D69CFD3C0AD4}" End_Object_ID="{ED8779CD-6165-4cd5-A538-1F53EFA93E62}"/>
+		</Row>
+		<Row>
+			<Column name="Connector_ID" value="296"/>
+			<Column name="Direction" value="Source -&gt; Destination"/>
+			<Column name="Connector_Type" value="UseCase"/>
+			<Column name="SubType" value="Extends"/>
+			<Column name="SourceAccess" value="Public"/>
+			<Column name="DestAccess" value="Public"/>
+			<Column name="SourceContainment" value="Unspecified"/>
+			<Column name="SourceIsAggregate" value="0"/>
+			<Column name="SourceIsOrdered" value="0"/>
+			<Column name="DestContainment" value="Unspecified"/>
+			<Column name="DestIsAggregate" value="0"/>
+			<Column name="DestIsOrdered" value="0"/>
+			<Column name="Start_Object_ID" value="774"/>
+			<Column name="End_Object_ID" value="773"/>
+			<Column name="Btm_Mid_Label" value="«extend»"/>
+			<Column name="Start_Edge" value="0"/>
+			<Column name="End_Edge" value="0"/>
+			<Column name="PtStartX" value="0"/>
+			<Column name="PtStartY" value="0"/>
+			<Column name="PtEndX" value="0"/>
+			<Column name="PtEndY" value="0"/>
+			<Column name="SeqNo" value="0"/>
+			<Column name="HeadStyle" value="0"/>
+			<Column name="LineStyle" value="0"/>
+			<Column name="RouteStyle" value="3"/>
+			<Column name="IsBold" value="0"/>
+			<Column name="LineColor" value="-1"/>
+			<Column name="Stereotype" value="extend"/>
+			<Column name="VirtualInheritance" value="0"/>
+			<Column name="PDATA5" value="SX=0;SY=0;EX=0;EY=0;"/>
+			<Column name="DiagramID" value="0"/>
+			<Column name="ea_guid" value="{1D5B4525-EA4A-4459-8ADD-CF2BEF490F5A}"/>
+			<Column name="SourceIsNavigable" value="0"/>
+			<Column name="DestIsNavigable" value="1"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="SourceChangeable" value="none"/>
+			<Column name="DestChangeable" value="none"/>
+			<Column name="SourceTS" value="instance"/>
+			<Column name="DestTS" value="instance"/>
+			<Column name="Target2" value="0"/>
+			<Column name="SourceStyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+			<Column name="DestStyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+			<Extension Start_Object_ID="{6499CF34-CCF8-4986-BF93-94CD21BBCB06}" End_Object_ID="{61EA2408-D770-471f-8FA0-E5BCF3EBC0F2}"/>
+		</Row>
+		<Row>
+			<Column name="Connector_ID" value="302"/>
+			<Column name="Direction" value="Unspecified"/>
+			<Column name="Connector_Type" value="Association"/>
+			<Column name="SourceAccess" value="Public"/>
+			<Column name="DestAccess" value="Public"/>
+			<Column name="SourceContainment" value="Unspecified"/>
+			<Column name="SourceIsAggregate" value="0"/>
+			<Column name="SourceIsOrdered" value="0"/>
+			<Column name="DestContainment" value="Unspecified"/>
+			<Column name="DestIsAggregate" value="0"/>
+			<Column name="DestIsOrdered" value="0"/>
+			<Column name="Start_Object_ID" value="768"/>
+			<Column name="End_Object_ID" value="773"/>
+			<Column name="Start_Edge" value="0"/>
+			<Column name="End_Edge" value="0"/>
+			<Column name="PtStartX" value="0"/>
+			<Column name="PtStartY" value="0"/>
+			<Column name="PtEndX" value="0"/>
+			<Column name="PtEndY" value="0"/>
+			<Column name="SeqNo" value="0"/>
+			<Column name="HeadStyle" value="0"/>
+			<Column name="LineStyle" value="0"/>
+			<Column name="RouteStyle" value="3"/>
+			<Column name="IsBold" value="0"/>
+			<Column name="LineColor" value="-1"/>
+			<Column name="VirtualInheritance" value="0"/>
+			<Column name="PDATA5" value="SX=0;SY=0;EX=0;EY=0;"/>
+			<Column name="DiagramID" value="0"/>
+			<Column name="ea_guid" value="{21B957B2-E84C-42f4-AA86-29BF8F45397D}"/>
+			<Column name="SourceIsNavigable" value="0"/>
+			<Column name="DestIsNavigable" value="0"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="SourceChangeable" value="none"/>
+			<Column name="DestChangeable" value="none"/>
+			<Column name="SourceTS" value="instance"/>
+			<Column name="DestTS" value="instance"/>
+			<Column name="Target2" value="0"/>
+			<Column name="SourceStyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+			<Column name="DestStyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+			<Extension Start_Object_ID="{D93C2EBC-9927-4fdc-9CB7-B2646F15755C}" End_Object_ID="{61EA2408-D770-471f-8FA0-E5BCF3EBC0F2}"/>
+		</Row>
+		<Row>
+			<Column name="Connector_ID" value="290"/>
+			<Column name="Direction" value="Unspecified"/>
+			<Column name="Connector_Type" value="Association"/>
+			<Column name="SourceAccess" value="Public"/>
+			<Column name="DestAccess" value="Public"/>
+			<Column name="SourceContainment" value="Unspecified"/>
+			<Column name="SourceIsAggregate" value="0"/>
+			<Column name="SourceIsOrdered" value="0"/>
+			<Column name="DestContainment" value="Unspecified"/>
+			<Column name="DestIsAggregate" value="0"/>
+			<Column name="DestIsOrdered" value="0"/>
+			<Column name="Start_Object_ID" value="768"/>
+			<Column name="End_Object_ID" value="778"/>
+			<Column name="Start_Edge" value="0"/>
+			<Column name="End_Edge" value="0"/>
+			<Column name="PtStartX" value="0"/>
+			<Column name="PtStartY" value="0"/>
+			<Column name="PtEndX" value="0"/>
+			<Column name="PtEndY" value="0"/>
+			<Column name="SeqNo" value="0"/>
+			<Column name="HeadStyle" value="0"/>
+			<Column name="LineStyle" value="0"/>
+			<Column name="RouteStyle" value="3"/>
+			<Column name="IsBold" value="0"/>
+			<Column name="LineColor" value="-1"/>
+			<Column name="VirtualInheritance" value="0"/>
+			<Column name="PDATA5" value="SX=0;SY=0;EX=0;EY=0;"/>
+			<Column name="DiagramID" value="0"/>
+			<Column name="ea_guid" value="{3E2A5C97-6A27-4180-B21C-2DA0214E8005}"/>
+			<Column name="SourceIsNavigable" value="0"/>
+			<Column name="DestIsNavigable" value="0"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="SourceChangeable" value="none"/>
+			<Column name="DestChangeable" value="none"/>
+			<Column name="SourceTS" value="instance"/>
+			<Column name="DestTS" value="instance"/>
+			<Column name="Target2" value="0"/>
+			<Column name="SourceStyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+			<Column name="DestStyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+			<Extension Start_Object_ID="{D93C2EBC-9927-4fdc-9CB7-B2646F15755C}" End_Object_ID="{0A67355C-5B3F-4fd8-B30E-98F25A3EFA3E}"/>
+		</Row>
+		<Row>
+			<Column name="Connector_ID" value="303"/>
+			<Column name="Direction" value="Source -&gt; Destination"/>
+			<Column name="Connector_Type" value="Generalization"/>
+			<Column name="SourceAccess" value="Public"/>
+			<Column name="DestAccess" value="Public"/>
+			<Column name="SourceContainment" value="Unspecified"/>
+			<Column name="SourceIsAggregate" value="0"/>
+			<Column name="SourceIsOrdered" value="0"/>
+			<Column name="DestContainment" value="Unspecified"/>
+			<Column name="DestIsAggregate" value="0"/>
+			<Column name="DestIsOrdered" value="0"/>
+			<Column name="Start_Object_ID" value="782"/>
+			<Column name="End_Object_ID" value="773"/>
+			<Column name="Start_Edge" value="0"/>
+			<Column name="End_Edge" value="0"/>
+			<Column name="PtStartX" value="0"/>
+			<Column name="PtStartY" value="0"/>
+			<Column name="PtEndX" value="0"/>
+			<Column name="PtEndY" value="0"/>
+			<Column name="SeqNo" value="0"/>
+			<Column name="HeadStyle" value="0"/>
+			<Column name="LineStyle" value="0"/>
+			<Column name="RouteStyle" value="3"/>
+			<Column name="IsBold" value="0"/>
+			<Column name="LineColor" value="-1"/>
+			<Column name="VirtualInheritance" value="0"/>
+			<Column name="PDATA5" value="SX=0;SY=0;EX=0;EY=0;"/>
+			<Column name="DiagramID" value="0"/>
+			<Column name="ea_guid" value="{522C5BDC-E35E-437e-A659-81B3318F5345}"/>
+			<Column name="SourceIsNavigable" value="0"/>
+			<Column name="DestIsNavigable" value="1"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="SourceChangeable" value="none"/>
+			<Column name="DestChangeable" value="none"/>
+			<Column name="SourceTS" value="instance"/>
+			<Column name="DestTS" value="instance"/>
+			<Column name="Target2" value="0"/>
+			<Column name="SourceStyle" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+			<Column name="DestStyle" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+			<Extension Start_Object_ID="{CB8E7A19-486D-4fca-8EB6-F6B3FAC7F052}" End_Object_ID="{61EA2408-D770-471f-8FA0-E5BCF3EBC0F2}"/>
+		</Row>
+		<Row>
+			<Column name="Connector_ID" value="286"/>
+			<Column name="Direction" value="Unspecified"/>
+			<Column name="Connector_Type" value="Association"/>
+			<Column name="SourceAccess" value="Public"/>
+			<Column name="DestAccess" value="Public"/>
+			<Column name="SourceContainment" value="Unspecified"/>
+			<Column name="SourceIsAggregate" value="0"/>
+			<Column name="SourceIsOrdered" value="0"/>
+			<Column name="DestContainment" value="Unspecified"/>
+			<Column name="DestIsAggregate" value="0"/>
+			<Column name="DestIsOrdered" value="0"/>
+			<Column name="Start_Object_ID" value="769"/>
+			<Column name="End_Object_ID" value="782"/>
+			<Column name="Start_Edge" value="0"/>
+			<Column name="End_Edge" value="0"/>
+			<Column name="PtStartX" value="0"/>
+			<Column name="PtStartY" value="0"/>
+			<Column name="PtEndX" value="0"/>
+			<Column name="PtEndY" value="0"/>
+			<Column name="SeqNo" value="0"/>
+			<Column name="HeadStyle" value="0"/>
+			<Column name="LineStyle" value="0"/>
+			<Column name="RouteStyle" value="3"/>
+			<Column name="IsBold" value="0"/>
+			<Column name="LineColor" value="-1"/>
+			<Column name="VirtualInheritance" value="0"/>
+			<Column name="PDATA5" value="SX=0;SY=0;EX=0;EY=0;"/>
+			<Column name="DiagramID" value="0"/>
+			<Column name="ea_guid" value="{8006CEEF-7E4E-46d0-B827-297734B97FBE}"/>
+			<Column name="SourceIsNavigable" value="0"/>
+			<Column name="DestIsNavigable" value="0"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="SourceChangeable" value="none"/>
+			<Column name="DestChangeable" value="none"/>
+			<Column name="SourceTS" value="instance"/>
+			<Column name="DestTS" value="instance"/>
+			<Column name="Target2" value="0"/>
+			<Column name="SourceStyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+			<Column name="DestStyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+			<Extension Start_Object_ID="{45BB8A31-5807-4cc5-BF13-B4256DF86839}" End_Object_ID="{CB8E7A19-486D-4fca-8EB6-F6B3FAC7F052}"/>
+		</Row>
+		<Row>
+			<Column name="Connector_ID" value="292"/>
+			<Column name="Direction" value="Source -&gt; Destination"/>
+			<Column name="Connector_Type" value="UseCase"/>
+			<Column name="SubType" value="Includes"/>
+			<Column name="SourceAccess" value="Public"/>
+			<Column name="DestAccess" value="Public"/>
+			<Column name="SourceContainment" value="Unspecified"/>
+			<Column name="SourceIsAggregate" value="0"/>
+			<Column name="SourceIsOrdered" value="0"/>
+			<Column name="DestContainment" value="Unspecified"/>
+			<Column name="DestIsAggregate" value="0"/>
+			<Column name="DestIsOrdered" value="0"/>
+			<Column name="Start_Object_ID" value="778"/>
+			<Column name="End_Object_ID" value="772"/>
+			<Column name="Btm_Mid_Label" value="«include»"/>
+			<Column name="Start_Edge" value="0"/>
+			<Column name="End_Edge" value="0"/>
+			<Column name="PtStartX" value="0"/>
+			<Column name="PtStartY" value="0"/>
+			<Column name="PtEndX" value="0"/>
+			<Column name="PtEndY" value="0"/>
+			<Column name="SeqNo" value="0"/>
+			<Column name="HeadStyle" value="0"/>
+			<Column name="LineStyle" value="0"/>
+			<Column name="RouteStyle" value="3"/>
+			<Column name="IsBold" value="0"/>
+			<Column name="LineColor" value="-1"/>
+			<Column name="Stereotype" value="include"/>
+			<Column name="VirtualInheritance" value="0"/>
+			<Column name="PDATA5" value="SX=0;SY=0;EX=0;EY=0;"/>
+			<Column name="DiagramID" value="0"/>
+			<Column name="ea_guid" value="{A217D2AC-5F36-4ceb-BAB5-4533D071DD70}"/>
+			<Column name="SourceIsNavigable" value="0"/>
+			<Column name="DestIsNavigable" value="1"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="SourceChangeable" value="none"/>
+			<Column name="DestChangeable" value="none"/>
+			<Column name="SourceTS" value="instance"/>
+			<Column name="DestTS" value="instance"/>
+			<Column name="Target2" value="0"/>
+			<Column name="SourceStyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+			<Column name="DestStyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+			<Extension Start_Object_ID="{0A67355C-5B3F-4fd8-B30E-98F25A3EFA3E}" End_Object_ID="{781F6E4D-D0E6-493e-8284-7A775AACBE62}"/>
+		</Row>
+		<Row>
+			<Column name="Connector_ID" value="283"/>
+			<Column name="Direction" value="Source -&gt; Destination"/>
+			<Column name="Connector_Type" value="UseCase"/>
+			<Column name="SubType" value="Extends"/>
+			<Column name="SourceAccess" value="Public"/>
+			<Column name="DestAccess" value="Public"/>
+			<Column name="SourceContainment" value="Unspecified"/>
+			<Column name="SourceIsAggregate" value="0"/>
+			<Column name="SourceIsOrdered" value="0"/>
+			<Column name="DestContainment" value="Unspecified"/>
+			<Column name="DestIsAggregate" value="0"/>
+			<Column name="DestIsOrdered" value="0"/>
+			<Column name="Start_Object_ID" value="789"/>
+			<Column name="End_Object_ID" value="788"/>
+			<Column name="Btm_Mid_Label" value="«extend»"/>
+			<Column name="Start_Edge" value="2"/>
+			<Column name="End_Edge" value="4"/>
+			<Column name="PtStartX" value="384"/>
+			<Column name="PtStartY" value="-225"/>
+			<Column name="PtEndX" value="447"/>
+			<Column name="PtEndY" value="-251"/>
+			<Column name="SeqNo" value="0"/>
+			<Column name="HeadStyle" value="0"/>
+			<Column name="LineStyle" value="0"/>
+			<Column name="RouteStyle" value="3"/>
+			<Column name="IsBold" value="0"/>
+			<Column name="LineColor" value="-1"/>
+			<Column name="Stereotype" value="extend"/>
+			<Column name="VirtualInheritance" value="0"/>
+			<Column name="PDATA5" value="SX=0;SY=0;EX=0;EY=0;"/>
+			<Column name="DiagramID" value="0"/>
+			<Column name="ea_guid" value="{A3680F5C-AC5C-4526-BD9B-E12FD71BF68D}"/>
+			<Column name="SourceIsNavigable" value="0"/>
+			<Column name="DestIsNavigable" value="1"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="SourceChangeable" value="none"/>
+			<Column name="DestChangeable" value="none"/>
+			<Column name="SourceTS" value="instance"/>
+			<Column name="DestTS" value="instance"/>
+			<Column name="Target2" value="0"/>
+			<Column name="SourceStyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Non-Navigable;"/>
+			<Column name="DestStyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Navigable;"/>
+			<Extension Start_Object_ID="{1F19C08B-8C60-429c-8C1C-D1B7B13A0C97}" End_Object_ID="{86D08707-A316-41e3-BC3C-D69CFD3C0AD4}"/>
+		</Row>
+		<Row>
+			<Column name="Connector_ID" value="299"/>
+			<Column name="Direction" value="Unspecified"/>
+			<Column name="Connector_Type" value="Association"/>
+			<Column name="SourceAccess" value="Public"/>
+			<Column name="DestAccess" value="Public"/>
+			<Column name="SourceContainment" value="Unspecified"/>
+			<Column name="SourceIsAggregate" value="0"/>
+			<Column name="SourceIsOrdered" value="0"/>
+			<Column name="DestContainment" value="Unspecified"/>
+			<Column name="DestIsAggregate" value="0"/>
+			<Column name="DestIsOrdered" value="0"/>
+			<Column name="Start_Object_ID" value="767"/>
+			<Column name="End_Object_ID" value="774"/>
+			<Column name="Start_Edge" value="0"/>
+			<Column name="End_Edge" value="0"/>
+			<Column name="PtStartX" value="0"/>
+			<Column name="PtStartY" value="0"/>
+			<Column name="PtEndX" value="0"/>
+			<Column name="PtEndY" value="0"/>
+			<Column name="SeqNo" value="0"/>
+			<Column name="HeadStyle" value="0"/>
+			<Column name="LineStyle" value="0"/>
+			<Column name="RouteStyle" value="3"/>
+			<Column name="IsBold" value="0"/>
+			<Column name="LineColor" value="-1"/>
+			<Column name="VirtualInheritance" value="0"/>
+			<Column name="PDATA5" value="SX=0;SY=0;EX=0;EY=0;"/>
+			<Column name="DiagramID" value="0"/>
+			<Column name="ea_guid" value="{C1697E4C-7B8C-4ea9-891D-40FEAC503C8D}"/>
+			<Column name="SourceIsNavigable" value="0"/>
+			<Column name="DestIsNavigable" value="0"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="SourceChangeable" value="none"/>
+			<Column name="DestChangeable" value="none"/>
+			<Column name="SourceTS" value="instance"/>
+			<Column name="DestTS" value="instance"/>
+			<Column name="Target2" value="0"/>
+			<Column name="SourceStyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+			<Column name="DestStyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+			<Extension Start_Object_ID="{BCC20810-55F1-4033-9D3A-087CF8467E26}" End_Object_ID="{6499CF34-CCF8-4986-BF93-94CD21BBCB06}"/>
+		</Row>
+		<Row>
+			<Column name="Connector_ID" value="298"/>
+			<Column name="Direction" value="Unspecified"/>
+			<Column name="Connector_Type" value="Association"/>
+			<Column name="SourceAccess" value="Public"/>
+			<Column name="DestAccess" value="Public"/>
+			<Column name="SourceContainment" value="Unspecified"/>
+			<Column name="SourceIsAggregate" value="0"/>
+			<Column name="SourceIsOrdered" value="0"/>
+			<Column name="DestContainment" value="Unspecified"/>
+			<Column name="DestIsAggregate" value="0"/>
+			<Column name="DestIsOrdered" value="0"/>
+			<Column name="Start_Object_ID" value="767"/>
+			<Column name="End_Object_ID" value="773"/>
+			<Column name="Start_Edge" value="0"/>
+			<Column name="End_Edge" value="0"/>
+			<Column name="PtStartX" value="0"/>
+			<Column name="PtStartY" value="0"/>
+			<Column name="PtEndX" value="0"/>
+			<Column name="PtEndY" value="0"/>
+			<Column name="SeqNo" value="0"/>
+			<Column name="HeadStyle" value="0"/>
+			<Column name="LineStyle" value="0"/>
+			<Column name="RouteStyle" value="3"/>
+			<Column name="IsBold" value="0"/>
+			<Column name="LineColor" value="-1"/>
+			<Column name="VirtualInheritance" value="0"/>
+			<Column name="PDATA5" value="SX=0;SY=0;EX=0;EY=0;"/>
+			<Column name="DiagramID" value="0"/>
+			<Column name="ea_guid" value="{D1826627-DA63-4eb1-B783-835036CA7FE6}"/>
+			<Column name="SourceIsNavigable" value="0"/>
+			<Column name="DestIsNavigable" value="0"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="SourceChangeable" value="none"/>
+			<Column name="DestChangeable" value="none"/>
+			<Column name="SourceTS" value="instance"/>
+			<Column name="DestTS" value="instance"/>
+			<Column name="Target2" value="0"/>
+			<Column name="SourceStyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+			<Column name="DestStyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+			<Extension Start_Object_ID="{BCC20810-55F1-4033-9D3A-087CF8467E26}" End_Object_ID="{61EA2408-D770-471f-8FA0-E5BCF3EBC0F2}"/>
+		</Row>
+		<Row>
+			<Column name="Connector_ID" value="284"/>
+			<Column name="Direction" value="Unspecified"/>
+			<Column name="Connector_Type" value="Association"/>
+			<Column name="SourceAccess" value="Public"/>
+			<Column name="DestAccess" value="Public"/>
+			<Column name="SourceContainment" value="Unspecified"/>
+			<Column name="SourceIsAggregate" value="0"/>
+			<Column name="SourceIsOrdered" value="0"/>
+			<Column name="DestContainment" value="Unspecified"/>
+			<Column name="DestIsAggregate" value="0"/>
+			<Column name="DestIsOrdered" value="0"/>
+			<Column name="Start_Object_ID" value="785"/>
+			<Column name="End_Object_ID" value="788"/>
+			<Column name="Start_Edge" value="0"/>
+			<Column name="End_Edge" value="0"/>
+			<Column name="PtStartX" value="0"/>
+			<Column name="PtStartY" value="0"/>
+			<Column name="PtEndX" value="0"/>
+			<Column name="PtEndY" value="0"/>
+			<Column name="SeqNo" value="0"/>
+			<Column name="HeadStyle" value="0"/>
+			<Column name="LineStyle" value="0"/>
+			<Column name="RouteStyle" value="3"/>
+			<Column name="IsBold" value="0"/>
+			<Column name="LineColor" value="-1"/>
+			<Column name="VirtualInheritance" value="0"/>
+			<Column name="PDATA5" value="SX=0;SY=0;EX=0;EY=0;"/>
+			<Column name="DiagramID" value="0"/>
+			<Column name="ea_guid" value="{EB8C6643-79A6-43df-BCB3-268EDEFDA881}"/>
+			<Column name="SourceIsNavigable" value="0"/>
+			<Column name="DestIsNavigable" value="0"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="SourceChangeable" value="none"/>
+			<Column name="DestChangeable" value="none"/>
+			<Column name="SourceTS" value="instance"/>
+			<Column name="DestTS" value="instance"/>
+			<Column name="Target2" value="0"/>
+			<Column name="SourceStyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+			<Column name="DestStyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+			<Extension Start_Object_ID="{C14E38CD-20AC-40bf-AC7D-F26E382A405C}" End_Object_ID="{86D08707-A316-41e3-BC3C-D69CFD3C0AD4}"/>
+		</Row>
+		<Row>
+			<Column name="Connector_ID" value="279"/>
+			<Column name="Direction" value="Source -&gt; Destination"/>
+			<Column name="Connector_Type" value="Generalization"/>
+			<Column name="SourceAccess" value="Public"/>
+			<Column name="DestAccess" value="Public"/>
+			<Column name="SourceContainment" value="Unspecified"/>
+			<Column name="SourceIsAggregate" value="0"/>
+			<Column name="SourceIsOrdered" value="0"/>
+			<Column name="DestContainment" value="Unspecified"/>
+			<Column name="DestIsAggregate" value="0"/>
+			<Column name="DestIsOrdered" value="0"/>
+			<Column name="Start_Object_ID" value="769"/>
+			<Column name="End_Object_ID" value="768"/>
+			<Column name="Start_Edge" value="0"/>
+			<Column name="End_Edge" value="0"/>
+			<Column name="PtStartX" value="0"/>
+			<Column name="PtStartY" value="0"/>
+			<Column name="PtEndX" value="0"/>
+			<Column name="PtEndY" value="0"/>
+			<Column name="SeqNo" value="0"/>
+			<Column name="HeadStyle" value="0"/>
+			<Column name="LineStyle" value="0"/>
+			<Column name="RouteStyle" value="3"/>
+			<Column name="IsBold" value="0"/>
+			<Column name="LineColor" value="-1"/>
+			<Column name="VirtualInheritance" value="0"/>
+			<Column name="PDATA5" value="SX=0;SY=0;EX=0;EY=0;"/>
+			<Column name="DiagramID" value="0"/>
+			<Column name="ea_guid" value="{F007FB8E-E4DA-4205-BBAE-CC759E56FFD6}"/>
+			<Column name="SourceIsNavigable" value="0"/>
+			<Column name="DestIsNavigable" value="1"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="SourceChangeable" value="none"/>
+			<Column name="DestChangeable" value="none"/>
+			<Column name="SourceTS" value="instance"/>
+			<Column name="DestTS" value="instance"/>
+			<Column name="Target2" value="0"/>
+			<Column name="SourceStyle" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+			<Column name="DestStyle" value="Union=0;Derived=0;AllowDuplicates=0;"/>
+			<Extension Start_Object_ID="{45BB8A31-5807-4cc5-BF13-B4256DF86839}" End_Object_ID="{D93C2EBC-9927-4fdc-9CB7-B2646F15755C}"/>
+		</Row>
+		<Row>
+			<Column name="Connector_ID" value="288"/>
+			<Column name="Direction" value="Unspecified"/>
+			<Column name="Connector_Type" value="Association"/>
+			<Column name="SourceAccess" value="Public"/>
+			<Column name="DestAccess" value="Public"/>
+			<Column name="SourceContainment" value="Unspecified"/>
+			<Column name="SourceIsAggregate" value="0"/>
+			<Column name="SourceIsOrdered" value="0"/>
+			<Column name="DestContainment" value="Unspecified"/>
+			<Column name="DestIsAggregate" value="0"/>
+			<Column name="DestIsOrdered" value="0"/>
+			<Column name="Start_Object_ID" value="767"/>
+			<Column name="End_Object_ID" value="772"/>
+			<Column name="Start_Edge" value="0"/>
+			<Column name="End_Edge" value="0"/>
+			<Column name="PtStartX" value="0"/>
+			<Column name="PtStartY" value="0"/>
+			<Column name="PtEndX" value="0"/>
+			<Column name="PtEndY" value="0"/>
+			<Column name="SeqNo" value="0"/>
+			<Column name="HeadStyle" value="0"/>
+			<Column name="LineStyle" value="0"/>
+			<Column name="RouteStyle" value="3"/>
+			<Column name="IsBold" value="0"/>
+			<Column name="LineColor" value="-1"/>
+			<Column name="VirtualInheritance" value="0"/>
+			<Column name="PDATA5" value="SX=0;SY=0;EX=0;EY=0;"/>
+			<Column name="DiagramID" value="0"/>
+			<Column name="ea_guid" value="{FDE8C575-6B0E-465f-8E82-CBAEA3C26604}"/>
+			<Column name="SourceIsNavigable" value="0"/>
+			<Column name="DestIsNavigable" value="0"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="SourceChangeable" value="none"/>
+			<Column name="DestChangeable" value="none"/>
+			<Column name="SourceTS" value="instance"/>
+			<Column name="DestTS" value="instance"/>
+			<Column name="Target2" value="0"/>
+			<Column name="SourceStyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+			<Column name="DestStyle" value="Union=0;Derived=0;AllowDuplicates=0;Owned=0;Navigable=Unspecified;"/>
+			<Extension Start_Object_ID="{BCC20810-55F1-4033-9D3A-087CF8467E26}" End_Object_ID="{781F6E4D-D0E6-493e-8284-7A775AACBE62}"/>
+		</Row>
+	</Table>
+	<Table name="t_diagram">
+		<Row>
+			<Column name="Diagram_ID" value="18"/>
+			<Column name="Package_ID" value="22"/>
+			<Column name="ParentID" value="0"/>
+			<Column name="Diagram_Type" value="Use Case"/>
+			<Column name="Name" value="Use Case View"/>
+			<Column name="Version" value="1.0"/>
+			<Column name="ShowDetails" value="0"/>
+			<Column name="AttPub" value="1"/>
+			<Column name="AttPri" value="1"/>
+			<Column name="AttPro" value="1"/>
+			<Column name="Orientation" value="P"/>
+			<Column name="cx" value="827"/>
+			<Column name="cy" value="1169"/>
+			<Column name="Scale" value="100"/>
+			<Column name="CreatedDate" value="2019-02-10 19:40:59"/>
+			<Column name="ModifiedDate" value="2019-02-10 19:40:59"/>
+			<Column name="ShowForeign" value="0"/>
+			<Column name="ShowBorder" value="0"/>
+			<Column name="ShowPackageContents" value="0"/>
+			<Column name="PDATA" value="HideRel=0;ShowTags=0;ShowReqs=0;ShowCons=0;OpParams=1;ShowSN=0;ScalePI=0;PPgs.cx=0;PPgs.cy=0;PSize=1;ShowIcons=1;SuppCN=0;HideProps=0;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideEStereo=0;ShowShape=1;FormName=;"/>
+			<Column name="Locked" value="0"/>
+			<Column name="ea_guid" value="{05FA404C-60DE-48b3-A24C-C2FBBFEE4AC1}"/>
+			<Column name="TPos" value="0"/>
+			<Column name="Swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;cls=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;"/>
+			<Column name="StyleEx" value="SaveTag=A1451764;ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=0;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;ProfileData=;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;"/>
+			<Extension Package_ID="{D18F8682-DC0F-4272-8911-C4E25B1DB818}"/>
+		</Row>
+		<Row>
+			<Column name="Diagram_ID" value="72"/>
+			<Column name="Package_ID" value="109"/>
+			<Column name="ParentID" value="0"/>
+			<Column name="Diagram_Type" value="Use Case"/>
+			<Column name="Name" value="Aktorzy"/>
+			<Column name="Version" value="1.0"/>
+			<Column name="Author" value="Miko&#x142;aj Brakowski"/>
+			<Column name="ShowDetails" value="0"/>
+			<Column name="AttPub" value="1"/>
+			<Column name="AttPri" value="1"/>
+			<Column name="AttPro" value="1"/>
+			<Column name="Orientation" value="P"/>
+			<Column name="cx" value="827"/>
+			<Column name="cy" value="1169"/>
+			<Column name="Scale" value="100"/>
+			<Column name="CreatedDate" value="2026-03-15 22:55:04"/>
+			<Column name="ModifiedDate" value="2026-03-17 19:54:51"/>
+			<Column name="ShowForeign" value="1"/>
+			<Column name="ShowBorder" value="1"/>
+			<Column name="ShowPackageContents" value="1"/>
+			<Column name="PDATA" value="HideRel=0;ShowTags=0;ShowReqs=0;ShowCons=0;OpParams=1;ShowSN=0;ScalePI=0;PPgs.cx=0;PPgs.cy=0;PSize=9;ShowIcons=1;SuppCN=0;HideProps=0;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideEStereo=0;ShowRec=1;ShowRes=0;ShowShape=1;FormName=;"/>
+			<Column name="Locked" value="0"/>
+			<Column name="ea_guid" value="{1E80F37B-F4BF-4832-BC93-A1637390EF84}"/>
+			<Column name="Swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;"/>
+			<Column name="StyleEx" value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;SaveTag=16E5BE33;"/>
+			<Extension Package_ID="{9F9D21E5-2A66-6298-930B-B529F6161117}"/>
+		</Row>
+		<Row>
+			<Column name="Diagram_ID" value="71"/>
+			<Column name="Package_ID" value="108"/>
+			<Column name="ParentID" value="0"/>
+			<Column name="Diagram_Type" value="Use Case"/>
+			<Column name="Name" value="Model przypadków u&#x17C;ycia"/>
+			<Column name="Version" value="1.0"/>
+			<Column name="Author" value="Miko&#x142;aj Brakowski"/>
+			<Column name="ShowDetails" value="0"/>
+			<Column name="AttPub" value="1"/>
+			<Column name="AttPri" value="1"/>
+			<Column name="AttPro" value="1"/>
+			<Column name="Orientation" value="P"/>
+			<Column name="cx" value="827"/>
+			<Column name="cy" value="1169"/>
+			<Column name="Scale" value="100"/>
+			<Column name="CreatedDate" value="2026-03-15 22:52:00"/>
+			<Column name="ModifiedDate" value="2026-03-15 23:01:08"/>
+			<Column name="ShowForeign" value="0"/>
+			<Column name="ShowBorder" value="1"/>
+			<Column name="ShowPackageContents" value="1"/>
+			<Column name="PDATA" value="HideRel=0;ShowTags=0;ShowReqs=0;ShowCons=0;OpParams=1;ShowSN=0;ScalePI=0;PPgs.cx=1;PPgs.cy=1;PSize=9;ShowIcons=1;SuppCN=0;HideProps=0;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideEStereo=0;ShowRec=1;ShowRes=0;ShowShape=1;FormName=;"/>
+			<Column name="Locked" value="0"/>
+			<Column name="ea_guid" value="{9FE51260-0426-58E2-8265-6ECA5BB3232C}"/>
+			<Column name="Swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;"/>
+			<Column name="StyleEx" value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;SaveTag=03115E67;"/>
+			<Extension Package_ID="{8208DC8D-B283-10B3-A877-0DA7C6ACADB7}"/>
+		</Row>
+		<Row>
+			<Column name="Diagram_ID" value="90"/>
+			<Column name="Package_ID" value="141"/>
+			<Column name="ParentID" value="0"/>
+			<Column name="Diagram_Type" value="Use Case"/>
+			<Column name="Name" value="Rezerwacja stolika przez klienta"/>
+			<Column name="Version" value="1.0"/>
+			<Column name="Author" value="Miko&#x142;aj Brakowski"/>
+			<Column name="ShowDetails" value="0"/>
+			<Column name="Notes" value="Diagram przedstawia przypadki u&#x17C;ycia systemu FoodBook w module rezerwacji. Klient mo&#x17C;e samodzielnie przegl&#x105;da&#x107; dost&#x119;pne lokale i rezerwowa&#x107; stolik. Obs&#x142;uga restauracji mo&#x17C;e dokona&#x107; rezerwacji w imieniu klienta. System POS jest uwzgl&#x119;dniany przy sprawdzaniu aktualnej dost&#x119;pno&#x15B;ci stolik&amp;#243;w."/>
+			<Column name="AttPub" value="1"/>
+			<Column name="AttPri" value="1"/>
+			<Column name="AttPro" value="1"/>
+			<Column name="Orientation" value="P"/>
+			<Column name="cx" value="827"/>
+			<Column name="cy" value="1169"/>
+			<Column name="Scale" value="100"/>
+			<Column name="CreatedDate" value="2026-03-16 21:34:47"/>
+			<Column name="ModifiedDate" value="2026-03-18 20:46:58"/>
+			<Column name="ShowForeign" value="1"/>
+			<Column name="ShowBorder" value="1"/>
+			<Column name="ShowPackageContents" value="1"/>
+			<Column name="PDATA" value="HideRel=0;ShowTags=0;ShowReqs=0;ShowCons=0;OpParams=1;ShowSN=0;ScalePI=0;PPgs.cx=0;PPgs.cy=0;PSize=9;ShowIcons=1;SuppCN=0;HideProps=0;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideEStereo=0;ShowRec=1;ShowRes=0;ShowShape=1;FormName=;"/>
+			<Column name="Locked" value="0"/>
+			<Column name="ea_guid" value="{C584046D-22ED-4ff5-9C83-67BC67ACAA7D}"/>
+			<Column name="Swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=16777215;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;"/>
+			<Column name="StyleEx" value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;SaveTag=7390850E;"/>
+			<Extension Package_ID="{381EB640-9AAB-4217-A4CD-0C57A7188EAC}"/>
+		</Row>
+		<Row>
+			<Column name="Diagram_ID" value="92"/>
+			<Column name="Package_ID" value="143"/>
+			<Column name="ParentID" value="0"/>
+			<Column name="Diagram_Type" value="Use Case"/>
+			<Column name="Name" value="Analiza ob&#x142;o&#x17C;enia lokali"/>
+			<Column name="Version" value="1.0"/>
+			<Column name="Author" value="Miko&#x142;aj Brakowski"/>
+			<Column name="ShowDetails" value="0"/>
+			<Column name="Notes" value="Diagram przedstawia przypadki u&#x17C;ycia modu&#x142;u analitycznego systemu FoodBook. Modu&#x142; jest dost&#x119;pny dla Zarz&#x105;du sieci i umo&#x17C;liwia monitorowanie wska&#x17A;nik&amp;#243;w ob&#x142;o&#x17C;enia oraz generowanie raport&amp;#243;w operacyjnych."/>
+			<Column name="AttPub" value="1"/>
+			<Column name="AttPri" value="1"/>
+			<Column name="AttPro" value="1"/>
+			<Column name="Orientation" value="P"/>
+			<Column name="cx" value="827"/>
+			<Column name="cy" value="1169"/>
+			<Column name="Scale" value="100"/>
+			<Column name="CreatedDate" value="2026-03-16 22:07:56"/>
+			<Column name="ModifiedDate" value="2026-03-18 20:47:39"/>
+			<Column name="ShowForeign" value="1"/>
+			<Column name="ShowBorder" value="1"/>
+			<Column name="ShowPackageContents" value="1"/>
+			<Column name="PDATA" value="HideRel=0;ShowTags=0;ShowReqs=0;ShowCons=0;OpParams=1;ShowSN=0;ScalePI=0;PPgs.cx=0;PPgs.cy=0;PSize=9;ShowIcons=1;SuppCN=0;HideProps=0;HideParents=0;UseAlias=0;HideAtts=0;HideOps=0;HideStereo=0;HideEStereo=0;ShowRec=1;ShowRes=0;ShowShape=1;FormName=;"/>
+			<Column name="Locked" value="0"/>
+			<Column name="ea_guid" value="{D2B24549-F552-4fca-8ED3-E62CC0BAFAF1}"/>
+			<Column name="Swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=0;bold=false;fcol=0;tcol=16777215;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;"/>
+			<Column name="StyleEx" value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;SaveTag=7F829D40;"/>
+			<Extension Package_ID="{B1679F50-FCFD-4f20-B916-0406B04F8766}"/>
+		</Row>
+	</Table>
+	<Table name="t_diagramobjects">
+		<Row>
+			<Column name="Diagram_ID" value="71"/>
+			<Column name="Object_ID" value="670"/>
+			<Column name="RectTop" value="-77"/>
+			<Column name="RectLeft" value="359"/>
+			<Column name="RectRight" value="586"/>
+			<Column name="RectBottom" value="-167"/>
+			<Column name="Sequence" value="1"/>
+			<Column name="ObjectStyle" value="DUID=8A0423F6;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;"/>
+			<Column name="Instance_ID" value="966"/>
+			<Extension Diagram_ID="{9FE51260-0426-58E2-8265-6ECA5BB3232C}" Object_ID="{BF5AA9D4-4055-322B-9666-FC8CF1EF8121}"/>
+		</Row>
+		<Row>
+			<Column name="Diagram_ID" value="71"/>
+			<Column name="Object_ID" value="671"/>
+			<Column name="RectTop" value="-77"/>
+			<Column name="RectLeft" value="149"/>
+			<Column name="RectRight" value="279"/>
+			<Column name="RectBottom" value="-157"/>
+			<Column name="Sequence" value="2"/>
+			<Column name="ObjectStyle" value="DUID=9C53937A;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;"/>
+			<Column name="Instance_ID" value="965"/>
+			<Extension Diagram_ID="{9FE51260-0426-58E2-8265-6ECA5BB3232C}" Object_ID="{9F9D21E5-2A66-6298-930B-B529F6161117}"/>
+		</Row>
+		<Row>
+			<Column name="Diagram_ID" value="72"/>
+			<Column name="Object_ID" value="767"/>
+			<Column name="RectTop" value="-151"/>
+			<Column name="RectLeft" value="354"/>
+			<Column name="RectRight" value="399"/>
+			<Column name="RectBottom" value="-241"/>
+			<Column name="Sequence" value="4"/>
+			<Column name="ObjectStyle" value="DUID=6AB26603;"/>
+			<Column name="Instance_ID" value="1360"/>
+			<Extension Diagram_ID="{1E80F37B-F4BF-4832-BC93-A1637390EF84}" Object_ID="{BCC20810-55F1-4033-9D3A-087CF8467E26}"/>
+		</Row>
+		<Row>
+			<Column name="Diagram_ID" value="72"/>
+			<Column name="Object_ID" value="768"/>
+			<Column name="RectTop" value="-150"/>
+			<Column name="RectLeft" value="176"/>
+			<Column name="RectRight" value="221"/>
+			<Column name="RectBottom" value="-240"/>
+			<Column name="Sequence" value="3"/>
+			<Column name="ObjectStyle" value="DUID=1BA5AA2E;"/>
+			<Column name="Instance_ID" value="1361"/>
+			<Extension Diagram_ID="{1E80F37B-F4BF-4832-BC93-A1637390EF84}" Object_ID="{D93C2EBC-9927-4fdc-9CB7-B2646F15755C}"/>
+		</Row>
+		<Row>
+			<Column name="Diagram_ID" value="72"/>
+			<Column name="Object_ID" value="769"/>
+			<Column name="RectTop" value="-327"/>
+			<Column name="RectLeft" value="176"/>
+			<Column name="RectRight" value="221"/>
+			<Column name="RectBottom" value="-417"/>
+			<Column name="Sequence" value="2"/>
+			<Column name="ObjectStyle" value="DUID=54DED63E;"/>
+			<Column name="Instance_ID" value="1362"/>
+			<Extension Diagram_ID="{1E80F37B-F4BF-4832-BC93-A1637390EF84}" Object_ID="{45BB8A31-5807-4cc5-BF13-B4256DF86839}"/>
+		</Row>
+		<Row>
+			<Column name="Diagram_ID" value="72"/>
+			<Column name="Object_ID" value="785"/>
+			<Column name="RectTop" value="-327"/>
+			<Column name="RectLeft" value="354"/>
+			<Column name="RectRight" value="399"/>
+			<Column name="RectBottom" value="-417"/>
+			<Column name="Sequence" value="1"/>
+			<Column name="ObjectStyle" value="DUID=59BFFA9C;"/>
+			<Column name="Instance_ID" value="1381"/>
+			<Extension Diagram_ID="{1E80F37B-F4BF-4832-BC93-A1637390EF84}" Object_ID="{C14E38CD-20AC-40bf-AC7D-F26E382A405C}"/>
+		</Row>
+		<Row>
+			<Column name="Diagram_ID" value="90"/>
+			<Column name="Object_ID" value="767"/>
+			<Column name="RectTop" value="-213"/>
+			<Column name="RectLeft" value="746"/>
+			<Column name="RectRight" value="791"/>
+			<Column name="RectBottom" value="-303"/>
+			<Column name="Sequence" value="4"/>
+			<Column name="ObjectStyle" value="DUID=3CA6EAAD;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;"/>
+			<Column name="Instance_ID" value="1372"/>
+			<Extension Diagram_ID="{C584046D-22ED-4ff5-9C83-67BC67ACAA7D}" Object_ID="{BCC20810-55F1-4033-9D3A-087CF8467E26}"/>
+		</Row>
+		<Row>
+			<Column name="Diagram_ID" value="90"/>
+			<Column name="Object_ID" value="768"/>
+			<Column name="RectTop" value="-58"/>
+			<Column name="RectLeft" value="24"/>
+			<Column name="RectRight" value="69"/>
+			<Column name="RectBottom" value="-148"/>
+			<Column name="Sequence" value="5"/>
+			<Column name="ObjectStyle" value="DUID=116A264C;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;"/>
+			<Column name="Instance_ID" value="1371"/>
+			<Extension Diagram_ID="{C584046D-22ED-4ff5-9C83-67BC67ACAA7D}" Object_ID="{D93C2EBC-9927-4fdc-9CB7-B2646F15755C}"/>
+		</Row>
+		<Row>
+			<Column name="Diagram_ID" value="90"/>
+			<Column name="Object_ID" value="769"/>
+			<Column name="RectTop" value="-367"/>
+			<Column name="RectLeft" value="24"/>
+			<Column name="RectRight" value="69"/>
+			<Column name="RectBottom" value="-457"/>
+			<Column name="Sequence" value="1"/>
+			<Column name="ObjectStyle" value="DUID=F8E47959;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;"/>
+			<Column name="Instance_ID" value="1387"/>
+			<Extension Diagram_ID="{C584046D-22ED-4ff5-9C83-67BC67ACAA7D}" Object_ID="{45BB8A31-5807-4cc5-BF13-B4256DF86839}"/>
+		</Row>
+		<Row>
+			<Column name="Diagram_ID" value="90"/>
+			<Column name="Object_ID" value="770"/>
+			<Column name="RectTop" value="-44"/>
+			<Column name="RectLeft" value="127"/>
+			<Column name="RectRight" value="688"/>
+			<Column name="RectBottom" value="-493"/>
+			<Column name="Sequence" value="9"/>
+			<Column name="ObjectStyle" value="DUID=D519BD45;"/>
+			<Column name="Instance_ID" value="1363"/>
+			<Extension Diagram_ID="{C584046D-22ED-4ff5-9C83-67BC67ACAA7D}" Object_ID="{8A9EBF24-97F8-4b1b-AB50-725CB3A42351}"/>
+		</Row>
+		<Row>
+			<Column name="Diagram_ID" value="90"/>
+			<Column name="Object_ID" value="772"/>
+			<Column name="RectTop" value="-88"/>
+			<Column name="RectLeft" value="539"/>
+			<Column name="RectRight" value="644"/>
+			<Column name="RectBottom" value="-158"/>
+			<Column name="Sequence" value="8"/>
+			<Column name="ObjectStyle" value="DUID=58AAFE48;"/>
+			<Column name="Instance_ID" value="1365"/>
+			<Extension Diagram_ID="{C584046D-22ED-4ff5-9C83-67BC67ACAA7D}" Object_ID="{781F6E4D-D0E6-493e-8284-7A775AACBE62}"/>
+		</Row>
+		<Row>
+			<Column name="Diagram_ID" value="90"/>
+			<Column name="Object_ID" value="773"/>
+			<Column name="RectTop" value="-233"/>
+			<Column name="RectLeft" value="331"/>
+			<Column name="RectRight" value="436"/>
+			<Column name="RectBottom" value="-303"/>
+			<Column name="Sequence" value="7"/>
+			<Column name="ObjectStyle" value="DUID=B2EAD670;"/>
+			<Column name="Instance_ID" value="1366"/>
+			<Extension Diagram_ID="{C584046D-22ED-4ff5-9C83-67BC67ACAA7D}" Object_ID="{61EA2408-D770-471f-8FA0-E5BCF3EBC0F2}"/>
+		</Row>
+		<Row>
+			<Column name="Diagram_ID" value="90"/>
+			<Column name="Object_ID" value="774"/>
+			<Column name="RectTop" value="-402"/>
+			<Column name="RectLeft" value="494"/>
+			<Column name="RectRight" value="599"/>
+			<Column name="RectBottom" value="-472"/>
+			<Column name="Sequence" value="6"/>
+			<Column name="ObjectStyle" value="DUID=184C23E4;"/>
+			<Column name="Instance_ID" value="1367"/>
+			<Extension Diagram_ID="{C584046D-22ED-4ff5-9C83-67BC67ACAA7D}" Object_ID="{6499CF34-CCF8-4986-BF93-94CD21BBCB06}"/>
+		</Row>
+		<Row>
+			<Column name="Diagram_ID" value="90"/>
+			<Column name="Object_ID" value="778"/>
+			<Column name="RectTop" value="-88"/>
+			<Column name="RectLeft" value="331"/>
+			<Column name="RectRight" value="436"/>
+			<Column name="RectBottom" value="-158"/>
+			<Column name="Sequence" value="3"/>
+			<Column name="ObjectStyle" value="DUID=852294EB;"/>
+			<Column name="Instance_ID" value="1375"/>
+			<Extension Diagram_ID="{C584046D-22ED-4ff5-9C83-67BC67ACAA7D}" Object_ID="{0A67355C-5B3F-4fd8-B30E-98F25A3EFA3E}"/>
+		</Row>
+		<Row>
+			<Column name="Diagram_ID" value="90"/>
+			<Column name="Object_ID" value="782"/>
+			<Column name="RectTop" value="-402"/>
+			<Column name="RectLeft" value="227"/>
+			<Column name="RectRight" value="332"/>
+			<Column name="RectBottom" value="-472"/>
+			<Column name="Sequence" value="2"/>
+			<Column name="ObjectStyle" value="DUID=970AE39D;"/>
+			<Column name="Instance_ID" value="1379"/>
+			<Extension Diagram_ID="{C584046D-22ED-4ff5-9C83-67BC67ACAA7D}" Object_ID="{CB8E7A19-486D-4fca-8EB6-F6B3FAC7F052}"/>
+		</Row>
+		<Row>
+			<Column name="Diagram_ID" value="92"/>
+			<Column name="Object_ID" value="785"/>
+			<Column name="RectTop" value="-178"/>
+			<Column name="RectLeft" value="136"/>
+			<Column name="RectRight" value="181"/>
+			<Column name="RectBottom" value="-268"/>
+			<Column name="Sequence" value="4"/>
+			<Column name="ObjectStyle" value="DUID=B49E5082;NSL=0;BCol=-1;BFol=-1;LCol=-1;LWth=-1;fontsz=0;bold=0;black=0;italic=0;ul=0;charset=0;pitch=0;"/>
+			<Column name="Instance_ID" value="1383"/>
+			<Extension Diagram_ID="{D2B24549-F552-4fca-8ED3-E62CC0BAFAF1}" Object_ID="{C14E38CD-20AC-40bf-AC7D-F26E382A405C}"/>
+		</Row>
+		<Row>
+			<Column name="Diagram_ID" value="92"/>
+			<Column name="Object_ID" value="786"/>
+			<Column name="RectTop" value="-121"/>
+			<Column name="RectLeft" value="243"/>
+			<Column name="RectRight" value="570"/>
+			<Column name="RectBottom" value="-398"/>
+			<Column name="Sequence" value="5"/>
+			<Column name="ObjectStyle" value="DUID=2B739CC9;"/>
+			<Column name="Instance_ID" value="1382"/>
+			<Extension Diagram_ID="{D2B24549-F552-4fca-8ED3-E62CC0BAFAF1}" Object_ID="{FC4F7601-2955-4c58-880F-7FBEEE5B34E4}"/>
+		</Row>
+		<Row>
+			<Column name="Diagram_ID" value="92"/>
+			<Column name="Object_ID" value="788"/>
+			<Column name="RectTop" value="-259"/>
+			<Column name="RectLeft" value="279"/>
+			<Column name="RectRight" value="384"/>
+			<Column name="RectBottom" value="-329"/>
+			<Column name="Sequence" value="3"/>
+			<Column name="ObjectStyle" value="DUID=A4CA615D;"/>
+			<Column name="Instance_ID" value="1384"/>
+			<Extension Diagram_ID="{D2B24549-F552-4fca-8ED3-E62CC0BAFAF1}" Object_ID="{86D08707-A316-41e3-BC3C-D69CFD3C0AD4}"/>
+		</Row>
+		<Row>
+			<Column name="Diagram_ID" value="92"/>
+			<Column name="Object_ID" value="789"/>
+			<Column name="RectTop" value="-168"/>
+			<Column name="RectLeft" value="446"/>
+			<Column name="RectRight" value="551"/>
+			<Column name="RectBottom" value="-238"/>
+			<Column name="Sequence" value="2"/>
+			<Column name="ObjectStyle" value="DUID=654B1963;"/>
+			<Column name="Instance_ID" value="1385"/>
+			<Extension Diagram_ID="{D2B24549-F552-4fca-8ED3-E62CC0BAFAF1}" Object_ID="{1F19C08B-8C60-429c-8C1C-D1B7B13A0C97}"/>
+		</Row>
+		<Row>
+			<Column name="Diagram_ID" value="92"/>
+			<Column name="Object_ID" value="790"/>
+			<Column name="RectTop" value="-310"/>
+			<Column name="RectLeft" value="446"/>
+			<Column name="RectRight" value="551"/>
+			<Column name="RectBottom" value="-380"/>
+			<Column name="Sequence" value="1"/>
+			<Column name="ObjectStyle" value="DUID=74224849;"/>
+			<Column name="Instance_ID" value="1386"/>
+			<Extension Diagram_ID="{D2B24549-F552-4fca-8ED3-E62CC0BAFAF1}" Object_ID="{ED8779CD-6165-4cd5-A538-1F53EFA93E62}"/>
+		</Row>
+	</Table>
+	<Table name="t_diagramlinks">
+		<Row>
+			<Column name="DiagramID" value="72"/>
+			<Column name="ConnectorID" value="279"/>
+			<Column name="Geometry" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;"/>
+			<Column name="Style" value="Mode=3;EOID=1BA5AA2E;SOID=54DED63E;Color=-1;LWidth=0;"/>
+			<Column name="Hidden" value="0"/>
+			<Column name="Instance_ID" value="331"/>
+			<Extension DiagramID="{1E80F37B-F4BF-4832-BC93-A1637390EF84}" ConnectorID="{F007FB8E-E4DA-4205-BBAE-CC759E56FFD6}"/>
+		</Row>
+		<Row>
+			<Column name="DiagramID" value="90"/>
+			<Column name="ConnectorID" value="279"/>
+			<Column name="Geometry" value="EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;"/>
+			<Column name="Style" value="Mode=3;EOID=116A264C;SOID=F8E47959;Color=-1;LWidth=0;"/>
+			<Column name="Hidden" value="0"/>
+			<Column name="Instance_ID" value="335"/>
+			<Extension DiagramID="{C584046D-22ED-4ff5-9C83-67BC67ACAA7D}" ConnectorID="{F007FB8E-E4DA-4205-BBAE-CC759E56FFD6}"/>
+		</Row>
+		<Row>
+			<Column name="DiagramID" value="90"/>
+			<Column name="ConnectorID" value="286"/>
+			<Column name="Geometry" value="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;"/>
+			<Column name="Style" value="Mode=3;EOID=970AE39D;SOID=F8E47959;Color=-1;LWidth=0;"/>
+			<Column name="Hidden" value="0"/>
+			<Column name="Instance_ID" value="337"/>
+			<Extension DiagramID="{C584046D-22ED-4ff5-9C83-67BC67ACAA7D}" ConnectorID="{8006CEEF-7E4E-46d0-B827-297734B97FBE}"/>
+		</Row>
+		<Row>
+			<Column name="DiagramID" value="90"/>
+			<Column name="ConnectorID" value="288"/>
+			<Column name="Geometry" value="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;"/>
+			<Column name="Style" value="Mode=3;EOID=58AAFE48;SOID=3CA6EAAD;Color=-1;LWidth=0;"/>
+			<Column name="Hidden" value="0"/>
+			<Column name="Instance_ID" value="338"/>
+			<Extension DiagramID="{C584046D-22ED-4ff5-9C83-67BC67ACAA7D}" ConnectorID="{FDE8C575-6B0E-465f-8E82-CBAEA3C26604}"/>
+		</Row>
+		<Row>
+			<Column name="DiagramID" value="90"/>
+			<Column name="ConnectorID" value="290"/>
+			<Column name="Geometry" value="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;"/>
+			<Column name="Style" value="Mode=3;EOID=852294EB;SOID=116A264C;Color=-1;LWidth=0;"/>
+			<Column name="Hidden" value="0"/>
+			<Column name="Instance_ID" value="339"/>
+			<Extension DiagramID="{C584046D-22ED-4ff5-9C83-67BC67ACAA7D}" ConnectorID="{3E2A5C97-6A27-4180-B21C-2DA0214E8005}"/>
+		</Row>
+		<Row>
+			<Column name="DiagramID" value="90"/>
+			<Column name="ConnectorID" value="292"/>
+			<Column name="Geometry" value="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=CX=39:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;"/>
+			<Column name="Style" value="Mode=3;EOID=58AAFE48;SOID=852294EB;Color=-1;LWidth=0;"/>
+			<Column name="Hidden" value="0"/>
+			<Column name="Instance_ID" value="340"/>
+			<Extension DiagramID="{C584046D-22ED-4ff5-9C83-67BC67ACAA7D}" ConnectorID="{A217D2AC-5F36-4ceb-BAB5-4533D071DD70}"/>
+		</Row>
+		<Row>
+			<Column name="DiagramID" value="90"/>
+			<Column name="ConnectorID" value="296"/>
+			<Column name="Geometry" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=CX=38:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;"/>
+			<Column name="Style" value="Mode=3;EOID=B2EAD670;SOID=184C23E4;Color=-1;LWidth=0;"/>
+			<Column name="Hidden" value="0"/>
+			<Column name="Instance_ID" value="343"/>
+			<Extension DiagramID="{C584046D-22ED-4ff5-9C83-67BC67ACAA7D}" ConnectorID="{1D5B4525-EA4A-4459-8ADD-CF2BEF490F5A}"/>
+		</Row>
+		<Row>
+			<Column name="DiagramID" value="90"/>
+			<Column name="ConnectorID" value="298"/>
+			<Column name="Geometry" value="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;"/>
+			<Column name="Style" value="Mode=3;EOID=B2EAD670;SOID=3CA6EAAD;Color=-1;LWidth=0;"/>
+			<Column name="Hidden" value="0"/>
+			<Column name="Instance_ID" value="344"/>
+			<Extension DiagramID="{C584046D-22ED-4ff5-9C83-67BC67ACAA7D}" ConnectorID="{D1826627-DA63-4eb1-B783-835036CA7FE6}"/>
+		</Row>
+		<Row>
+			<Column name="DiagramID" value="90"/>
+			<Column name="ConnectorID" value="299"/>
+			<Column name="Geometry" value="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;"/>
+			<Column name="Style" value="Mode=3;EOID=184C23E4;SOID=3CA6EAAD;Color=-1;LWidth=0;"/>
+			<Column name="Hidden" value="0"/>
+			<Column name="Instance_ID" value="345"/>
+			<Extension DiagramID="{C584046D-22ED-4ff5-9C83-67BC67ACAA7D}" ConnectorID="{C1697E4C-7B8C-4ea9-891D-40FEAC503C8D}"/>
+		</Row>
+		<Row>
+			<Column name="DiagramID" value="90"/>
+			<Column name="ConnectorID" value="302"/>
+			<Column name="Geometry" value="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;"/>
+			<Column name="Style" value="Mode=3;EOID=B2EAD670;SOID=116A264C;Color=-1;LWidth=0;"/>
+			<Column name="Hidden" value="0"/>
+			<Column name="Instance_ID" value="346"/>
+			<Extension DiagramID="{C584046D-22ED-4ff5-9C83-67BC67ACAA7D}" ConnectorID="{21B957B2-E84C-42f4-AA86-29BF8F45397D}"/>
+		</Row>
+		<Row>
+			<Column name="DiagramID" value="90"/>
+			<Column name="ConnectorID" value="303"/>
+			<Column name="Geometry" value="SX=0;SY=0;EX=0;EY=0;EDGE=1;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;"/>
+			<Column name="Style" value="Mode=3;EOID=B2EAD670;SOID=970AE39D;Color=-1;LWidth=0;"/>
+			<Column name="Hidden" value="0"/>
+			<Column name="Instance_ID" value="347"/>
+			<Extension DiagramID="{C584046D-22ED-4ff5-9C83-67BC67ACAA7D}" ConnectorID="{522C5BDC-E35E-437e-A659-81B3318F5345}"/>
+		</Row>
+		<Row>
+			<Column name="DiagramID" value="92"/>
+			<Column name="ConnectorID" value="282"/>
+			<Column name="Geometry" value="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=CX=39:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;"/>
+			<Column name="Style" value="Mode=3;EOID=74224849;SOID=A4CA615D;Color=-1;LWidth=0;"/>
+			<Column name="Hidden" value="0"/>
+			<Column name="Instance_ID" value="332"/>
+			<Extension DiagramID="{D2B24549-F552-4fca-8ED3-E62CC0BAFAF1}" ConnectorID="{096C746D-6E59-4017-8070-C5215FFCAE82}"/>
+		</Row>
+		<Row>
+			<Column name="DiagramID" value="92"/>
+			<Column name="ConnectorID" value="283"/>
+			<Column name="Geometry" value="SX=0;SY=0;EX=0;EY=0;EDGE=4;$LLB=;LLT=;LMT=;LMB=CX=38:CY=14:OX=0:OY=0:HDN=0:BLD=0:ITA=0:UND=0:CLR=-1:ALN=1:DIR=0:ROT=0;LRT=;LRB=;IRHS=;ILHS=;"/>
+			<Column name="Style" value="Mode=3;EOID=A4CA615D;SOID=654B1963;Color=-1;LWidth=0;"/>
+			<Column name="Hidden" value="0"/>
+			<Column name="Instance_ID" value="333"/>
+			<Extension DiagramID="{D2B24549-F552-4fca-8ED3-E62CC0BAFAF1}" ConnectorID="{A3680F5C-AC5C-4526-BD9B-E12FD71BF68D}"/>
+		</Row>
+		<Row>
+			<Column name="DiagramID" value="92"/>
+			<Column name="ConnectorID" value="284"/>
+			<Column name="Geometry" value="SX=0;SY=0;EX=0;EY=0;EDGE=2;$LLB=;LLT=;LMT=;LMB=;LRT=;LRB=;IRHS=;ILHS=;"/>
+			<Column name="Style" value="Mode=3;EOID=A4CA615D;SOID=B49E5082;Color=-1;LWidth=0;"/>
+			<Column name="Hidden" value="0"/>
+			<Column name="Instance_ID" value="334"/>
+			<Extension DiagramID="{D2B24549-F552-4fca-8ED3-E62CC0BAFAF1}" ConnectorID="{EB8C6643-79A6-43df-BCB3-268EDEFDA881}"/>
+		</Row>
+	</Table>
+	<Table name="t_xref">
+		<Row>
+			<Column name="XrefID" value="{BC6C0C81-6456-4335-A307-768273C653FF}"/>
+			<Column name="Name" value="Stereotypes"/>
+			<Column name="Type" value="connector property"/>
+			<Column name="Visibility" value="Public"/>
+			<Column name="Partition" value="0"/>
+			<Column name="Description" value="@STEREO;Name=include;GUID={BC7013D7-0C05-4cd9-949B-CB56E1A68EEC};@ENDSTEREO;"/>
+			<Column name="Client" value="{096C746D-6E59-4017-8070-C5215FFCAE82}"/>
+			<Column name="Supplier" value="&lt;none&gt;"/>
+		</Row>
+		<Row>
+			<Column name="XrefID" value="{2067FADF-354D-495a-B29B-61093B56C423}"/>
+			<Column name="Name" value="MOFProps"/>
+			<Column name="Type" value="connector property"/>
+			<Column name="Visibility" value="Public"/>
+			<Column name="Behavior" value="extensionLocation"/>
+			<Column name="Partition" value="0"/>
+			<Column name="Description" value="-1;0;0"/>
+			<Column name="Client" value="{1D5B4525-EA4A-4459-8ADD-CF2BEF490F5A}"/>
+			<Column name="Supplier" value="&lt;none&gt;"/>
+		</Row>
+		<Row>
+			<Column name="XrefID" value="{647E0901-8CD4-48b3-AAB2-BC741DCA1A78}"/>
+			<Column name="Name" value="Stereotypes"/>
+			<Column name="Type" value="connector property"/>
+			<Column name="Visibility" value="Public"/>
+			<Column name="Partition" value="0"/>
+			<Column name="Description" value="@STEREO;Name=extend;GUID={E5C00148-8476-4a0a-90ED-2E36CE58676A};@ENDSTEREO;"/>
+			<Column name="Client" value="{1D5B4525-EA4A-4459-8ADD-CF2BEF490F5A}"/>
+			<Column name="Supplier" value="&lt;none&gt;"/>
+		</Row>
+		<Row>
+			<Column name="XrefID" value="{BD17B014-0E8C-473a-B478-D10F427D1D25}"/>
+			<Column name="Name" value="CustomProperties"/>
+			<Column name="Type" value="diagram properties"/>
+			<Column name="Visibility" value="Public"/>
+			<Column name="Partition" value="0"/>
+			<Column name="Description" value="DGS=On=0:CNT=8:W=120:H=40:SG=0:SGH=0:AEB=0:;AR=0;DCL=0;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;Swimlanes=locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;"/>
+			<Column name="Client" value="{1E80F37B-F4BF-4832-BC93-A1637390EF84}"/>
+		</Row>
+		<Row>
+			<Column name="XrefID" value="{9F9CD0FB-9B6C-46a0-9DFC-DCE889547ED7}"/>
+			<Column name="Name" value="CustomProperties"/>
+			<Column name="Type" value="diagram properties"/>
+			<Column name="Visibility" value="Public"/>
+			<Column name="Partition" value="0"/>
+			<Column name="Description" value="DGS=On=0:CNT=8:W=120:H=40:SG=0:SGH=0:AEB=0:;AR=0;DCL=0;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;Swimlanes=locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=0;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;"/>
+			<Column name="Client" value="{9FE51260-0426-58E2-8265-6ECA5BB3232C}"/>
+		</Row>
+		<Row>
+			<Column name="XrefID" value="{66EFA77A-AF44-42ed-8F2F-9953C45443C9}"/>
+			<Column name="Name" value="Stereotypes"/>
+			<Column name="Type" value="connector property"/>
+			<Column name="Visibility" value="Public"/>
+			<Column name="Partition" value="0"/>
+			<Column name="Description" value="@STEREO;Name=include;GUID={BC7013D7-0C05-4cd9-949B-CB56E1A68EEC};@ENDSTEREO;"/>
+			<Column name="Client" value="{A217D2AC-5F36-4ceb-BAB5-4533D071DD70}"/>
+			<Column name="Supplier" value="&lt;none&gt;"/>
+		</Row>
+		<Row>
+			<Column name="XrefID" value="{C5A142C7-74A2-4b80-95C6-8A6245AECB73}"/>
+			<Column name="Name" value="MOFProps"/>
+			<Column name="Type" value="connector property"/>
+			<Column name="Visibility" value="Public"/>
+			<Column name="Behavior" value="extensionLocation"/>
+			<Column name="Partition" value="0"/>
+			<Column name="Description" value="-1;0;0"/>
+			<Column name="Client" value="{A3680F5C-AC5C-4526-BD9B-E12FD71BF68D}"/>
+			<Column name="Supplier" value="&lt;none&gt;"/>
+		</Row>
+		<Row>
+			<Column name="XrefID" value="{A366E396-BF40-44db-BE6D-542942965B21}"/>
+			<Column name="Name" value="Stereotypes"/>
+			<Column name="Type" value="connector property"/>
+			<Column name="Visibility" value="Public"/>
+			<Column name="Partition" value="0"/>
+			<Column name="Description" value="@STEREO;Name=extend;GUID={E5C00148-8476-4a0a-90ED-2E36CE58676A};@ENDSTEREO;"/>
+			<Column name="Client" value="{A3680F5C-AC5C-4526-BD9B-E12FD71BF68D}"/>
+			<Column name="Supplier" value="&lt;none&gt;"/>
+		</Row>
+		<Row>
+			<Column name="XrefID" value="{06FBB628-4032-4dbc-ACD3-A31A5F7BF938}"/>
+			<Column name="Name" value="CustomProperties"/>
+			<Column name="Type" value="diagram properties"/>
+			<Column name="Visibility" value="Public"/>
+			<Column name="Partition" value="0"/>
+			<Column name="Description" value="DGS=On=0:CNT=8:W=120:H=40:SG=0:SGH=0:AEB=0:;AR=0;DCL=0;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;Swimlanes=locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;"/>
+			<Column name="Client" value="{C584046D-22ED-4ff5-9C83-67BC67ACAA7D}"/>
+		</Row>
+		<Row>
+			<Column name="XrefID" value="{01362665-5665-4965-83AB-7F730D1802E0}"/>
+			<Column name="Name" value="CustomProperties"/>
+			<Column name="Type" value="diagram properties"/>
+			<Column name="Visibility" value="Public"/>
+			<Column name="Partition" value="0"/>
+			<Column name="Description" value="DGS=On=0:CNT=8:W=120:H=40:SG=0:SGH=0:AEB=0:;AR=0;DCL=0;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;Swimlanes=locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;"/>
+			<Column name="Client" value="{D2B24549-F552-4fca-8ED3-E62CC0BAFAF1}"/>
+		</Row>
+	</Table>
+</Package>
