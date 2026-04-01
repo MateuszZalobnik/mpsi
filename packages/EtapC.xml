@@ -1112,6 +1112,40 @@
 			<Extension Package_ID="{381EB640-9AAB-4217-A4CD-0C57A7188EAC}" ParentID="{52D855E0-43CF-429a-8466-A86B0476511A}"/>
 		</Row>
 		<Row>
+			<Column name="Object_ID" value="1581"/>
+			<Column name="Object_Type" value="Artifact"/>
+			<Column name="Diagram_ID" value="0"/>
+			<Column name="Name" value="Macierz mapowa&#x144; elementów funkcjonalnych na przypadki u&#x17C;ycia Analiza ob&#x142;o&#x17C;enia lokali"/>
+			<Column name="Author" value="Miko&#x142;aj Brakowski"/>
+			<Column name="Version" value="1.0"/>
+			<Column name="Package_ID" value="193"/>
+			<Column name="Stereotype" value="EAMatrixSpecification"/>
+			<Column name="NType" value="0"/>
+			<Column name="Complexity" value="1"/>
+			<Column name="Effort" value="0"/>
+			<Column name="Backcolor" value="-1"/>
+			<Column name="BorderStyle" value="0"/>
+			<Column name="BorderWidth" value="-1"/>
+			<Column name="Fontcolor" value="-1"/>
+			<Column name="Bordercolor" value="-1"/>
+			<Column name="CreatedDate" value="2026-04-01 17:29:00"/>
+			<Column name="ModifiedDate" value="2026-04-01 17:29:23"/>
+			<Column name="Status" value="Proposed"/>
+			<Column name="Abstract" value="0"/>
+			<Column name="Tagged" value="0"/>
+			<Column name="GenType" value="Java"/>
+			<Column name="Phase" value="1.0"/>
+			<Column name="Scope" value="Public"/>
+			<Column name="Classifier" value="0"/>
+			<Column name="ea_guid" value="{2B58A0E3-72CC-47f4-B13A-2D549B2E5676}"/>
+			<Column name="ParentID" value="0"/>
+			<Column name="IsRoot" value="0"/>
+			<Column name="IsLeaf" value="0"/>
+			<Column name="IsSpec" value="0"/>
+			<Column name="IsActive" value="0"/>
+			<Extension Package_ID="{DBEEC4F9-7FD6-4061-AEBA-A7BA21D62666}"/>
+		</Row>
+		<Row>
 			<Column name="Object_ID" value="1224"/>
 			<Column name="Object_Type" value="Activity"/>
 			<Column name="Diagram_ID" value="0"/>
@@ -3636,7 +3670,7 @@
 			<Column name="Object_ID" value="1512"/>
 			<Column name="Object_Type" value="Artifact"/>
 			<Column name="Diagram_ID" value="0"/>
-			<Column name="Name" value="Macierz mapowa&#x144; elementów funkcjonalnych na przypadki u&#x17C;ycia"/>
+			<Column name="Name" value="Macierz mapowa&#x144; elementów funkcjonalnych na przypadki u&#x17C;ycia Rezerwacja stolika przez klienta"/>
 			<Column name="Author" value="Miko&#x142;aj Brakowski"/>
 			<Column name="Version" value="1.0"/>
 			<Column name="Package_ID" value="193"/>
@@ -3650,7 +3684,7 @@
 			<Column name="Fontcolor" value="-1"/>
 			<Column name="Bordercolor" value="-1"/>
 			<Column name="CreatedDate" value="2026-03-30 22:58:45"/>
-			<Column name="ModifiedDate" value="2026-03-30 23:02:02"/>
+			<Column name="ModifiedDate" value="2026-04-01 17:29:32"/>
 			<Column name="Status" value="Proposed"/>
 			<Column name="Abstract" value="0"/>
 			<Column name="Tagged" value="0"/>
@@ -7184,9 +7218,18 @@
 			<Column name="Object_ID" value="1512"/>
 			<Column name="Property" value="MatrixOptions"/>
 			<Column name="Value" value="&lt;memo&gt;"/>
-			<Column name="Notes" value="&lt;MatrixData&gt;&#xA;&#x9;&lt;Profile linktype=&quot;Realisation&quot; source=&quot;UseCase&quot; target=&quot;FunctionalRequirement&quot; direction=&quot;0&quot; targetpackage=&quot;{6E188E95-C633-4fa1-A376-FEE8282E0D90}&quot; sourcepackage=&quot;{BF5AA9D4-4055-322B-9666-FC8CF1EF8121}&quot; showsourcechildren=&quot;1&quot; showtargetchildren=&quot;1&quot;/&gt;&#xA;&lt;/MatrixData&gt;"/>
+			<Column name="Notes" value="&lt;MatrixData&gt;&#xA;&#x9;&lt;Profile linktype=&quot;Realisation&quot; source=&quot;UseCase&quot; target=&quot;FunctionalRequirement&quot; direction=&quot;0&quot; targetpackage=&quot;{D20704D3-7FC6-464c-B4C9-CA499019B666}&quot; sourcepackage=&quot;{381EB640-9AAB-4217-A4CD-0C57A7188EAC}&quot; showsourcechildren=&quot;1&quot; showtargetchildren=&quot;1&quot;/&gt;&#xA;&lt;/MatrixData&gt;"/>
 			<Column name="ea_guid" value="{867B05E1-1459-d614-81AA-94266646B659}"/>
 			<Extension Object_ID="{A3B89B63-22B9-40fd-B8F2-D16DE6B6F1FC}"/>
+		</Row>
+		<Row>
+			<Column name="PropertyID" value="16643"/>
+			<Column name="Object_ID" value="1581"/>
+			<Column name="Property" value="MatrixOptions"/>
+			<Column name="Value" value="&lt;memo&gt;"/>
+			<Column name="Notes" value="&lt;MatrixData&gt;&#xA;&#x9;&lt;Profile linktype=&quot;Realisation&quot; source=&quot;UseCase&quot; target=&quot;FunctionalRequirement&quot; direction=&quot;0&quot; targetpackage=&quot;{83E5E0C1-1D4E-4a57-8B60-FB2CF240512A}&quot; sourcepackage=&quot;{B1679F50-FCFD-4f20-B916-0406B04F8766}&quot; showsourcechildren=&quot;1&quot; showtargetchildren=&quot;1&quot;/&gt;&#xA;&lt;/MatrixData&gt;"/>
+			<Column name="ea_guid" value="{867B05E1-1459-d614-86DE-8F15767185B0}"/>
+			<Extension Object_ID="{2B58A0E3-72CC-47f4-B13A-2D549B2E5676}"/>
 		</Row>
 		<Row>
 			<Column name="PropertyID" value="15744"/>
@@ -14486,7 +14529,7 @@
 			<Column name="cy" value="1169"/>
 			<Column name="Scale" value="100"/>
 			<Column name="CreatedDate" value="2026-03-30 22:58:28"/>
-			<Column name="ModifiedDate" value="2026-04-01 00:32:47"/>
+			<Column name="ModifiedDate" value="2026-04-01 18:04:20"/>
 			<Column name="ShowForeign" value="1"/>
 			<Column name="ShowBorder" value="1"/>
 			<Column name="ShowPackageContents" value="1"/>
@@ -14494,7 +14537,7 @@
 			<Column name="Locked" value="0"/>
 			<Column name="ea_guid" value="{2E480BC7-97D7-44a9-83AA-77E06B0CAA80}"/>
 			<Column name="Swimlanes" value="locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;"/>
-			<Column name="StyleEx" value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=Extended::ModelDocument;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;SaveTag=93A3C8E8;"/>
+			<Column name="StyleEx" value="ExcludeRTF=0;DocAll=0;HideQuals=0;AttPkg=1;ShowTests=0;ShowMaint=0;SuppressFOC=1;MatrixActive=0;SwimlanesActive=1;KanbanActive=0;MatrixLineWidth=1;MatrixLineClr=0;MatrixLocked=0;TConnectorNotation=UML 2.1;TExplicitNavigability=0;AdvancedElementProps=1;AdvancedFeatureProps=1;AdvancedConnectorProps=1;m_bElementClassifier=1;SPT=1;MDGDgm=Extended::ModelDocument;STBLDgm=;ShowNotes=0;VisibleAttributeDetail=0;ShowOpRetType=1;SuppressBrackets=0;SuppConnectorLabels=0;PrintPageHeadFoot=0;ShowAsList=0;SuppressedCompartments=;Theme=:119;SaveTag=352F5345;"/>
 			<Extension Package_ID="{DBEEC4F9-7FD6-4061-AEBA-A7BA21D62666}"/>
 		</Row>
 		<Row>
@@ -15727,11 +15770,23 @@
 			<Column name="RectTop" value="-26"/>
 			<Column name="RectLeft" value="98"/>
 			<Column name="RectRight" value="263"/>
-			<Column name="RectBottom" value="-86"/>
-			<Column name="Sequence" value="1"/>
+			<Column name="RectBottom" value="-99"/>
+			<Column name="Sequence" value="2"/>
 			<Column name="ObjectStyle" value="DUID=8D56BC11;HideIcon=0;"/>
 			<Column name="Instance_ID" value="2173"/>
 			<Extension Diagram_ID="{2E480BC7-97D7-44a9-83AA-77E06B0CAA80}" Object_ID="{A3B89B63-22B9-40fd-B8F2-D16DE6B6F1FC}"/>
+		</Row>
+		<Row>
+			<Column name="Diagram_ID" value="176"/>
+			<Column name="Object_ID" value="1581"/>
+			<Column name="RectTop" value="-154"/>
+			<Column name="RectLeft" value="102"/>
+			<Column name="RectRight" value="267"/>
+			<Column name="RectBottom" value="-214"/>
+			<Column name="Sequence" value="1"/>
+			<Column name="ObjectStyle" value="DUID=0259133C;HideIcon=0;"/>
+			<Column name="Instance_ID" value="2266"/>
+			<Extension Diagram_ID="{2E480BC7-97D7-44a9-83AA-77E06B0CAA80}" Object_ID="{2B58A0E3-72CC-47f4-B13A-2D549B2E5676}"/>
 		</Row>
 		<Row>
 			<Column name="Diagram_ID" value="177"/>
@@ -16973,12 +17028,22 @@
 			<Column name="Supplier" value="&lt;none&gt;"/>
 		</Row>
 		<Row>
+			<Column name="XrefID" value="{53F04C70-4353-4524-853E-DD0B01D27B2F}"/>
+			<Column name="Name" value="Stereotypes"/>
+			<Column name="Type" value="element property"/>
+			<Column name="Visibility" value="Public"/>
+			<Column name="Partition" value="0"/>
+			<Column name="Description" value="@STEREO;Name=EAMatrixSpecification;FQName=EAUML::EAMatrixSpecification;@ENDSTEREO;"/>
+			<Column name="Client" value="{2B58A0E3-72CC-47f4-B13A-2D549B2E5676}"/>
+			<Column name="Supplier" value="&lt;none&gt;"/>
+		</Row>
+		<Row>
 			<Column name="XrefID" value="{8A1AD8C5-E333-42a6-8EB7-96CC936F74B5}"/>
 			<Column name="Name" value="CustomProperties"/>
 			<Column name="Type" value="diagram properties"/>
 			<Column name="Visibility" value="Public"/>
 			<Column name="Partition" value="0"/>
-			<Column name="Description" value="DGS=On=0:CNT=8:W=120:H=40:SG=0:SGH=0:AEB=0:;AR=0;DCL=0;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;Swimlanes=locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;"/>
+			<Column name="Description" value="DGS=On=0:CNT=8:W=120:H=40:SG=0:SGH=0:AEB=0:;AR=0;DCL=0;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;Swimlanes=locked=false;orientation=0;width=0;inbar=false;names=false;color=-1;bold=false;fcol=0;tcol=-1;ofCol=-1;ufCol=-1;hl=1;ufh=0;hh=0;cls=0;bw=0;hli=0;bro=0;SwimlaneFont=lfh:-10,lfw:0,lfi:0,lfu:0,lfs:0,lfface:Calibri,lfe:0,lfo:0,lfchar:1,lfop:0,lfcp:0,lfq:0,lfpf=0,lfWidth=0;;"/>
 			<Column name="Client" value="{2E480BC7-97D7-44a9-83AA-77E06B0CAA80}"/>
 		</Row>
 		<Row>
